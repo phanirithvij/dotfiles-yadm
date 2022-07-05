@@ -252,3 +252,14 @@ $ mkdir yadm_migrate
 $ chmod 600 id_rsa
 : reload 
 : yadm_lazyconf 
+: trash 
+$ touch id_rsa.pub
+$ touch config
+: reload 
+$ touch bootstrap
+$ chmod +x bootstrap 
+: reload 
+$ mkdir bootstrap.d
+$ touch submodrecursive
+$ chmod +x submodrecursive 
+: reload 
