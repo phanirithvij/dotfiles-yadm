@@ -259,3 +259,7 @@ $ touch config
 $ touch bootstrap
 $ chmod +x bootstrap 
 : reload 
+$ mkdir bootstrap.d
+$ touch submodrecursive
+$ chmod +x submodrecursive 
+: reload 
