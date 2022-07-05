@@ -1,0 +1,1 @@
+.ssh/* filter=crypt diff=crypt merge=crypt
