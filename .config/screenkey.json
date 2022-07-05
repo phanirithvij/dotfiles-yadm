@@ -1,0 +1,32 @@
+{
+    "no_systray": false,
+    "timeout": 2.5,
+    "recent_thr": 0.1,
+    "compr_cnt": 3,
+    "ignore": [],
+    "position": "fixed",
+    "persist": false,
+    "window": null,
+    "font_desc": "xkcd Script Italic 10",
+    "font_size": "medium",
+    "font_color": "white",
+    "bg_color": "black",
+    "opacity": 0.2,
+    "key_mode": "composed",
+    "bak_mode": "baked",
+    "mods_mode": "normal",
+    "mods_only": false,
+    "multiline": false,
+    "vis_shift": false,
+    "vis_space": true,
+    "geometry": [
+        691,
+        941,
+        583,
+        102
+    ],
+    "screen": 2,
+    "start_disabled": false,
+    "mouse": false,
+    "button_hide_duration": 1
+}

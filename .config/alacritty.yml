@@ -1,0 +1,158 @@
+env:
+    TERM: xterm-256color
+    # TERM: alacritty
+
+window:
+  opacity: 0.8
+  decorations: none
+  startup_mode: Maximized
+  dynamic_title: true
+  gtk_theme_variant: dark
+
+# font:
+  # size: 14
+
+schemes:
+  ChrisDuerr: &ChrisDuerr
+    primary:
+      foreground: "0xaaaaaa"
+      background: "0x181818"
+
+    normal:
+      black: "0x181818"
+      red: "0xac4242"
+      green: "0x90a959"
+      yellow: "0xf4bf75"
+      blue: "0x6a9fb5"
+      magenta: "0xaa759f"
+      cyan: "0x75b5aa"
+      white: "0x666666"
+
+    bright:
+      black: "0x282828"
+      red: "0x752a2a"
+      green: "0x5d742a"
+      yellow: "0x754e2a"
+      blue: "0x2a4e74"
+      magenta: "0x703664"
+      cyan: "0x297366"
+      white: "0xaaaaaa"
+
+    search:
+      matches:
+        foreground: "0x181818"
+        background: "0xac4242"
+      focused_match:
+        foreground: "0xac4242"
+        background: "0x181818"
+      bar:
+        foreground: "0xaaaaaa"
+        background: "0x282828"
+
+    hints:
+      start:
+        foreground: "0x181818"
+        background: "0xac4242"
+      end:
+        background: "0xac4242"
+        foreground: "0x181818"
+  TomorrowNight: &TomorrowNight
+    background: "#000000"
+    # background: "#1d1f21"
+    foreground: "#c5c8c6"
+    # foreground: "#c5c8c6"
+    normal:
+      black: "#000000"
+      # black: "#1d1f21"
+      red: "#cc6666"
+      green: "#b5bd68"
+      yellow: "#f0c674"
+      blue: "#81a2be"
+      magenta: "#b294bb"
+      cyan: "#8abeb7"
+      white: "#c5c8c6"
+
+    # Bright colors
+    bright:
+      black: "#000000"
+      # black: "#666666"
+      red: "#d54e53"
+      green: "#b9ca4a"
+      yellow: "#e7c547"
+      blue: "#7aa6da"
+      magenta: "#c397d8"
+      cyan: "#70c0b1"
+      white: "#eaeaea"
+  TwilightDark: &TwilightDark # Default colors
+    primary:
+      background: "0x000000"
+      foreground: "0xa7a7a7"
+
+    # Normal colors
+    normal:
+      black: "0x000000"
+      red: "0xcf6a4c"
+      green: "0x8f9d6a"
+      yellow: "0xf9ee98"
+      blue: "0x7587a6"
+      magenta: "0x9b859d"
+      cyan: "0xafc4db"
+      white: "0xa7a7a7"
+
+    # Bright colors
+    bright:
+      black: "0x5f5a60"
+      red: "0xcf6a4c"
+      green: "0x8f9d6a"
+      yellow: "0xf9ee98"
+      blue: "0x7587a6"
+      magenta: "0x9b859d"
+      cyan: "0xafc4db"
+      white: "0xffffff"
+  BaskervilleCountVonCount: &BaskervilleCountVonCount # Default colors
+    primary:
+      background: "0x000000"
+      foreground: "0x919191"
+
+    # Normal colors
+    normal:
+      black: "0x303030"
+      red: "0xc10023"
+      green: "0xa83334"
+      yellow: "0xb51d2c"
+      blue: "0x8c4b46"
+      magenta: "0x7d534f"
+      cyan: "0x9a413d"
+      white: "0xc6c6c6"
+
+    # Bright colors
+    bright:
+      black: "0x5e5e5e"
+      red: "0xff8781"
+      green: "0xffa095"
+      yellow: "0xff948b"
+      blue: "0xfeb2aa"
+      magenta: "0xebbbb5"
+      cyan: "0xffaaa0"
+      white: "0xffffff"
+
+# colors: *TwilightDark
+# colors: *TomorrowNight
+# colors: *BaskervilleCountVonCount
+colors: *ChrisDuerr
+
+cursor:
+  style:
+    shape: Beam
+
+  blink_interval: 750
+
+  unfocused_hollow: true
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: true
+
+# key_bindings:
+  # - { key: N, mods: Control, action: SpawnNewInstance }

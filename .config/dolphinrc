@@ -1,0 +1,50 @@
+[CreateDialog]
+LastMimeType=application/x-7z-compressed
+
+[ExtractDialog]
+eDP-1 Height 1920x1080=560
+eDP-1 Width 1920x1080=1272
+
+[General]
+Version=201
+ViewPropsTimestamp=2020,6,30,19,18,49
+
+[IconsMode]
+PreviewSize=128
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=444
+eDP-1 Width 1920x1080=400
+
+[MainWindow]
+Height 1080=1006
+ToolBarsMovable=Disabled
+Width 1920=1920
+eDP-1 Height 1080=1006
+eDP-1 Height 1920x1080=1080
+eDP-1 Width 1920=1920
+eDP-1 Width 1920x1080=1920
+eDP-1 XPosition=0
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition=29
+eDP-1 YPosition 1920x1080=0
+eDP1 Height 1080=1006
+eDP1 Width 1920=1920
+eDP1 Window-Maximized 1080x1920=true
+eDP1 XPosition=0
+eDP1 YPosition=29
+
+[Open-with settings]
+CompletionMode=1
+History=mpv,qim,q,qi
+
+[Search]
+Location=Everywhere
+
+[SettingsDialog]
+eDP-1 Height 1920x1080=440
+eDP-1 Width 1920x1080=589

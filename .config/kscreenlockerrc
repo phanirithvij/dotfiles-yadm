@@ -1,0 +1,6 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/media/rithviz/Storage/Images/Wallpapers/xmonad_gruvbox_wallpaper.jpg
+SlidePaths=/home/rithviz/.local/share/wallpapers,/usr/share/wallpapers

@@ -1,0 +1,254 @@
+: help
+: d
+: ?
+: q
+$ mkdir syntax
+$ ln -s /home/rithviz/Projects/golang/lfrc-syntax-micro/lfrc.yaml lfrc.yaml
+: set hiddenfiles 
+: set hidden
+: set hidden!
+: set hidden
+: set hidden
+: set hiddenfiles 
+: set hiddenfiles no
+$ touch curls.sh
+$ rm curls.sh 
+: trash
+: trash 
+: trash
+: trash 
+: trash 
+: trash "logfiles (1)"
+: rm -rf "logfiles (1)"
+$ rm -rf "logfiles (1)"
+: trash 
+$ mv .tmux.conf.original.mine .tmux.conf
+$ touch md5star.txt
+$ touch main.py
+$ python main.py 
+$ python main.py 
+$ l
+$ touch temp.txt
+: q
+: trash
+: trash 
+: trash
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ touch .npmrc
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ mkdir bin
+$ mkdir bin/.local/bin
+$ mkdir -p bin/.local/bin
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ touch setup
+$ chmod +x setup 
+: trash 
+: trash 
+$ rm -rf Unknown\ Organization/
+$ mkdir bash
+$ mkdir zsh
+$ mkdir .config
+$ mkdir qimgv
+: trash 
+$ mkdir .config
+$ newsboat
+$ mkdir newsboat
+$ mkdir .config
+$ mkdir lf
+$ mkdir -p .config/lazygit
+$ mkdir -p .config/bat
+$ mkdir -p .config/awesome
+$ mkdir screenkey
+$ mkdir .config
+: trash 
+: trash 
+$ mkdir micro
+$ touch .bash_paths
+$ touch .zsh_completions
+: trash 
+: trash 
+: trash 
+$ touch install
+$ touch env
+: trash 
+$ touch install
+$ touch clean
+$ chmod +x clean install 
+$ mkdir -p .config/micro
+$ mkdir python
+$ mkdir personal
+: trash 
+: trash 
+: trash 
+$ touch manjaro
+$ chmod +x manjaro 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ touch README.md
+$ mkdir shortcuts
+$ mkdir Desktop
+$ mkdir asm
+$ touch run.sh
+$ chmod +x run.sh
+$ touch build.sh && chmod +x build.sh
+$ build.sh
+$ ./build.sh
+$ pwd
+$ pwd ; sleep 3
+$ sh build.sh
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ mkdir dolphin
+$ cp ~/.config/dolphinrc .
+$ mkdir .config
+: trash 
+: trash 
+: trash 
+$ touch readme
+$ tar xf Word_of_the_Day.jar 
+: trash 
+$ mkdir .local
+$ mkdir share
+$ mkdir lf
+$ chmod +x ad2p.py 
+$ mkdir docs
+$ mkdir repairs
+$ touch bluetooth.md
+: set hidden
+: set hidden!
+: set hiddenfiles false
+: set hidden
+: set hidden!
+: r
+: trash 
+: trash 
+$ mkdir authpass
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: help
+: doc 
+: m
+: trash 
+$ touch macho.sh
+: chmod +x macho.sh 
+$ chmod +x macho.sh 
+: reload 
+$ chmod 600 id_rsa
+: chmod 777 id_rsa
+$ chmod 777 id_rsa
+: reload 
+$ chmod 600 id_rsa
+: reload 
+: trash 
+: t
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: reload 
+: trash 
+: trash 
+$ sudo rm 18WeFBs.jpg 
+$ sudo rm theme.conf.user 
+$ mkdir wallpapers
+$ mkdir .config
+$ qimgv .face.icon 
+: trash 
+$ ln -s .face .face.icon
+: trash 
+$ ln -s .face .face.icon
+: yadm_lazyconf 
+: trash 
+$ trash-restore 
+$ trash-restore 
+: trash 
+: yadm_lazyconf 
+: yadm_lazyconf 
+: yadm_lazyconf 
+: yadm_lazyconf 
+: yadm_lazyconf 
+$ mkdir yadm_migrate
+: yadm_lazyconf 
+: yadm_lazyconf 
+: yadm_lazyconf 
+: yadm_lazyconf 
+: trash 
+: trash 
+: yadm_lazyconf 
+$ chmod 600 id_rsa
+: reload 
+: yadm_lazyconf 

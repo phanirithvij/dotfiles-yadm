@@ -1,0 +1,26 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/rithviz/.dotfiles/personal
+- /home/rithvij/dotfilesmy/main
+- /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
+- /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
+- /home/rithviz/.dotfiles
+- /home/rithviz/.dotfiles/others/dt-dotfiles
+- /home/rithvij/dotfilesmy
+- /media/rithviz/Storage/Projects/Fun/bots/telemirror
+- /home/rithviz/go/src/git.sr.ht/~kisom/goutils
+- /home/rithviz/dt-dotfiles
+- /home/rithviz/theprimeagen_dotfiles
+- /home/rithviz/Projects/rusty/Rocket
+- /home/rithviz/Projects/dotfiles
+- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
+- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
+- /media/rithviz/Storage/Projects/Fun/pythone/tgcf
+- /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
+- /media/rithviz/Storage/Projects/Fun/C++/WindowsAPIs
+startuppopupversion: 5
+customcommandshistory:
+- git rebase --continue
+- touch .gitignore
+- git commit --amend
+hidecommandlog: false

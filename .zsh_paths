@@ -1,0 +1,73 @@
+#!/usr/bin/env zsh
+
+addToPath() {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$PATH:$1
+    fi
+}
+
+addToPathFront() {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$1:$PATH
+    fi
+}
+
+# pnpm
+export PNPM_HOME="/home/rithviz/.local/share/pnpm"
+addToPathFront $PNPM_HOME
+# pnpm end
+
+# qt5ct
+export QT_QPA_PLATFORMTHEME="qt5ct"
+export QT_PLATFORM_PLUGIN="qt5ct"
+
+# w3m
+addToPath /usr/lib/w3m
+
+#Consul
+addToPath /home/rithviz/Downloads/consul
+
+#NDK
+export ANDROID_NDK_HOME="/home/rithviz/Android/Sdk/ndk/21.3.6528147"
+
+export ANDROID_HOME="/home/rithviz/Android/Sdk"
+addToPath /home/rithvij/Downloads/android-studio/bin
+addToPath /home/rithvij/Android/Sdk/tools/bin
+addToPath /home/rithvij/Android/Sdk/tools
+
+addToPath /usr/local/lib
+
+# EDITOR is vim
+# export EDITOR="vim"
+export EDITOR=micro
+
+#Drivers
+addToPath /home/rithvij/drivers/chromedriver
+addToPath /home/rithvij/drivers/geckodriver
+
+#Jellyfin
+addToPath /home/rithvij/Downloads/jellyfin_10.5.5
+
+#VIRTUALENV
+addToPath /home/rithviz/.local/bin
+
+#GOLANG
+export GOPATH=~/go
+export GOBIN=~/go/bin
+addToPath $GOBIN
+
+#FLUTTER
+addToPath /home/rithvij/Downloads/flutter-linux/flutter/bin
+addToPath /home/rithvij/Downloads/flutter-linux/flutter-m/bin
+
+#PROTOBUF DART
+addToPath /media/rithvij/Storage/Software/protobuf_dart/protoc_plugin/bin
+
+#DART
+addToPathFront /usr/lib/dart/bin
+
+#TOR
+addToPathFront /home/rithvij/Downloads/tor-browser_en-US
+
+#Rust
+addToPathFront $HOME/.cargo/bin
