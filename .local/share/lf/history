@@ -252,3 +252,4 @@ $ mkdir yadm_migrate
 $ chmod 600 id_rsa
 : reload 
 : yadm_lazyconf 
+: trash 
