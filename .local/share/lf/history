@@ -263,3 +263,5 @@ $ mkdir bootstrap.d
 $ touch submodrecursive
 $ chmod +x submodrecursive 
 : reload 
+$ touch YadmLazygitGitWorktree.md
+$ touch TmuxStuff.md
