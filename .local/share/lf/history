@@ -265,3 +265,17 @@ $ chmod +x submodrecursive
 : reload 
 $ touch YadmLazygitGitWorktree.md
 $ touch TmuxStuff.md
+: trash 
+: trash 
+: trash 
+: trash 
+$ mkdir ~/.config/nvim
+$ micro ~/.config/nvim/init.vim
+$ wget -q https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.6.1.jar
+$ black download_all.py 
+: reload 
+$ black download_all.py 
+: re
+: reload 
+$ touch download_all.sh
+$ chmod +x download_all.sh 
