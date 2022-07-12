@@ -17,8 +17,8 @@ Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [KPropertiesDialog]
-eDP-1 Height 1920x1080=444
-eDP-1 Width 1920x1080=400
+eDP-1 Height 1920x1080=532
+eDP-1 Width 1920x1080=469
 
 [MainWindow]
 Height 1080=1006
@@ -37,6 +37,9 @@ eDP1 Width 1920=1920
 eDP1 Window-Maximized 1080x1920=true
 eDP1 XPosition=0
 eDP1 YPosition=29
+
+[Notification Messages]
+ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1

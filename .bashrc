@@ -18,6 +18,8 @@ case $- in
       *) return;;
 esac
 
+source ~/.wttrrc
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -131,3 +133,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# bit
+export PATH="$PATH:/home/rithviz/bin"
+# bit end
