@@ -366,3 +366,13 @@ $ lf -remote "send $id set ratios 1:2:3:5"
 $ touch README.md
 : trash 
 : set hidden
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: q
+: trash 
+: trash 
+: trash 
+: trash 
