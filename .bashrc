@@ -137,3 +137,8 @@ fi
 # bit
 export PATH="$PATH:/home/rithviz/bin"
 # bit end
+
+# pnpm
+export PNPM_HOME="/home/rithviz/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end

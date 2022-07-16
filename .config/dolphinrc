@@ -18,7 +18,7 @@ Places Icons Static Size=22
 
 [KPropertiesDialog]
 eDP-1 Height 1920x1080=532
-eDP-1 Width 1920x1080=469
+eDP-1 Width 1920x1080=462
 
 [MainWindow]
 Height 1080=1006
@@ -43,7 +43,7 @@ ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=mpv,qim,q,qi
+History=kat,micro,mpv,qim,q,qi
 
 [Search]
 Location=Everywhere

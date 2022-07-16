@@ -2,6 +2,8 @@
 
 # curl wttr.in/:bash.function
 
+# usage: wttr[v2|v3] <location>
+
 # If you source this file, it will set WTTR_PARAMS as well as show weather.
 
 # WTTR_PARAMS is space-separated URL parameters, many of which are single characters that can be
@@ -20,6 +22,8 @@ if [[ -z "$WTTR_PARAMS" ]]; then
   unset _token
   # custom (by me)
   WTTR_PARAMS+='F'
+  WTTR_PARAMS+='Q'
+
   export WTTR_PARAMS
 fi
 
@@ -31,4 +35,24 @@ wttr() {
     args+=" --data-urlencode $p "
   done
   curl -fGsS -H "Accept-Language: ${LANG%_*}" $args --compressed "wttr.in/${location}"
+}
+
+wttrv2() {
+  local location="${1// /+}"
+  command shift
+  local args=""
+  for p in $WTTR_PARAMS "$@"; do
+    args+=" --data-urlencode $p "
+  done
+  curl -fGsS -H "Accept-Language: ${LANG%_*}" $args --compressed "v2.wttr.in/${location}"
+}
+
+wttrv3() {
+  local location="${1// /+}"
+  command shift
+  local args=""
+  for p in $WTTR_PARAMS "$@"; do
+    args+=" --data-urlencode $p "
+  done
+  curl -fGsS -H "Accept-Language: ${LANG%_*}" $args --compressed "v3.wttr.in/${location}"
 }

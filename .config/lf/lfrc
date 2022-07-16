@@ -1,6 +1,54 @@
 # cmd tmux_micro_edit ${{
 	# $micro "$f"
 # }}
+# set nopreview
+# set ratios 1
+# set info size:time
+
+# set drawbox
+
+# TODO: read https://github.com/gokcehan/lf/wiki/Tips and customize
+# Also http://0x0.st/ is mentioned in the tips which is opensource and can be self hosted
+
+cmd recol ${{
+    w=$(tput cols)
+    if [ $w -le 80 ]; then
+        lf -remote "send $id set ratios 1:2"
+    elif [ $w -le 145 ]; then
+        lf -remote "send $id set ratios 1:2:3"
+    else
+        lf -remote "send $id set ratios 1:2:3:5"
+    fi
+}}
+
+# TODO: auto resize https://stackoverflow.com/a/15527022
+# cmd recol-init &{{
+    # check_terminal_size () {
+        # echo BOOO; sleep 10;
+        # if [[ "$LINES $COLUMNS" != "$previous_lines $previous_columns" ]]; then
+            # echo recol: $LINES, $COLUMNS >> ~/.recol
+        # fi
+        # previous_lines=$LINES
+        # previous_columns=$COLUMNS
+    # }
+    # PROMPT_COMMAND="check_terminal_size; $PROMPT_COMMAND"
+    # # trap 'check_terminal_size' WINCH
+# }}
+
+# :recol-init
+:recol
+map <c-r> :recol :reload
+
+# TODO conflicts with my awesome wallpaper config for next wallpaper
+# map <a-n> newfold
+
+cmd newfold ${{
+    set -f
+    printf "Directory name: "
+    read newd
+    mkdir -- "$newd"
+    mv -- $fx "$newd"
+}}
 
 # map e :tmux_micro_edit
 map e $micro "$f"
@@ -73,3 +121,4 @@ cmd zle-init :{{
 &[[ -n "$ZLE_FIFO" ]] && lf -remote "send $id zle-init"
 
 cmd trash %trash-put $fx
+map <delete> :trash

@@ -313,3 +313,56 @@ $ touch YayRepairs.md
 : trash 
 : trash 
 $ sh SummertimeSaga.sh 
+$ sh SummertimeSaga.sh 
+: trash 
+% mkdir vids
+% mkdir imgs
+% sh SummertimeSaga.sh 
+% sh SummertimeSaga.sh 
+: trash 
+: trash 
+: trash 
+: q
+: trash
+: trash 
+: trash 
+$ micro main.go
+: set drawbox
+: set drawbox
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: lf -remote "send $id set ratios 1:2:3:5"
+$ lf -remote "send $id set ratios 1:2:3:5"
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: recol 
+: reload 
+: newfold 
+: newfold 
+: trash 
+: reload 
+: reload 
+: recol-init 
+: recol-init 
+: recol-init 
+: recol-init 
+: set hidden
+: trash 
+: trash 
+% touch natural.fish
+: trash 
+: set hidden
+$ touch README.md
+: trash 
+: set hidden
