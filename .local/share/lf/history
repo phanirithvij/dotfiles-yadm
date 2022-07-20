@@ -376,3 +376,31 @@ $ touch README.md
 : trash 
 : trash 
 : trash 
+$ touch README.md
+$ touch dl.fish
+$ mkdir sep11wiki-20071116
+: trash 
+$ touch README.md
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ rm Ren&Stimpy\ Space\ madness.mkv 
+$ touch test.fish
+$ mkdir html
+$ touch done.html
+: reload 
+$ touch upload.html
+: reload 
+$ touch bootstrap.min.css
+: reload 
+: reload 
+$ touch README.md
+: trash 
+$ touch Caddyfile
+: trash 
+$ touch x.go
