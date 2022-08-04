@@ -57,8 +57,8 @@ export GOBIN=~/go/bin
 addToPath $GOBIN
 
 #FLUTTER
-addToPath /home/rithvij/Downloads/flutter-linux/flutter/bin
-addToPath /home/rithvij/Downloads/flutter-linux/flutter-m/bin
+addToPath /home/rithviz/Downloads/flutter-linux/flutter/bin
+addToPath /home/rithviz/Downloads/flutter-linux/flutter-m/bin
 
 #PROTOBUF DART
 addToPath /media/rithvij/Storage/Software/protobuf_dart/protoc_plugin/bin

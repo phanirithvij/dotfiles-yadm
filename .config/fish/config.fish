@@ -13,7 +13,23 @@ set fish_greeting
 set -g theme_short_path yes
 # set -g theme_ignore_ssh_awareness yes
 
+# nvm
+# https://stackoverflow.com/a/42832284/8608146
+# https://stackoverflow.com/a/69248519/8608146
+if type -q nvm
+  nvm use lts &> /dev/null
+end
+
 # pnpm
 set -gx PNPM_HOME "/home/rithviz/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
+
+# ported from .bash_profile which was added by nix post install.
+# if test -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh
+  # https://superuser.com/a/1235985/1049709
+  # bass source /home/rithviz/.nix-profile/etc/profile.d/nix.sh
+# end
+# using a plugin instead
+# found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
+

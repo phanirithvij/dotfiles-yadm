@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/golang/awesome-go/gdcache
+- /home/rithvij/dotfilesmy/main
 - /media/rithviz/Storage/Projects/Fun/Rust/eguitampering/egui
 - /home/rithviz/Projects/golang/xelaj-mtproto
 - /home/rithviz/go/src/github.com/esimov/caire
@@ -14,7 +16,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Knowledge
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
 - /home/rithviz/.dotfiles/personal
-- /home/rithvij/dotfilesmy/main
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
 - /home/rithviz/.dotfiles

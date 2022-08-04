@@ -212,3 +212,5 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
   		ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
     ;;
 esac
+
+if [ -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rithviz/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
