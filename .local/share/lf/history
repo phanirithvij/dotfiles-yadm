@@ -423,3 +423,6 @@ $ touch quick_start.py
 : trash 
 : trash 
 : trash 
+: q
+: trash 
+$ touch default.nix

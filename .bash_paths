@@ -70,4 +70,4 @@ addToPathFront /usr/lib/dart/bin
 addToPathFront /home/rithvij/Downloads/tor-browser_en-US
 
 #Rust
-addToPathFront $HOME/.cargo/bin
+addToPath $HOME/.cargo/bin

@@ -33,3 +33,5 @@ set -gx PATH "$PNPM_HOME" $PATH
 # using a plugin instead
 # found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
 
+
+direnv hook fish | source
