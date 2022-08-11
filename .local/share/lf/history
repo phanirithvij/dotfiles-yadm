@@ -426,3 +426,23 @@ $ touch quick_start.py
 : q
 : trash 
 $ touch default.nix
+$ touch build.sh
+: trash 
+: set hidden
+$ touch hub
+: rm hub 
+$ rm hub 
+$ touch hub
+$ nvim Makefile 
+: trash 
+$ touch list.sh
+$ rm list.sh 
+$ touch file.py
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ cp shownotes.txt shownotes-manual-ep-308.txt
+: trash 
+$ rm -r pip

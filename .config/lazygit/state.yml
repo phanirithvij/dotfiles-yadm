@@ -1,6 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Music/Podcasts/timesuck-archive
 - /home/rithviz/Projects/Personal/gh-tg-archive
+- /media/rithviz/Storage/Projects/Fun/pythone/tgcf
+- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
+- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
+- /home/rithviz/Projects/pythone/tgcftemp/tgcf
 - /home/rithviz/Projects/Personal/nix-sample
 - /home/rithviz/Projects/Personal/getting-started-nix-template
 - /home/rithviz/Projects/golang/awesome-go/gdcache
@@ -27,9 +32,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Fun/bots/telemirror
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 - /home/rithviz/Projects/rusty/Rocket
-- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
-- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
-- /media/rithviz/Storage/Projects/Fun/pythone/tgcf
 - /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
 - /media/rithviz/Storage/Projects/Fun/C++/WindowsAPIs
 startuppopupversion: 5
@@ -37,4 +39,5 @@ customcommandshistory:
 - git rebase --continue
 - touch .gitignore
 - git commit --amend
+- git reset --soft HEAD~1
 hidecommandlog: false

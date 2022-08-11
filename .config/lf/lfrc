@@ -50,9 +50,9 @@ cmd newfold ${{
     mv -- $fx "$newd"
 }}
 
-# map e :tmux_micro_edit
-map e $micro "$f"
-map <enter> $bash -c "micro \"$f\""
+# map e :tmux_nvim_edit
+map e $nvim "$f"
+map <enter> $bash -c "nvim \"$f\""
 map <c-q> quit
 
 cmd yadm_lazyconf ${{
