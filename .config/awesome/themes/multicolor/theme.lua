@@ -56,8 +56,8 @@ theme.widget_music_pause                        = theme.confdir .. "/icons/pause
 theme.widget_music_stop                         = theme.confdir .. "/icons/stop.png"
 theme.taglist_squares_sel                       = theme.confdir .. "/icons/square_a.png"
 theme.taglist_squares_unsel                     = theme.confdir .. "/icons/square_b.png"
-theme.tasklist_plain_task_name                  = true
-theme.tasklist_disable_icon                     = true
+theme.tasklist_plain_task_name                  = false
+theme.tasklist_disable_icon                     = false
 theme.useless_gap                               = 4
 theme.layout_tile                               = theme.confdir .. "/icons/tile.png"
 theme.layout_tilegaps                           = theme.confdir .. "/icons/tilegaps.png"
@@ -299,7 +299,6 @@ function theme.at_screen_connect(s)
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-            --s.mylayoutbox,
             s.mytaglist,
             s.mypromptbox,
         },
@@ -331,6 +330,7 @@ function theme.at_screen_connect(s)
             clockicon,
             mytextclock,
 
+            s.mylayoutbox,
         },
     }
 
@@ -346,7 +346,7 @@ function theme.at_screen_connect(s)
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            s.mylayoutbox,
+            --s.mylayoutbox,
         },
     }
 end

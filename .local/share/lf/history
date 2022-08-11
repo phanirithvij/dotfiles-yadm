@@ -446,3 +446,4 @@ $ touch file.py
 $ cp shownotes.txt shownotes-manual-ep-308.txt
 : trash 
 $ rm -r pip
+: q
