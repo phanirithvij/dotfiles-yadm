@@ -450,3 +450,22 @@ $ rm -r pip
 : trash 
 : q
 : trash 
+$ touch fish_history
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+: trash 
+$ touch subs
+$ rm subs 
+$ mkdir subs
+: q
+: trash 
+: trash 
+: trash 

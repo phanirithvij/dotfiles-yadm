@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/.dotfiles/personal
+- /home/rithviz/.dotfiles
 - /home/rithviz/Projects/Personal/gh-tg-archive
 - /home/rithviz/Music/Podcasts/timesuck-archive
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf
@@ -23,10 +25,8 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
 - /media/rithviz/Storage/Projects/Knowledge
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
-- /home/rithviz/.dotfiles/personal
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
-- /home/rithviz/.dotfiles
 - /home/rithviz/.dotfiles/others/dt-dotfiles
 - /home/rithvij/dotfilesmy
 - /media/rithviz/Storage/Projects/Fun/bots/telemirror

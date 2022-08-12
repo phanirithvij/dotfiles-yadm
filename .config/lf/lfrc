@@ -120,5 +120,12 @@ cmd zle-init :{{
 
 &[[ -n "$ZLE_FIFO" ]] && lf -remote "send $id zle-init"
 
-cmd trash %trash-put $fx
+# https://github.com/gokcehan/lf/issues/873#issuecomment-1186223702
+set ifs "\n"
+cmd trash %{{
+    for f in $fx; do
+        trash-put "$f"
+    done
+}}
 map <delete> :trash
+
