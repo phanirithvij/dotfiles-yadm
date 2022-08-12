@@ -94,7 +94,7 @@ local virtualmachine = "virtualbox"
 
 -- awesome variables
 awful.util.terminal = terminal
-awful.util.tagnames = {" ", " ", " ", " ", " ", " ", " ", " ", " ", " "}
+awful.util.tagnames = {"", "", "", "", "", "", "", "", ""}
 --awful.util.tagnames = { " DEV ", " WWW ", " SYS ", " DOC ", " VBOX ", " CHAT ", " MUS ", " VID ", " GFX " }
 awful.layout.suit.tile.left.mirror = true
 awful.layout.layouts = {
@@ -1524,5 +1524,5 @@ awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("volumeicon")
 
 -- remove the initial gap
-set_tag_gap(0)
+-- set_tag_gap(0)
 
