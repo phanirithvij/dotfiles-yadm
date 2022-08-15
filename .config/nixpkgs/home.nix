@@ -15,13 +15,16 @@
     pkgs.git-filter-repo
     pkgs.hub
     pkgs.jq
-    pkgs.neovide
     pkgs.newsboat
+    pkgs.neovide
+    pkgs.neovim
     pkgs.p7zip
     pkgs.qbittorrent
     pkgs.ripgrep
     pkgs.yadm
     pkgs.tmate
+    pkgs.tmux
+    pkgs.unar
     pkgs.yq
   ];
 
@@ -39,4 +42,5 @@
       wordwrap = true;
     };
   };
+  programs.firefox.enable = true;
 }
