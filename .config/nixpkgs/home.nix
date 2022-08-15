@@ -18,6 +18,7 @@
     pkgs.newsboat
     pkgs.neovide
     pkgs.neovim
+    pkgs.starship
     pkgs.p7zip
     pkgs.qbittorrent
     pkgs.ripgrep

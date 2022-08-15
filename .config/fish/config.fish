@@ -35,3 +35,6 @@ set -gx PATH "$PNPM_HOME" $PATH
 
 
 direnv hook fish | source
+
+# https://starship.rs/#fish
+starship init fish | source
