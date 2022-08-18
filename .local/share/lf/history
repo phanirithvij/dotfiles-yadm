@@ -483,3 +483,8 @@ $ mkdir shows
 : trash 
 : trash 
 : q
+: trash 
+$ mkdir dmux
+$ touch dmux.conf.toml
+: trash 
+: trash 
