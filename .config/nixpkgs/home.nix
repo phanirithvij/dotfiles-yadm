@@ -16,7 +16,6 @@
     pkgs.hub
     pkgs.jq
     pkgs.newsboat
-    pkgs.neovide
     pkgs.neovim
     pkgs.starship
     pkgs.p7zip
