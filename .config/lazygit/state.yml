@@ -1,8 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
-- /media/rithviz/Storage/Podcasts/timesuck-archive
 - /media/rithviz/Storage/Projects/Knowledge
+- /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
+- /media/rithviz/Storage/Podcasts/timesuck-archive
 - /home/rithviz/.dotfiles/personal
 - /home/rithviz/.dotfiles
 - /home/rithviz/Projects/Personal/gh-tg-archive
@@ -11,8 +12,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
 - /home/rithviz/Projects/pythone/tgcftemp/tgcf
-- /home/rithviz/Projects/Personal/nix-sample
-- /home/rithviz/Projects/Personal/getting-started-nix-template
 - /home/rithviz/Projects/golang/awesome-go/gdcache
 - /home/rithvij/dotfilesmy/main
 - /media/rithviz/Storage/Projects/Fun/Rust/eguitampering/egui
@@ -25,7 +24,6 @@ recentrepos:
 - /home/rithvij/Downloads/dwm
 - /home/rithviz/Downloads/perkeep/gphotos-cdp
 - /home/rithviz/Projects/nodejs/dom-to-image-more
-- /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
 - /home/rithviz/.dotfiles/others/dt-dotfiles

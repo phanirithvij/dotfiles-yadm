@@ -615,13 +615,12 @@ globalkeys =
     -- Tag browsing with modkey
     awful.key({modkey}, "Left", awful.tag.viewprev, {description = "view previous", group = "tag"}),
     awful.key({modkey}, "Right", awful.tag.viewnext, {description = "view next", group = "tag"}),
-    awful.key({altkey}, "Escape", awful.tag.history.restore, {description = "go back", group = "tag"}),
+    awful.key({modkey}, "Escape", awful.tag.history.restore, {description = "go back", group = "tag"}),
+    awful.key({modkey}, "Tab", awful.tag.viewnext, {description = "view next", group = "tag"}),
+    awful.key({modkey, "Shift"}, "Tab", awful.tag.viewprev, {description = "view previous", group = "tag"}),
     -- Tag browsing alt + tab
-    awful.key({altkey}, "Tab", awful.tag.viewnext, {description = "view next", group = "tag"}),
-    awful.key({altkey, "Shift"}, "Tab", awful.tag.viewprev, {description = "view previous", group = "tag"}),
-    -- Tag browsing modkey + tab
     awful.key(
-        {modkey},
+        {altkey},
         "Tab",
         function()
             awful.client.focus.byidx(1)
@@ -629,7 +628,7 @@ globalkeys =
         {description = "cycle next", group = "client"}
     ),
     awful.key(
-        {modkey, "Shift"},
+        {altkey, "Shift"},
         "Tab",
         function()
             awful.client.focus.byidx(-1)
