@@ -494,3 +494,16 @@ $ touch dmux.conf.toml
 : reload 
 : rel
 : reload 
+: trash 
+: telesplit 
+: telesplit 
+: reload 
+: reload 
+: reload 
+: telesplit 
+: reload 
+: telesplit 
+: telesplit 
+: reload 
+: q
+$ touch apple.py
