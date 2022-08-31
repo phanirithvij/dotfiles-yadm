@@ -422,7 +422,7 @@ globalkeys =
         {altkey},
         "f",
         function()
-            awful.util.spawn("rofi -show run")
+            awful.util.spawn("sh ~/.config/rofi/scripts/launcher_t1")
         end,
         {description = "show rofi", group = "hotkeys"}
     ),
