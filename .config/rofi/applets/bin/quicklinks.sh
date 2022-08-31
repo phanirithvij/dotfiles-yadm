@@ -11,7 +11,8 @@ theme="$type/$style"
 
 # Theme Elements
 prompt='Quick Links'
-mesg="Using '$BROWSER' as web browser"
+mesg='Open in a web browser'
+#mesg="Using '$BROWSER' as web browser"
 
 if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* ) || ( "$theme" == *'type-5'* ) ]]; then
 	list_col='1'
