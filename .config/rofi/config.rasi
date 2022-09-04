@@ -6,6 +6,8 @@
  * Configuration For Rofi Version: 1.7.3
  **/
 
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
 configuration {
 	/*---------- General setting ----------*/
 	modi: "drun,run,filebrowser,window";

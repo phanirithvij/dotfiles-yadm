@@ -507,3 +507,16 @@ $ touch dmux.conf.toml
 : reload 
 : q
 $ touch apple.py
+: telesplit 
+: telesplit 
+: telesplit 
+: telesplit 
+: telesplit 
+: telesplit 
+: telesplit 
+: trash 
+: telesplit 
+: telesplit 
+: telesplit 
+: q
+$ mkdir temp
