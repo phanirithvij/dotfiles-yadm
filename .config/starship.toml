@@ -1,10 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+# The current theme is omf fish theme
+
 # Move the directory after prompt character 
 format = "$character$directory$all"
 
 # move the rest of the prompt to the right
-#right_format = """$all"""
+right_format = "$time $battery"
 
 add_newline = false
 
@@ -14,5 +16,12 @@ success_symbol = "[⋊>](bold cyan)"
 error_symbol = "[<⋉](bold red)"
 
 [directory]
-style="italic green"
+style="green"
+#style="italic green"
+
+[time]
+disabled = false
+style="#696969"
+format = '[$time]($style) '
+time_format = "%T"
 
