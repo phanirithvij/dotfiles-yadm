@@ -7,6 +7,7 @@
   home.packages = [
     pkgs.htop
     pkgs.bat
+    pkgs.delta
     pkgs.lf
     pkgs.lazygit
     pkgs.fzf

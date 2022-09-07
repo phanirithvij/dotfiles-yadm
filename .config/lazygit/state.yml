@@ -1,6 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/golang/madlad/iredmaildocker
+- /home/rithviz/Projects/golang/madlad/qrcodeff
 - /media/rithviz/Storage/Images/pallete/pallete-theme
+- /home/rithviz/.dotfiles/personal
 - /media/rithviz/Storage/Projects/Fun/NODE/22120
 - /media/rithviz/Storage/Podcasts/timesuck-archive
 - /home/rithviz/Projects/nodejs/Diskernet
@@ -8,7 +11,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Knowledge
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
-- /home/rithviz/.dotfiles/personal
 - /home/rithviz/.dotfiles
 - /home/rithviz/Projects/Personal/gh-tg-archive
 - /home/rithviz/Music/Podcasts/timesuck-archive
