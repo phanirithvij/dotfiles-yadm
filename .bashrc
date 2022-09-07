@@ -134,6 +134,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# dvm (docker version manager)
+source /home/rithviz/.dvm/dvm.sh
+# dvm end
+
 # bit
 export PATH="$PATH:/home/rithviz/bin"
 # bit end
