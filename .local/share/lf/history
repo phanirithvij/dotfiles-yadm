@@ -520,3 +520,8 @@ $ touch apple.py
 : telesplit 
 : q
 $ mkdir temp
+% touch run.fish
+% touch curlautodiscover.fish
+% chmod +x curlautodiscover.fish 
+% touch docker-compose.yaml
+$ mkdir compendiums

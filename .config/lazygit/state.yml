@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/androidp/slides-remote
+- /media/rithviz/Storage/Comics/komga
 - /home/rithviz/Projects/golang/madlad/iredmaildocker
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /media/rithviz/Storage/Images/pallete/pallete-theme
@@ -24,7 +26,6 @@ recentrepos:
 - /home/rithviz/Projects/golang/xelaj-mtproto
 - /home/rithviz/go/src/github.com/esimov/caire
 - /home/rithviz/Projects/WikiDumps/mediawiki
-- /home/rithviz/Projects/androidp/slides-remote
 - /home/rithviz/Projects/golang/go-sixel
 - /home/rithviz/Projects/golang/cirrusclitests/cirrus-ci-docs
 - /home/rithvij/Downloads/dwm
