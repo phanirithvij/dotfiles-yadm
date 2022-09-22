@@ -13,12 +13,17 @@ set fish_greeting
 set -g theme_short_path yes
 # set -g theme_ignore_ssh_awareness yes
 
-# nvm
+# nvm (not using nvm anymore, using asdf)
 # https://stackoverflow.com/a/42832284/8608146
 # https://stackoverflow.com/a/69248519/8608146
-if type -q nvm
-  nvm use lts &> /dev/null
-end
+#if type -q nvm
+#  nvm use lts &> /dev/null
+#end
+# nvm end
+
+# asdf-vm
+source /opt/asdf-vm/asdf.fish
+# asdf-vm end
 
 # pnpm
 set -gx PNPM_HOME "/home/rithviz/.local/share/pnpm"
@@ -32,7 +37,6 @@ set -gx PATH "$PNPM_HOME" $PATH
 # end
 # using a plugin instead
 # found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
-
 
 direnv hook fish | source
 
