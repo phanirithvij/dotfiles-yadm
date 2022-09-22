@@ -525,3 +525,13 @@ $ mkdir temp
 % chmod +x curlautodiscover.fish 
 % touch docker-compose.yaml
 $ mkdir compendiums
+: q
+$ touch all.fish
+$ chmod +x all.fish 
+$ touch blog.sql
+% touch author.sql
+% touch account.sql
+% touch no_join.sql
+% touch export.fish
+% chmod +x export.
+% chmod +x export.fish 

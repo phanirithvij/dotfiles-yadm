@@ -1,0 +1,24 @@
+layout = "5e09,281x67,0,0{133x67,0,0,17,147x67,134,0[147x33,134,0,18,147x33,134,34{73x33,134,34,136,73x33,208,34[73x16,208,34,164,73x16,208,51,165]}]}"
+session_name = "dev"
+number_of_panes = 2
+commands = ["nvim", "fish"]
+
+[python]
+layout = "8b11,160x35,0,0{86x35,0,0,0,73x35,87,0,1}"
+number_of_panes = 2
+session_name = "pydev"
+commands = ["lf", "ls -1a"]
+
+[systemupdate]
+layout = "4201,174x40,0,0{87x40,0,0[87x20,0,0,5,87x19,0,21,6],86x40,88,0[86x20,88,0,0,86x19,88,21,3]}"
+number_of_panes = 4
+session_name = "updates"
+commands = ["nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-env -u", "cargo +nightly install-update --all && cargo +nightly install --git https://github.com/neovide/neovide neovide && cargo install --git https://github.com/tazjin/nixfd nixfd && cargo install --git https://github.com/ckampfe/russ russ", "home-manager switch", "nixfd"]
+
+[systemupdate-cleanup]
+layout = "4201,174x40,0,0{87x40,0,0[87x20,0,0,5,87x19,0,21,6],86x40,88,0[86x20,88,0,0,86x19,88,21,3]}"
+number_of_panes = 2
+session_name = "cleanup"
+commands = ["nix-collect-garbage", "nix-env --delete-generations old"]
+
+

@@ -1,3 +1,6 @@
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
 [CreateDialog]
 LastMimeType=application/x-7z-compressed
 
@@ -6,7 +9,7 @@ eDP-1 Height 1920x1080=560
 eDP-1 Width 1920x1080=1272
 
 [General]
-Version=201
+Version=202
 ViewPropsTimestamp=2020,6,30,19,18,49
 
 [IconsMode]
