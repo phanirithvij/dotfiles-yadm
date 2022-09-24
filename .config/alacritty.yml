@@ -5,8 +5,9 @@ env:
 window:
   opacity: 0.8
   decorations: none
-  startup_mode: Maximized
   dynamic_title: true
+  #startup_mode: Maximized
+  startup_mode: Fullscreen
   gtk_theme_variant: dark
 
 font:
@@ -293,3 +294,10 @@ mouse:
 
 # key_bindings:
   # - { key: N, mods: Control, action: SpawnNewInstance }
+
+shell:
+  program: fish
+  args:
+    - -c
+    - tmux attach || tmux
+

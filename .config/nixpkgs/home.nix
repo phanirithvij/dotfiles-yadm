@@ -27,6 +27,7 @@
     pkgs.tmux
     pkgs.unar
     pkgs.yq
+    pkgs.go-task
   ];
 
   home.stateVersion = "22.05";

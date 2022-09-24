@@ -535,3 +535,5 @@ $ touch blog.sql
 % touch export.fish
 % chmod +x export.
 % chmod +x export.fish 
+: q
+% touch prco
