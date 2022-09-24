@@ -17,6 +17,8 @@ SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_e:exit
 SETUVAR _fish_abbr_l:ls
+SETUVAR _fish_abbr_ll:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit
+SETUVAR _fish_abbr_llh:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit\x20\x2d\x2dall
 SETUVAR _fish_abbr_opop:xdg\x2dopen
 SETUVAR _fisher_daleeidd_2F_natural_2D_selection_files:\x7e/\x2econfig/fish/functions/_natural_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_begin_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_end_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_get_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_is_selecting\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_kill_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_replace_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_wrap_selection\x2efish
 SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish

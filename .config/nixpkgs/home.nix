@@ -28,6 +28,7 @@
     pkgs.unar
     pkgs.yq
     pkgs.go-task
+    pkgs.exa
   ];
 
   home.stateVersion = "22.05";
