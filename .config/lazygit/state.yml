@@ -1,5 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/.local/share/chezmoi
 - /home/rithviz/Projects/golang/gdu
 - /home/rithviz/Projects/androidp/slides-remote
 - /media/rithviz/Storage/Comics/komga

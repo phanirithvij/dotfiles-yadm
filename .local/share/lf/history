@@ -537,3 +537,6 @@ $ touch blog.sql
 % chmod +x export.fish 
 : q
 % touch prco
+: q
+: telesplit 
+: telesplit 

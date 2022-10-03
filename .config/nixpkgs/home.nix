@@ -29,6 +29,8 @@
     pkgs.yq
     pkgs.go-task
     pkgs.exa
+    pkgs.gopass
+    pkgs.gopass-hibp
   ];
 
   home.stateVersion = "22.05";
