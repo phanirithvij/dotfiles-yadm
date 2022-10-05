@@ -56,3 +56,4 @@ wttrv3() {
   done
   curl -fGsS -H "Accept-Language: ${LANG%_*}" $args --compressed "v3.wttr.in/${location}"
 }
+
