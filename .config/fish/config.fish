@@ -22,7 +22,8 @@ set -g theme_short_path yes
 # nvm end
 
 # asdf-vm
-source /opt/asdf-vm/asdf.fish
+source /nix/store/ivlgrrmk79k2ismzpmqb1whk6xd2svvy-asdf-vm-0.10.2/share/asdf-vm/asdf.fish
+# source /opt/asdf-vm/asdf.fish
 # asdf-vm end
 
 # pnpm

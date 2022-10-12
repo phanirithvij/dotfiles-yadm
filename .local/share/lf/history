@@ -540,3 +540,8 @@ $ touch blog.sql
 : q
 : telesplit 
 : telesplit 
+% touch config.toml
+% touch phanirithvij.txt
+% touch deno_run.fish
+% chmod +x deno_run.fish 
+% touch main.js

@@ -5,6 +5,7 @@
   home.homeDirectory = "/home/rithviz";
 
   home.packages = [
+    pkgs.asdf-vm
     pkgs.htop
     pkgs.bat
     pkgs.delta
