@@ -295,9 +295,9 @@ mouse:
 # key_bindings:
   # - { key: N, mods: Control, action: SpawnNewInstance }
 
-shell:
-  program: fish
-  args:
-    - -c
-    - tmux attach || tmux
+#shell:
+#  program: fish
+#  args:
+#    - -c
+#    - tmux attach || tmux
 

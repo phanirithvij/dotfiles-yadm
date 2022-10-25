@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/pythone/telemirror
+- /media/rithviz/Storage/Projects/Tracker/music/zotify
 - /home/rithviz/Projects/rusty/blog_os
 - /home/rithviz/.local/share/chezmoi
 - /home/rithviz/Projects/golang/gdu

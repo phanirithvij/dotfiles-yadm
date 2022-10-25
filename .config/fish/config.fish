@@ -44,5 +44,9 @@ direnv hook fish | source
 # https://starship.rs/#fish
 starship init fish | source
 
+# navi
+navi widget fish | source
+# navi end
+
 # [ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
 

@@ -1,5 +1,5 @@
-local awesome, client, mouse, screen, tag = awesome, client, mouse, screen, tag
-local ipairs, string, os, table, tostring, tonumber, type = ipairs, string, os, table, tostring, tonumber, type
+local awesome, client, screen = awesome, client, screen
+local ipairs, string, os, tostring, tonumber, type = ipairs, string, os, tostring, tonumber, type
 
 -- Standard awesome library
 local gears = require("gears") --Utilities such as color parsing and objects
@@ -82,15 +82,15 @@ local altkey = "Mod1"
 local modkey1 = "Control"
 
 -- personal variables
-local browser = "google-chrome-stable"
-local editor = os.getenv("EDITOR") or "vim"
+--local browser = "google-chrome-stable"
+--local editor = os.getenv("EDITOR") or "vim"
 local editorgui = "geany"
-local filemanager = "pcmanfm"
-local mailclient = "geary"
+--local filemanager = "pcmanfm"
+--local mailclient = "geary"
 local mediaplayer = "vlc"
-local scrlocker = "slimlock"
+--local scrlocker = "slimlock"
 local terminal = "alacritty"
-local virtualmachine = "virtualbox"
+--local virtualmachine = "virtualbox"
 
 -- awesome variables
 awful.util.terminal = terminal
@@ -103,20 +103,20 @@ awful.layout.layouts = {
     --awful.layout.suit.tile.left,
     --awful.layout.suit.tile.bottom,
     --awful.layout.suit.tile.top,
-    --awful.layout.suit.fair,
+    awful.layout.suit.fair,
     --awful.layout.suit.fair.horizontal,
     --awful.layout.suit.spiral,
     --awful.layout.suit.spiral.dwindle,
     awful.layout.suit.max,
     --awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier
+    awful.layout.suit.magnifier,
     --awful.layout.suit.corner.nw,
     --awful.layout.suit.corner.ne,
     --awful.layout.suit.corner.sw,
     --awful.layout.suit.corner.se,
     --lain.layout.cascade,
-    --lain.layout.cascade.tile,
-    --lain.layout.centerwork,
+    lain.layout.cascade.tile,
+    lain.layout.centerwork,
     --lain.layout.centerwork.horizontal,
     --lain.layout.termfair,
     --lain.layout.termfair.center,
@@ -332,6 +332,14 @@ screen.connect_signal(
         end
     end
 )
+
+client.connect_signal("property::floating", function(c)
+    if c.floating then
+        c.ontop = true
+    else
+        c.ontop = false
+    end
+end)
 
 function set_tag_gap(thatmuch, s, t)
     local scr = s or awful.screen.focused()
@@ -1353,6 +1361,10 @@ awful.rules.rules = {
         properties = {maximized = true}
     },
     {
+        rule = {class = "google-chrome"},
+        properties = {border_width = 0}
+    },
+    {
         rule = {class = "Xfce4-settings-manager"},
         properties = {floating = false}
     },
@@ -1503,8 +1515,8 @@ client.connect_signal(
         if c.class ~= "Alacritty" then
             return
         end
-        c.border_color = beautiful.border_normal
-        c.opacity = 0.8
+        --c.border_color = beautiful.border_normal
+        --c.opacity = 0.8
     end
 )
 
