@@ -214,3 +214,7 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
 esac
 
 if [ -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rithviz/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# setting for gup command (auto generate)
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i

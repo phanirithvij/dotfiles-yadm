@@ -1,5 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/.dotfiles/personal
 - /home/rithviz/Projects/golang/go-binsize-viz
 - /home/rithviz/.config/nvim
 - /home/rithviz/Projects/pythone/telemirror
@@ -12,7 +13,6 @@ recentrepos:
 - /home/rithviz/Projects/golang/madlad/iredmaildocker
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /media/rithviz/Storage/Images/pallete/pallete-theme
-- /home/rithviz/.dotfiles/personal
 - /media/rithviz/Storage/Projects/Fun/NODE/22120
 - /media/rithviz/Storage/Podcasts/timesuck-archive
 - /home/rithviz/Projects/nodejs/Diskernet
