@@ -1,5 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/rusty/bevy
 - /home/rithviz/.dotfiles/personal
 - /home/rithviz/Projects/golang/go-binsize-viz
 - /home/rithviz/.config/nvim

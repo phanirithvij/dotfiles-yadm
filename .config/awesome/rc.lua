@@ -18,6 +18,10 @@ naughty.config.defaults["icon_size"] = 100
 local lain = require("lain")
 local freedesktop = require("freedesktop")
 
+local switcher = require("awesome-switcher")
+switcher.settings.preview_box_bg = "#00000034"
+switcher.settings.cycle_raise_client = false
+
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 local hotkeys_popup = require("awful.hotkeys_popup").widget
@@ -627,22 +631,30 @@ globalkeys =
     awful.key({modkey}, "Tab", awful.tag.viewnext, {description = "view next", group = "tag"}),
     awful.key({modkey, "Shift"}, "Tab", awful.tag.viewprev, {description = "view previous", group = "tag"}),
     -- Tag browsing alt + tab
-    awful.key(
-        {altkey},
-        "Tab",
-        function()
-            awful.client.focus.byidx(1)
-        end,
-        {description = "cycle next", group = "client"}
-    ),
-    awful.key(
-        {altkey, "Shift"},
-        "Tab",
-        function()
-            awful.client.focus.byidx(-1)
-        end,
-        {description = "cycle previous", group = "client"}
-    ),
+    -- awful.key(
+    --    {altkey},
+    --    "Tab",
+    --    function()
+    --        awful.client.focus.byidx(1)
+    --    end,
+    --    {description = "cycle next", group = "client"}
+    --),
+    --awful.key(
+    --    {altkey, "Shift"},
+    --    "Tab",
+    --    function()
+    --       awful.client.focus.byidx(-1)
+    --    end,
+    --    {description = "cycle previous", group = "client"}
+    --),
+    awful.key({ altkey, }, "Tab",
+      function ()
+          switcher.switch( 1, altkey, "Alt_L", "Shift", "Tab")
+    end),
+    awful.key({ altkey, "Shift" }, "Tab",
+      function ()
+          switcher.switch(-1, altkey, "Alt_L", "Shift", "Tab")
+    end),
     -- Non-empty tag browsing
     --awful.key({ modkey }, "Left", function () lain.util.tag_view_nonempty(-1) end,
     --{description = "view  previous nonempty", group = "tag"}),
