@@ -13,7 +13,7 @@ commands = ["lf", "ls -1a"]
 layout = "4201,174x40,0,0{87x40,0,0[87x20,0,0,5,87x19,0,21,6],86x40,88,0[86x20,88,0,0,86x19,88,21,3]}"
 number_of_panes = 4
 session_name = "updates"
-commands = ["nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-env -u", "cargo +nightly install-update --all && cargo +nightly install --git https://github.com/neovide/neovide neovide && cargo install --git https://github.com/tazjin/nixfd nixfd && cargo install --git https://github.com/ckampfe/russ russ", "home-manager switch", "nixfd"]
+commands = ["nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-env -u", "rustup upgrade; cargo +nightly install-update --all && cargo +nightly install --git https://github.com/neovide/neovide neovide && cargo install --git https://github.com/tazjin/nixfd nixfd && cargo install --git https://github.com/ckampfe/russ russ", "home-manager switch", "nixfd"]
 
 [systemupdate-cleanup]
 layout = "4201,174x40,0,0{87x40,0,0[87x20,0,0,5,87x19,0,21,6],86x40,88,0[86x20,88,0,0,86x19,88,21,3]}"

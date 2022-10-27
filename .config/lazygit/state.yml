@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/golang/go-binsize-viz
+- /home/rithviz/.config/nvim
 - /home/rithviz/Projects/pythone/telemirror
 - /media/rithviz/Storage/Projects/Tracker/music/zotify
 - /home/rithviz/Projects/rusty/blog_os
@@ -51,4 +53,6 @@ customcommandshistory:
 - touch .gitignore
 - git commit --amend
 - git reset --soft HEAD~1
+- git stash
+- git undo
 hidecommandlog: false
