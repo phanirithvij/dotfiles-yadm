@@ -1,7 +1,8 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/rithviz/Projects/rusty/bevy
+- /home/rithviz/Projects/Personal/gh-tg-archive
 - /home/rithviz/.dotfiles/personal
+- /home/rithviz/Projects/rusty/bevy
 - /home/rithviz/Projects/golang/go-binsize-viz
 - /home/rithviz/.config/nvim
 - /home/rithviz/Projects/pythone/telemirror
@@ -22,7 +23,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
 - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
 - /home/rithviz/.dotfiles
-- /home/rithviz/Projects/Personal/gh-tg-archive
 - /home/rithviz/Music/Podcasts/timesuck-archive
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action

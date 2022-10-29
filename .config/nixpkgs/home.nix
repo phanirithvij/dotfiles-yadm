@@ -1,5 +1,11 @@
 { config, pkgs, ... }:
 
+# rust
+# delta exa bat fd ripgrep sd starship du-dust
+
+# go
+# fzf lazygit hub gdu lf ...
+
 {
   home.username = "rithviz";
   home.homeDirectory = "/home/rithviz";
