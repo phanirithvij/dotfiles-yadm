@@ -11,7 +11,9 @@ window:
   gtk_theme_variant: dark
 
 font:
-  size: 9
+  size: 10 
+  normal:
+    family: Source Code Pro
 
 schemes:
   ChrisDuerr: &ChrisDuerr
