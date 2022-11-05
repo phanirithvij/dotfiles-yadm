@@ -12,33 +12,34 @@
 
   home.packages = [
     pkgs.asdf-vm
-    pkgs.htop
     pkgs.bat
     pkgs.delta
-    pkgs.lf
-    pkgs.lazygit
+    pkgs.difftastic
+    pkgs.exa
     pkgs.fzf
     pkgs.gdu
     pkgs.gh
     pkgs.git-filter-repo
+    pkgs.go-task
+    pkgs.gopass
+    pkgs.gopass-hibp
+    pkgs.htop
     pkgs.hub
     pkgs.jq
+    pkgs.lazygit
+    pkgs.lf
     pkgs.newsboat
     pkgs.neovim
-    pkgs.starship
     pkgs.p7zip
     pkgs.qbittorrent
     pkgs.ripgrep
-    pkgs.yadm
+    pkgs.starship
     pkgs.tmate
     pkgs.tmux
     pkgs.unar
     pkgs.yq
-    pkgs.go-task
-    pkgs.exa
-    pkgs.gopass
-    pkgs.gopass-hibp
-  ];
+    pkgs.yadm
+ ];
 
   home.stateVersion = "22.05";
 
