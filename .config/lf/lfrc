@@ -51,7 +51,7 @@ cmd newfold ${{
 }}
 
 # map e :tmux_nvim_edit
-map e $nvim "$f"
+map e $$EDITOR "$f"
 map <enter> $bash -c "nvim \"$f\""
 map <c-q> quit
 

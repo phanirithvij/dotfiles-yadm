@@ -1,8 +1,13 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/golang/madlad/qrcodeff
+- /home/rithviz/Projects/golang/madlad/qrcodeff/Piped-Docker
+- /home/rithviz/Projects/golang/madlad/qrcodeff/homer/homer-src
+- /home/rithviz/Projects/golang/madlad/qrcodeff/tmate/tmate-docker-compose
+- /home/rithviz/Projects/golang/madlad/qrcodeff/weboas-is
+- /home/rithviz/Projects/Personal/gh-tg-archive
 - /media/rithviz/Storage/Software/apktool/novelfullapp
 - /home/rithviz/Projects/pythone/mitmproxy
-- /home/rithviz/Projects/Personal/gh-tg-archive
 - /home/rithviz/.dotfiles/personal
 - /home/rithviz/Projects/rusty/bevy
 - /home/rithviz/Projects/golang/go-binsize-viz
@@ -15,7 +20,6 @@ recentrepos:
 - /home/rithviz/Projects/androidp/slides-remote
 - /media/rithviz/Storage/Comics/komga
 - /home/rithviz/Projects/golang/madlad/iredmaildocker
-- /home/rithviz/Projects/golang/madlad/qrcodeff
 - /media/rithviz/Storage/Images/pallete/pallete-theme
 - /media/rithviz/Storage/Projects/Fun/NODE/22120
 - /media/rithviz/Storage/Podcasts/timesuck-archive
@@ -44,7 +48,6 @@ recentrepos:
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
 - /home/rithviz/.dotfiles/others/dt-dotfiles
-- /home/rithvij/dotfilesmy
 - /media/rithviz/Storage/Projects/Fun/bots/telemirror
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 - /home/rithviz/Projects/rusty/Rocket

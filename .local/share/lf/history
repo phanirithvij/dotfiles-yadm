@@ -547,3 +547,15 @@ $ touch blog.sql
 % touch main.js
 : telesplit 
 : telesplit 
+: 7z x *.zip
+$ chmod +x gh
+$ mkdir pyload_dls
+% touch docker-compose.yml
+% touch .tmate.conf
+$ touch .env
+$ touch Caddyfile
+$ touch project.tmux
+% touch docker-compose.yml
+% touch .env
+% touch Dockerfile
+% touch docker-compose.yml

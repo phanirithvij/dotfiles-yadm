@@ -8,7 +8,7 @@ window:
   dynamic_title: true
   #startup_mode: Maximized
   startup_mode: Fullscreen
-  gtk_theme_variant: dark
+  decorations_theme_variant: dark
 
 font:
   size: 10 
