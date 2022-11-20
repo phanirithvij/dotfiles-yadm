@@ -26,9 +26,9 @@ SETUVAR _fish_abbr_l:exa
 SETUVAR _fish_abbr_ll:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit
 SETUVAR _fish_abbr_lla:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit\x20\x2d\x2dall
 SETUVAR _fish_abbr_llh:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit\x20\x2d\x2dall
-SETUVAR _fish_abbr_lzc:lazyconf
-SETUVAR _fish_abbr_lzd:lazydocker
-SETUVAR _fish_abbr_lzg:lazygit
+SETUVAR _fish_abbr_lac:lazyconf
+SETUVAR _fish_abbr_lad:lazydocker
+SETUVAR _fish_abbr_laz:lazygit
 SETUVAR _fish_abbr_opop:xdg\x2dopen
 SETUVAR _fish_abbr_port:watch\x20\x2dp\x20\x2dt\x20\x2dd\x20\x2dn\x200\x2e2\x20\x2dc\x20netstat\x20\x2dtuplen
 SETUVAR _fish_abbr_ports:sudo\x20watch\x20\x2dp\x20\x2dt\x20\x2dd\x20\x2dn\x200\x2e2\x20\x2dc\x20netstat\x20\x2dtuplen
