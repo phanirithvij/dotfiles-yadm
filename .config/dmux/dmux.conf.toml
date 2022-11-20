@@ -6,7 +6,7 @@ commands = ["nvim", "fish"]
 [pythonupdates]
 number_of_panes = 2
 session_name = "pyupdates"
-commands = ["python -m pip install -U wheel pip pipx yt-dlp youtube-dl gallery-dl manga-py tg-login direnv", "pipx upgrade-all"]
+commands = ["python -m pip install -U wheel pip pipx direnv", "pipx list && pipx upgrade-all"]
 
 [systemupdate]
 layout = "4201,174x40,0,0{87x40,0,0[87x20,0,0,5,87x19,0,21,6],86x40,88,0[86x20,88,0,0,86x19,88,21,3]}"

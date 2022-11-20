@@ -559,3 +559,7 @@ $ touch project.tmux
 % touch .env
 % touch Dockerfile
 % touch docker-compose.yml
+$ mkdir filebrowser_data
+% mkdir qrcp
+% touch Dockerfile
+$ touch tampermonkey_dozzle_qrcp.user.js
