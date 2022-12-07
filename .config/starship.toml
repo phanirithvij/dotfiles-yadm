@@ -3,17 +3,17 @@
 # The current theme is omf fish theme
 
 # Move the directory after prompt character 
-format = """\
-$character\
-$directory\
-$cmd_duration\
-$git_branch\
-$git_commit\
-$git_state\
-$git_metrics\
-$git_status\
-"""
-#format = "$character$directory$all"
+# format = """\
+# $character\
+# $directory\
+# $cmd_duration\
+# $git_branch\
+# $git_commit\
+# $git_state\
+# $git_metrics\
+# $git_status\
+# """
+format = "$character$directory$all"
 
 # move the rest of the prompt to the right
 right_format = "$time $battery"

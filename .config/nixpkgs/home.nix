@@ -13,6 +13,7 @@
   home.packages = [
     pkgs.asdf-vm
     pkgs.bat
+    pkgs.btop
     pkgs.delta
     pkgs.difftastic
     pkgs.exa
@@ -27,16 +28,22 @@
     pkgs.hub
     pkgs.jq
     pkgs.lazygit
+    pkgs.lazydocker
     pkgs.lf
     pkgs.newsboat
     pkgs.neovim
+    pkgs.nms #esoteric sneakers movie terminal effect
     pkgs.p7zip
     pkgs.qbittorrent
+    pkgs.rclone
     pkgs.ripgrep
     pkgs.starship
+    pkgs.sysz
     pkgs.tmate
     pkgs.tmux
     pkgs.unar
+    pkgs.ulauncher
+    pkgs.viddy
     pkgs.yq
     pkgs.yadm
  ];

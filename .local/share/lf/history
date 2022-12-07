@@ -563,3 +563,32 @@ $ mkdir filebrowser_data
 % mkdir qrcp
 % touch Dockerfile
 $ touch tampermonkey_dozzle_qrcp.user.js
+$ touch nginx.conf
+$ touch redis-conf.lua
+% touch redis-auth/lua
+% touch redis-auth.lua
+% touch redis-username.lua
+% touch redis-sethost.lua
+$ mkdir lua
+$ touch sample.lua
+$ touch x.lua
+$ touch parse.lua
+$ touch
+$ mkdir scripts
+$ touch nginx_setup.sh
+: doc 
+$ touch server1.py
+$ touch server2.py
+$ touch index.html
+$ mkdir static
+$ mkdir doky
+$ touch Dockerfile
+$ touch ipd.fish
+$ mkdir nimlang
+$ mkdir tvshows
+$ mkdir andor
+$ touch .env
+$ mkdir android
+$ mkdir termux-gitfive.md
+$ mv termux-gitfive.md termux-gitfive
+$ touch gitfive.md

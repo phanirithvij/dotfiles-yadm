@@ -2,3 +2,4 @@ nodejs 16.16.0
 docker-slim 1.38.0
 python 3.11.0
 lazydocker 0.20.0
+direnv 2.32.2

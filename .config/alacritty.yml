@@ -297,6 +297,11 @@ mouse:
 # key_bindings:
   # - { key: N, mods: Control, action: SpawnNewInstance }
 
+# https://github.com/alacritty/alacritty/issues/4451#issuecomment-854867389
+key_bindings:
+  - { key: Tab, mods: Control, chars: "\x1b[27;5;9~" }
+  - {key: Tab, mods: Control|Shift, chars: "\x1b[27;6;9~"}
+
 #shell:
 #  program: fish
 #  args:
