@@ -5,7 +5,7 @@ commands = ["nvim", "fish"]
 [pythonupdates]
 number_of_panes = 2
 session_name = "pyupdates"
-commands = ["python -m pip install -U wheel pip pipx direnv", "pipx list && pipx upgrade-all"]
+commands = ["python -m pip install -U wheel pip pipx", "pipx list && pipx upgrade-all"]
 
 [systemupdate]
 number_of_panes = 4

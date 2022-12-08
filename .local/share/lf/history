@@ -592,3 +592,4 @@ $ mkdir android
 $ mkdir termux-gitfive.md
 $ mv termux-gitfive.md termux-gitfive
 $ touch gitfive.md
+$ touch config.toml
