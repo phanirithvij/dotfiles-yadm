@@ -593,3 +593,12 @@ $ mkdir termux-gitfive.md
 $ mv termux-gitfive.md termux-gitfive
 $ touch gitfive.md
 $ touch config.toml
+$ touch entrypoint
+$ chmod +x entrypoint
+$ mkdir utils
+$ touch envrepl.go
+$ mkdir found
+$ touch keep
+$ mkdir x
+$ file %f
+$ file $f

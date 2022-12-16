@@ -37,6 +37,7 @@
     pkgs.qbittorrent
     pkgs.rclone
     pkgs.ripgrep
+    pkgs.rnote
     pkgs.starship
     pkgs.sysz
     pkgs.tmate
