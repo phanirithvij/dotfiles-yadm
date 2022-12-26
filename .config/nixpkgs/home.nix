@@ -35,6 +35,8 @@
     pkgs.nms #esoteric sneakers movie terminal effect
     pkgs.p7zip
     pkgs.qbittorrent
+    pkgs.qcomicbook
+    pkgs.qimgv
     pkgs.rclone
     pkgs.ripgrep
     pkgs.rnote

@@ -21,7 +21,9 @@ Places Icons Static Size=22
 
 [KPropertiesDialog]
 eDP-1 Height 1920x1080=532
+eDP-1 Height 1920x1080 eDP-1=588
 eDP-1 Width 1920x1080=462
+eDP-1 Width 1920x1080 eDP-1=469
 
 [MainWindow]
 Height 1080=1006

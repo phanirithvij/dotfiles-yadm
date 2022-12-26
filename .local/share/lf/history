@@ -602,3 +602,10 @@ $ touch keep
 $ mkdir x
 $ file %f
 $ file $f
+$ mkdir sample
+$ ln -s sample sample-sym
+$ mkdir phineas-n-ferb
+$ mkdir s01
+$ mkdir s02 s03 s04
+$ hx test.fish 
+$ mkdir Personal

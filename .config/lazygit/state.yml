@@ -1,5 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/recovery_tools/medicat_installer
+- /home/rithviz/Projects/rusty/Rocket
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /media/rithviz/Storage/Projects/Knowledge
 - /home/rithviz/Projects/pythone/ansible-trial
@@ -45,7 +47,6 @@ recentrepos:
 - /home/rithviz/Projects/cpporc/glfw
 - /home/rithviz/Projects/androidp/slides-remote
 - /home/rithviz/Projects/rusty/autojump-rs/autojump-rs
-- /home/rithviz/Projects/rusty/Rocket
 - /home/rithviz/Projects/rusty/blog_os
 - /media/rithviz/Storage/Projects/Fun/pythone/GitFive
 - /home/rithviz/Projects/golang/madlad/qrcodeff/Piped-Docker
