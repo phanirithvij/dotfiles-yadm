@@ -609,3 +609,23 @@ $ mkdir s01
 $ mkdir s02 s03 s04
 $ hx test.fish 
 $ mkdir Personal
+$ chmod +x Syncplay-1.7.0-x86_64.AppImage 
+: h~
+: h!
+: hidden!
+: set hidden
+: set hidden!
+: set hiddenfiles 
+: set hidden
+: set hidden!
+$ touch Caddyfile
+$ mkdir videos
+$ rouch rooms.txt
+$ touch rooms.txt
+$ ln -s joker.mp4 joker-dance-265.mp4
+$ ln -s joker-dance-265.mp4 joker.mp4
+$ touch playlist.txt
+$ touch brew.fish
+$ mkdir yt-dlp
+$ touch config
+$ mkdir fonts
