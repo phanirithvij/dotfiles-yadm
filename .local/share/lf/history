@@ -629,3 +629,8 @@ $ touch brew.fish
 $ mkdir yt-dlp
 $ touch config
 $ mkdir fonts
+$ git clone https://github.com/po5/thumbfast
+$ Alpine_Extended_3.17.0
+$ mkdir Alpine_Linux_3.17.0
+$ mkdir media-session.d
+$ gdu
