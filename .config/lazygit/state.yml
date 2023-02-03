@@ -1,5 +1,8 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/virtualboxes/vagrant_sample
+- /home/rithviz/Desktop/ansible_pde
+- /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/Projects/recovery_tools/medicat_installer
@@ -91,4 +94,6 @@ customcommandshistory:
 - git reset --soft HEAD~1
 - git stash
 - git undo
+- lf
+- am
 hidecommandlog: false

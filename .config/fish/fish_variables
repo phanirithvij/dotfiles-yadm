@@ -39,6 +39,7 @@ SETUVAR _fish_abbr_port:netstat\x20\x2dtuplen
 SETUVAR _fish_abbr_ports:sudo\x20netstat\x20\x2dtuplen
 SETUVAR _fish_abbr_pro:viddy\x20\x2dp\x20\x2dn\x200\x2e5\x20\x2dc\x20progress\x20\x2dw
 SETUVAR _fish_abbr_sport:sudo\x20lsof\x20\x2di\x20\x2dP\x20\x2dn\x20\x7c\x20rg\x20LISTEN
+SETUVAR _fish_abbr_t:tmux
 SETUVAR _fish_abbr_ta:tmux\x20a
 SETUVAR _fish_abbr_tma:tmux\x20a
 SETUVAR _fish_abbr_tmpsize:sudo\x20mount\x20\x2do\x20remount\x2csize\x3d8589934592\x20/tmp

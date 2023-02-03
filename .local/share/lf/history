@@ -634,3 +634,88 @@ $ Alpine_Extended_3.17.0
 $ mkdir Alpine_Linux_3.17.0
 $ mkdir media-session.d
 $ gdu
+$ mkdir syncplay
+$ mkdir logs
+$ touch yay.vagrant.log
+$ touch termux.yml
+$ chmod +x "$fx"
+$ chmod +x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x $f
+$ chmod -x *
+$ chmod -x *
+$ chmod -x $f
+$ chmod -x *
+$ chmod -x *
+$ chmod -x *
+$ chmod -x *
+$ chmod +rw $f
+$ mkdir src
+$ tar xf mitogen-0.3.4.dev0.tar.gz 
+$ ansible --version && sleep 4
+$ ansible-doc -t strategy -l && sleep 4
+$ ansible-doc -t strategy -l && sleep 40
+$ ansible-doc -t strategy -l && sleep 40
+$ ansible-doc -t strategy -l && sleep 40
+$ 7z x mitogen-0.2.9.tar.gz 
+$ 7z x $f
+$ tar xf mitogen-src-v0.3.3.tar.gz 
+$ python setup.py sdist
+$ touch alpine.yml
+$ touch inventory.py
+$ chmod +x invetory.py
+$ chmod +x inventory.py
+$ touch README.md
+$ tar xf wheels.tar.gz 
+$ tar czf wheels.tar.gz requirements.txt wheel
+$ tar xf wheels.tar.gz 
+$ chmod +x $f
+$ tar czf wheels.tar.gz requirements.txt wheel
+$ tar xf wheels.tar.gz 
+$ chmod -x $f
+$ tar xf wheels.tar.gz 
+$ tar xf wheels.tar.gz 
+$ tar xf wheels.tar.gz 
+$ tar xf wheels.tar.gz 
+$ touch cmdb.yml
+$ sha256sum boxomatic_alpine-3.17_virtualbox.box | xsel -c clip
+$ sha256sum boxomatic_alpine-3.17_virtualbox.box | xclip -sel clip
+$ sha256sum generic_alpine317_libvirt.box | cut -d " " -f1 | xclip -sel clip
+$ sha256sum generic_alpine317_virtualbox.box | cut -d " " -f1 | xclip -sel clip
+$ python -m venv venv
+$ python -m venv venv
+$ touch requirements.yml
+$ touch asciil.py
+$ mkdir docs
+$ mkdir scripts
+$ touch grid.txt
+$ touch legend.txt
+$ touch README.md
+$ touch archlinux.yml
+$ mkdir roles
+$ touch asciiflow.txt
+$ touch fig-1.alt.txt
+$ touch fig-1.alt.txt
+$ touch fig-2.neat.txt
+$ mkdir config
+$ mkdir -p .ssh
+$ mkdir -p .local/share/fish/
+$ touch subnet.chatgpt.py
+$ touch subnet.chatgpt.go
+$ touch subnet.chatgpt.rs
+$ chmod +r Telegram\ Desktop/
+$ chmod 755 Telegram\ Desktop/
+$ ls
+$ chmod +r rithviz
+$ mkdir Movies
+$ sudo mv pacman.conf pacman.conf.old
+$ sudo mv pacman.conf.pacnew  pacman.conf
