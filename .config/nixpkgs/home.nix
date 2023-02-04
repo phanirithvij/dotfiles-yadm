@@ -49,6 +49,7 @@
     pkgs.viddy
     pkgs.yq
     pkgs.yadm
+    pkgs.zoxide
  ];
 
   home.stateVersion = "22.05";

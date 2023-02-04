@@ -24,7 +24,6 @@ set -g theme_short_path yes
 # asdf-vm
 source /nix/store/ivlgrrmk79k2ismzpmqb1whk6xd2svvy-asdf-vm-0.10.2/share/asdf-vm/asdf.fish
 # source /opt/asdf-vm/asdf.fish
-# asdf-vm end
 
 # pnpm
 set -gx PNPM_HOME "/home/rithviz/.local/share/pnpm"
@@ -39,6 +38,7 @@ set -gx PATH "$PNPM_HOME" $PATH
 # using a plugin instead
 # found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
 
+# direnv
 direnv hook fish | source
 
 # https://starship.rs/#fish
@@ -46,7 +46,6 @@ starship init fish | source
 
 # navi
 navi widget fish | source
-# navi end
 
-# [ -f /usr/share/autojump/autojump.fish ]; and source /usr/share/autojump/autojump.fish
-
+# zoxide
+zoxide init fish | source
