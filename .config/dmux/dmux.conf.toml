@@ -17,4 +17,3 @@ commands = ["nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-e
 number_of_panes = 2
 session_name = "cleanup"
 commands = ["nix-collect-garbage", "nix-env --delete-generations old"]
-

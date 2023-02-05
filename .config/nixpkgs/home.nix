@@ -34,6 +34,7 @@
     pkgs.neovim
     pkgs.nms #esoteric sneakers movie terminal effect
     pkgs.p7zip
+    pkgs.pv
     pkgs.qbittorrent
     pkgs.qcomicbook
     pkgs.qimgv
@@ -52,7 +53,7 @@
     pkgs.zoxide
  ];
 
-  home.stateVersion = "22.05";
+  home.stateVersion = "22.11";
 
   programs.home-manager.enable = true;
   programs.micro = {

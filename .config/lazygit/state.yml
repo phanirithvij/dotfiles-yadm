@@ -1,5 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/go/src/github.com/esimov/caire
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
 - /home/rithviz/Desktop/ansible_pde
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
@@ -74,7 +75,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
 - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
 - /home/rithvij/dotfilesmy/main
-- /home/rithviz/go/src/github.com/esimov/caire
 - /home/rithviz/Downloads/perkeep/gphotos-cdp
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
 - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
