@@ -1,9 +1,5 @@
 # theme_gruvbox dark hard
 
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
 # remove fish shell greeting
 set fish_greeting
 
@@ -13,39 +9,107 @@ set fish_greeting
 set -g theme_short_path yes
 # set -g theme_ignore_ssh_awareness yes
 
-# nvm (not using nvm anymore, using asdf)
-# https://stackoverflow.com/a/42832284/8608146
-# https://stackoverflow.com/a/69248519/8608146
-#if type -q nvm
-#  nvm use lts &> /dev/null
-#end
-# nvm end
+if status is-interactive
+  # Commands to run in interactive sessions can go here
+  # https://github.com/fish-shell/fish-shell/issues/9523#issuecomment-1412141174
+  abbr -a -p command c clear
+  abbr -a -p command e exit
+  abbr -a -p command l exa
+  abbr -a -p command j jrnl
+  abbr -a -p command ll 'exa --long --header --icons --git -B'
+  abbr -a -p command lla 'exa --long --header --icons --git --all -B'
+  abbr -a -p command llh 'exa --long --header --icons --git'
+  abbr -a -p command opop xdg-open
+  abbr -a -p command lac lazyconf
+  abbr -a -p command laz lazygit
+  abbr -a -p command lad lazydocker
+  abbr -a -p command lar 'cd (yq ".recentrepos | @tsv" ~/.config/lazygit/state.yml | sed -e "s/\"//g" -e "s/\\\\\\\\t/\n/g" | fzfalias lazygit-repos); lazygit'
+  abbr -a -p command unset 'set --erase'
+  abbr -a -p command unl 'faillock -user $USER --reset'
+  abbr -a -p command brimin 'sudo bash -c "echo 1000 | tee /sys/class/backlight/intel_backlight/brightness"'
+  abbr -a -p command brimax 'cat /sys/class/backlight/intel_backlight/max_brightness | sudo tee /sys/class/backlight/intel_backlight/brightness'
+  abbr -a -p command dohealth 'docker inspect --format "{{json .State.Health }}" xxxxxxxx | jq'
+  abbr -a -p command dmuxpy 'dmux -P pythonupdates ~/Projects/pythone'
+  abbr -a -p command dmuxsys 'dmux -P systemupdate ~/.config/nixpkgs'
+  abbr -a -p command dmuxscl 'dmux -P systemupdate-cleanup ~/.config/nixpkgs'
+  abbr -a -p command t tmux
+  abbr -a -p command ta 'tmux a'
+  abbr -a -p command at 'tmux a'
+  abbr -a -p command tma 'tmux a'
 
-# asdf-vm
-source /nix/store/ivlgrrmk79k2ismzpmqb1whk6xd2svvy-asdf-vm-0.10.2/share/asdf-vm/asdf.fish
-# source /opt/asdf-vm/asdf.fish
+  abbr -a -p command tmpsize 'sudo mount -o remount,size=8589934592 /tmp'
+  abbr -a -p command dosunix 'fd -H -E=node_modules -E=.git | xargs dos2unix'
+  abbr -a -p command composes 'rg --files . | rg docker-compose.yml | fzf --preview "bat -p --color always --theme gruvbox-dark {}"'
 
-# pnpm
-set -gx PNPM_HOME "/home/rithviz/.local/share/pnpm"
-set -gx PATH "$PNPM_HOME" $PATH
-# pnpm end
+  abbr -a -p command port 'netstat -tuplen'
+  abbr -a -p command ports 'sudo netstat -tuplen'
+  abbr -a -p command sport 'sudo lsof -i -P -n | rg LISTEN'
+  abbr -a -p command wport 'viddy -p -d -n 0.2 -c netstat -tuplen'
+  abbr -a -p command wports 'sudo viddy -p -d -n 0.2 -c netstat -tuplen'
+  abbr -a -p command dufw 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 0.5 -c duf'
+  abbr -a -p command wduf 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 0.5 -c duf'
+  abbr -a -p command prog 'viddy -p -n 0.5 -c progress -w'
+  abbr -a -p command wls 'viddy -p -d -n 0.1 -c exa --long --header --icons -B --color=always'
+  abbr -a -p command wlsa 'viddy -p -t -d -n 0.1 -c exa --long --header --icons -B --all --color=always'
+  abbr -a -p command wpactl 'viddy \'pactl list | rg -U ".*bluez_card(.*\n)*"\''
 
-# ported from .bash_profile which was added by nix post install.
-# if test -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh
-  # https://superuser.com/a/1235985/1049709
-  # bass source /home/rithviz/.nix-profile/etc/profile.d/nix.sh
-# end
-# using a plugin instead
-# found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
+  abbr -a -p command alacritty 'alacritty & disown;tmux splitw;exit'
+  abbr -a -p command chrome 'google-chrome-stable & disown;tmux splitw;exit'
+  abbr -a -p command firefox 'firefox & disown;tmux splitw;exit'
+  abbr -a -p command tor '~/Desktop/tor.desktop & disown;tmux splitw;exit'
+  abbr -a -p command zoom 'zoom & disown;tmux splitw;exit'
+  abbr -a -p command telegram 'telegram-desktop & disown;tmux splitw;exit'
+  abbr -a -p command discord 'discord & disown;tmux splitw;exit'
+  abbr -a -p command authpass 'authpass & disown;tmux splitw;exit'
 
-# direnv
-direnv hook fish | source
+  abbr -a -p command ex exercism
 
-# https://starship.rs/#fish
-starship init fish | source
+  abbr -a -p anywhere L --set-cursor '%| less'
 
-# navi
-navi widget fish | source
+  # https://fishshell.com/docs/current/cmds/abbr.html
+  function last_history_item
+      echo $history[1]
+  end
+  abbr -a -p anywhere !! --function last_history_item
 
-# zoxide
-zoxide init fish | source
+  # https://superuser.com/a/1762626
+  function last_history_token
+      echo $history[1] | read -t -a tokens
+      echo $tokens[-1]
+  end
+  abbr -a -p anywhere !\$ --function last_history_token
+
+  # TODO useful https://superuser.com/a/1610597
+
+  # nvm (not using nvm anymore, using asdf)
+  # https://stackoverflow.com/a/42832284/8608146
+  # https://stackoverflow.com/a/69248519/8608146
+  #if type -q nvm
+  #  nvm use lts &> /dev/null
+  #end
+  # nvm end
+
+  # asdf-vm
+  source /nix/store/ivlgrrmk79k2ismzpmqb1whk6xd2svvy-asdf-vm-0.10.2/share/asdf-vm/asdf.fish
+  # source /opt/asdf-vm/asdf.fish
+
+  # ported from .bash_profile which was added by nix post install.
+  # if test -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh
+    # https://superuser.com/a/1235985/1049709
+    # bass source /home/rithviz/.nix-profile/etc/profile.d/nix.sh
+  # end
+  # using a plugin instead
+  # found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
+
+  # direnv
+  direnv hook fish | source
+
+  # https://starship.rs/#fish
+  starship init fish | source
+
+  # navi
+  navi widget fish | source
+
+  # zoxide
+  zoxide init fish | source
+end

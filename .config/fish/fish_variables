@@ -1,56 +1,21 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export ANDROID_SDK_ROOT:/home/rithviz/Android/Sdk/
-SETUVAR --export DVM_DIR:/home/rithviz/\x2edvm
-SETUVAR --export EDITOR:micro
 SETUVAR FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25
 SETUVAR FZF_DISABLE_KEYBINDINGS:0
 SETUVAR FZF_LEGACY_KEYBINDINGS:1
 SETUVAR FZF_PREVIEW_DIR_CMD:ls
 SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
-SETUVAR --export GOBIN:/home/rithviz/go/bin/
+SETUVAR --export ANDROID_SDK_ROOT:/home/rithviz/Android/Sdk/
+SETUVAR --export DVM_DIR:/home/rithviz/\x2edvm
+SETUVAR --export EDITOR:micro
+SETUVAR --export --path GOBIN:/home/rithviz/go/bin/
 SETUVAR --export --path GOPATH:/home/rithviz/go/
-SETUVAR --export LOCALE_ARCHIVE_2_27:/nix/store/s3bf05my50y37v88mm6krs1x4s7399rn\x2dglibc\x2dlocales\x2d2\x2e35\x2d163/lib/locale/locale\x2darchive
 SETUVAR --export --path NIX_PATH:/home/rithviz/\x2enix\x2ddefexpr/channels
+SETUVAR --export --path PNPM_HOME:/home/rithviz/\x2elocal/share/pnpm
 SETUVAR --export __HM_SESS_VARS_SOURCED:1
+SETUVAR --export LOCALE_ARCHIVE_2_27:/nix/store/s3bf05my50y37v88mm6krs1x4s7399rn\x2dglibc\x2dlocales\x2d2\x2e35\x2d163/lib/locale/locale\x2darchive
 SETUVAR __fish_initialized:3400
-SETUVAR _fish_abbr_alacritty:alacritty\x20\x26\x20disown\x3b\x20exit
-SETUVAR _fish_abbr_at:tmux\x20a
-SETUVAR _fish_abbr_brimax:cat\x20/sys/class/backlight/intel_backlight/max_brightness\x20\x7c\x20sudo\x20tee\x20/sys/class/backlight/intel_backlight/brightness
-SETUVAR _fish_abbr_brimin:sudo\x20bash\x20\x2dc\x20\x22echo\x201000\x20\x7c\x20tee\x20/sys/class/backlight/intel_backlight/brightness\x22
-SETUVAR _fish_abbr_c:clear
-SETUVAR _fish_abbr_chrome:google\x2dchrome\x2dstable\x20\x26\x20disown\x3b\x20exit
-SETUVAR _fish_abbr_composes:rg\x20\x2d\x2dfiles\x20\x2e\x20\x7c\x20rg\x20docker\x2dcompose\x2eyml\x20\x7c\x20fzf\x20\x2d\x2dpreview\x20\x22bat\x20\x2dp\x20\x2d\x2dcolor\x20always\x20\x2d\x2dtheme\x20gruvbox\x2ddark\x20\x7b\x7d\x22
-SETUVAR _fish_abbr_dohealth:docker\x20inspect\x20\x2d\x2dformat\x20\x22\x7b\x7bjson\x20\x2eState\x2eHealth\x20\x7d\x7d\x22\x20xxxxxxxx\x20\x7c\x20jq
-SETUVAR _fish_abbr_dosunix:fd\x20\x2dH\x20\x2dE\x3dnode_modules\x20\x2dE\x3d\x2egit\x20\x7c\x20xargs\x20dos2unix
-SETUVAR _fish_abbr_dufw:CLICOLOR_FORCE\x3d1\x20COLORTERM\x3d\x22truecolor\x22\x20viddy\x20\x2dp\x20\x2dd\x20\x2dn\x200\x2e5\x20\x2dc\x20duf
-SETUVAR _fish_abbr_e:exit
-SETUVAR _fish_abbr_j:jrnl\x20\x22
-SETUVAR _fish_abbr_l:exa
-SETUVAR _fish_abbr_lac:lazyconf
-SETUVAR _fish_abbr_lad:lazydocker
-SETUVAR _fish_abbr_laz:lazygit
-SETUVAR _fish_abbr_ll:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit
-SETUVAR _fish_abbr_lla:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit\x20\x2d\x2dall
-SETUVAR _fish_abbr_llh:exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2d\x2dgit\x20\x2d\x2dall
-SETUVAR _fish_abbr_opop:xdg\x2dopen
-SETUVAR _fish_abbr_port:netstat\x20\x2dtuplen
-SETUVAR _fish_abbr_ports:sudo\x20netstat\x20\x2dtuplen
-SETUVAR _fish_abbr_pro:viddy\x20\x2dp\x20\x2dn\x200\x2e5\x20\x2dc\x20progress\x20\x2dw
-SETUVAR _fish_abbr_sport:sudo\x20lsof\x20\x2di\x20\x2dP\x20\x2dn\x20\x7c\x20rg\x20LISTEN
-SETUVAR _fish_abbr_t:tmux
-SETUVAR _fish_abbr_ta:tmux\x20a
-SETUVAR _fish_abbr_tma:tmux\x20a
-SETUVAR _fish_abbr_tmpsize:sudo\x20mount\x20\x2do\x20remount\x2csize\x3d8589934592\x20/tmp
-SETUVAR _fish_abbr_unl:faillock\x20\x2d\x2duser\x20\x24USER\x20\x2d\x2dreset
-SETUVAR _fish_abbr_unset:set\x20\x2d\x2derase
-SETUVAR _fish_abbr_wduf:CLICOLOR_FORCE\x3d1\x20COLORTERM\x3d\x22truecolor\x22\x20viddy\x20\x2dp\x20\x2dd\x20\x2dn\x200\x2e5\x20\x2dc\x20duf
-SETUVAR _fish_abbr_wls:viddy\x20\x2dp\x20\x2dd\x20\x2dn\x200\x2e1\x20\x2dc\x20exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2dB\x20\x2d\x2dcolor\x3dalways
-SETUVAR _fish_abbr_wlsa:viddy\x20\x2dp\x20\x2dt\x20\x2dd\x20\x2dn\x200\x2e1\x20\x2dc\x20exa\x20\x2d\x2dlong\x20\x2d\x2dheader\x20\x2d\x2dicons\x20\x2dB\x20\x2d\x2dall\x20\x2d\x2dcolor\x3dalways
-SETUVAR _fish_abbr_wpactl:viddy\x20\x22pactl\x20list\x20\x7c\x20rg\x20\x2dU\x20\x27\x2e\x2abluez_card\x28\x2e\x2a\x5cn\x29\x2a\x27\x22
-SETUVAR _fish_abbr_wport:viddy\x20\x2dp\x20\x2dd\x20\x2dn\x200\x2e2\x20\x2dc\x20netstat\x20\x2dtuplen
-SETUVAR _fish_abbr_wports:sudo\x20viddy\x20\x2dp\x20\x2dd\x20\x2dn\x200\x2e2\x20\x2dc\x20netstat\x20\x2dtuplen
 SETUVAR _fisher_daleeidd_2F_natural_2D_selection_files:\x7e/\x2econfig/fish/functions/_natural_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_begin_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_end_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_get_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_is_selecting\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_kill_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_replace_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_wrap_selection\x2efish
 SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
 SETUVAR _fisher_jethrokuan_2F_fzf_files:\x7e/\x2econfig/fish/functions/__fzf_cd\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_complete\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_complete_preview\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_find_file\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_get_dir\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_open\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_parse_commandline\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzf_reverse_isearch\x2efish\x1e\x7e/\x2econfig/fish/functions/__fzfcmd\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish
@@ -86,4 +51,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/rithviz/\x2econfig/rofi/scripts\x1e/home/rithviz/Downloads/flutter\x2dlinux/flutter/bin\x1e/home/rithviz/\x2ecargo/bin\x1e/home/rithviz/Downloads/tor\x2dbrowser_en\x2dUS\x1e/home/rithviz/go/bin\x1e/home/rithviz/\x2elocal/bin
+SETUVAR fish_user_paths:/home/rithviz/\x2elocal/share/pnpm\x1e/home/rithviz/\x2econfig/rofi/scripts\x1e/home/rithviz/Downloads/flutter\x2dlinux/flutter/bin\x1e/home/rithviz/\x2ecargo/bin\x1e/home/rithviz/Downloads/tor\x2dbrowser_en\x2dUS\x1e/home/rithviz/go/bin\x1e/home/rithviz/\x2elocal/bin
