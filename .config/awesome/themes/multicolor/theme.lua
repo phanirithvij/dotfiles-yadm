@@ -9,6 +9,7 @@ local gears = require("gears")
 local lain  = require("lain")
 local awful = require("awful")
 local wibox = require("wibox")
+local caffeine = require("caffeine")
 
 local os = os
 local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
@@ -327,6 +328,7 @@ function theme.at_screen_connect(s)
             temp.widget,
             baticon,
             bat.widget,
+            caffeine.widget,
             clockicon,
             mytextclock,
 

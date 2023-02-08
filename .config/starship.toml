@@ -35,3 +35,9 @@ style="#696969"
 format = '[$time]($style) '
 time_format = "%T"
 
+[nix_shell]
+disabled = false
+symbol = '❄️'
+impure_msg = ''
+pure_msg = '[pure](bold green)'
+format = '[$symbol $state(\($name\))](bold blue) '

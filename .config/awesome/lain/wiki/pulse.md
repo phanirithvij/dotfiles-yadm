@@ -16,7 +16,7 @@ Variable | Meaning | Type | Default
 --- | --- | --- | ---
 `timeout` | Refresh timeout (in seconds) | integer | 5
 `devicetype` | PulseAudio device type | string ("sink", "source") | "sink"
-`cmd` | PulseAudio command | string or function | see [here](https://github.com/lcpz/lain/blob/master/widget/pulse.lua#L26)
+`cmd` | PulseAudio command | string or function | see [here](https://github.com/lcpz/lain/blob/master/widget/pulse.lua#L25)
 `settings` | User settings | function | empty function
 `widget` | Widget to render | function | `wibox.widget.textbox`
 
@@ -31,7 +31,7 @@ Variable | Meaning | Type | Default
 
 If your devices change dynamically, you can define it as a function which returns a command string.
 
-If sed doesn't work, you can try with a grep variant:
+If `sed` doesn't work, you can try with `grep`:
 
 ```lua
 cmd = "pacmd list-" .. pulse.devicetype .. "s | grep -e $(pactl info | grep -e 'ink' | cut -d' ' -f3) -e 'volume: front' -e 'muted'"

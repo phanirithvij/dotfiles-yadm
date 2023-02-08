@@ -25,7 +25,7 @@ git clone https://github.com/lcpz/lain.git ~/.config/awesome/lain
 Also available via [LuaRocks](https://luarocks.org/modules/lcpz/lain):
 
 ```shell
-luarocks install lcpz/lain
+luarocks install lain
 ```
 
 Usage

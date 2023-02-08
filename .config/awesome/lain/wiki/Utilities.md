@@ -68,6 +68,7 @@ Read [here](https://awesomewm.org/doc/api/classes/client.html#Object_properties)
 * Set `followtag = true` if [experiencing issues with multiple screens](https://github.com/lcpz/lain/issues/346).
 * If you have a `awful.client.setslave` rule for your application, ensure you use an exception for `QuakeDD` (or your defined `name`). Otherwise, you may run into problems with focus.
 * If you are using a VTE-based terminal like `termite`, be sure to set [`argname = "--name %s"`](https://github.com/lcpz/lain/issues/211).
+* If you are using a terminal that does not always set its `class_id` to your specified `name`, such as Alacritty, then toggling will not work. You can solve this issue as explained [here](https://github.com/lcpz/lain/issues/536#issuecomment-1180155486).
 
 Separators
 ----------
@@ -94,10 +95,10 @@ List of functions:
      |`-- arrow_right()    Draw a right arrow.
       `-- arrow_left()     Draw a left arrow.
 
-markup
+Markup
 ------
 
-Mades markup easier.
+Easier markup.
 
 ```lua
 local markup = lain.util.markup

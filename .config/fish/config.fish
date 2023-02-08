@@ -12,6 +12,7 @@ set -g theme_short_path yes
 if status is-interactive
   # Commands to run in interactive sessions can go here
   # https://github.com/fish-shell/fish-shell/issues/9523#issuecomment-1412141174
+  abbr -a -p command b btop
   abbr -a -p command c clear
   abbr -a -p command e exit
   abbr -a -p command l exa
@@ -55,6 +56,7 @@ if status is-interactive
 
   abbr -a -p command alacritty 'alacritty & disown;tmux splitw;exit'
   abbr -a -p command chrome 'google-chrome-stable & disown;tmux splitw;exit'
+  abbr -a -p command f 'firefox & disown;tmux splitw;exit'
   abbr -a -p command firefox 'firefox & disown;tmux splitw;exit'
   abbr -a -p command tor '~/Desktop/tor.desktop & disown;tmux splitw;exit'
   abbr -a -p command zoom 'zoom & disown;tmux splitw;exit'

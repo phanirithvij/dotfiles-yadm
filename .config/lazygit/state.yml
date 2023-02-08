@@ -1,5 +1,8 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/.config/awesome/lain
+- /home/rithviz/.config/awesome/lain/wiki
+- /home/rithviz/Desktop/ansible_pde
 - /home/rithviz/Projects/rusty/Rocket
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/go/src/github.com/esimov/caire
@@ -7,7 +10,6 @@ recentrepos:
 - /home/rithvij/dotfilesmy/main
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
 - /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
-- /home/rithviz/Desktop/ansible_pde
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
 - /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/Projects/recovery_tools/medicat_installer

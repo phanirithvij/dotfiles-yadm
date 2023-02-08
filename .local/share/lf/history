@@ -719,3 +719,18 @@ $ chmod +r rithviz
 $ mkdir Movies
 $ sudo mv pacman.conf pacman.conf.old
 $ sudo mv pacman.conf.pacnew  pacman.conf
+$ touch .dmux.yml
+$ touch nix-index-database.fish
+$ chmod +x nix-index-database.fish 
+$ chmod +x nix-index-database.fish 
+$ touch pulseaudio.log
+: doc
+: doc
+: doc
+: doc
+: doc
+: tag
+: tag
+$ mkdir others
+$ mkdir caffine
+$ git clone https://github.com/dudelson/dotfiles

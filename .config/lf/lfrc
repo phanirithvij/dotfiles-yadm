@@ -60,8 +60,8 @@ cmd yadm_lazyconf ${{
     lazygit -ucd ~/.local/share/yadm/lazygit -w ~ -g ~/.local/share/yadm/repo.git
 }}
 
-map m doc
-cmd doc $lf -doc | bat
+#map m doc
+#cmd doc $lf -doc | bat
 
 # bat has a config file at ~/.config/bat/config which allows default cli options
 map i $bash -c ~/.config/lf/bat_inspec.sh
