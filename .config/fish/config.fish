@@ -12,14 +12,23 @@ set -g theme_short_path yes
 if status is-interactive
   # Commands to run in interactive sessions can go here
   # https://github.com/fish-shell/fish-shell/issues/9523#issuecomment-1412141174
+
+  alias lfc lfcd
+  alias gb gitbatch
+  abbr -a -p command cd z
+
   abbr -a -p command b btop
   abbr -a -p command c clear
   abbr -a -p command e exit
   abbr -a -p command l exa
   abbr -a -p command j jrnl
+  abbr -a -p command m micro
+  abbr -a -p command copy 'xclip -sel clip'
   abbr -a -p command ll 'exa --long --header --icons --git -B'
   abbr -a -p command lla 'exa --long --header --icons --git --all -B'
   abbr -a -p command llh 'exa --long --header --icons --git'
+  abbr -a -p command llS 'exa --long --header --icons --git -B -s size'
+  abbr -a -p command llSh 'exa --long --header --icons --git -s size'
   abbr -a -p command opop xdg-open
   abbr -a -p command lac lazyconf
   abbr -a -p command laz lazygit
@@ -37,6 +46,7 @@ if status is-interactive
   abbr -a -p command ta 'tmux a'
   abbr -a -p command at 'tmux a'
   abbr -a -p command tma 'tmux a'
+  abbr -a -p command tag 'tmsu'
 
   abbr -a -p command tmpsize 'sudo mount -o remount,size=8589934592 /tmp'
   abbr -a -p command dosunix 'fd -H -E=node_modules -E=.git | xargs dos2unix'

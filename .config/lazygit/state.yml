@@ -1,8 +1,10 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/rusty/topgrade
+- /home/rithviz/Desktop/ansible_pde
+- /home/rithviz/Projects/rusty/blog_os
 - /home/rithviz/.config/awesome/lain
 - /home/rithviz/.config/awesome/lain/wiki
-- /home/rithviz/Desktop/ansible_pde
 - /home/rithviz/Projects/rusty/Rocket
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/go/src/github.com/esimov/caire
@@ -55,7 +57,6 @@ recentrepos:
 - /home/rithviz/Projects/cpporc/glfw
 - /home/rithviz/Projects/androidp/slides-remote
 - /home/rithviz/Projects/rusty/autojump-rs/autojump-rs
-- /home/rithviz/Projects/rusty/blog_os
 - /media/rithviz/Storage/Projects/Fun/pythone/GitFive
 - /home/rithviz/Projects/golang/madlad/qrcodeff/Piped-Docker
 - /home/rithviz/Projects/golang/madlad/qrcodeff/homer/homer-src

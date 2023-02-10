@@ -734,3 +734,39 @@ $ touch pulseaudio.log
 $ mkdir others
 $ mkdir caffine
 $ git clone https://github.com/dudelson/dotfiles
+: P .gitignore s
+: tag files 
+: tag s
+: tag-toggle 
+: tag-toggle 
+: tag-clear 
+: tag-clear 
+$ tmsu tag lfrc l
+: tag l
+$ file .database/
+$ mkdir p
+$ ls "l or p"
+$ rmdir l\ or\ p/
+$ mkdir n
+$ mkdir n
+$ mkdir n
+: tag n
+$ tmsu tag bat_inspec.sh n
+$ tmsu tag .database/ p
+$ touch sample.sh
+$ touch sample.sh
+$ touch sample.sh
+$ micro $f
+: set icons
+: tag l
+: tag-toggle 
+: tag-toggle 
+: tag-toggle 
+$ touch buku.fish
+$ touch bow
+$ chmod +x $f
+$ touch fb.fish
+: q
+$ touch sample.py
+$ rg pacdef
+$ file $f

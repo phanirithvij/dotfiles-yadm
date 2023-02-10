@@ -7,8 +7,129 @@
 
 # set drawbox
 
+# https://sourcegraph.com/github.com/lmburns/dotfiles/-/blob/.config/lf/lfrc?subtree=true
+# == Tagging == [[[
+map <c-_> mark-save
+
+map ; push :tag<space>
+map Tj jump_tag
+map X tag-toggle
+
+map Tms tmsu-set
+map Tmr tmsu-remove
+map Tml tmsu-list
+
+map Ts wutag-set
+map Ta wutag-add
+map Tr wutag-remove
+map Tl wutag-list
+# ]]]
+
+# === TAGS === [[[
+# -- Tag: tmsu set
+cmd tmsu-set ${{
+  zmodload -Fa zsh/zle b:vared
+  clear
+  print -nPr "%F{2}"
+  print -f "%s" "$(figlet tmsu)"
+  print -Pr "%f"
+  printf "=%.0s" {1..22}
+  print
+  vared -cp "Set tag: " tmsu_tag
+  tmsu tag --tags="$tmsu_tag" $fx
+}}
+
+# -- Tag: tmsu list specific file
+cmd tmsu-remove ${{
+  zmodload -Fa zsh/zle b:vared
+  clear
+  print -nPr "%F{2}"
+  print -f "%s" "$(figlet tmsu)"
+  print -Pr "%f"
+  printf "=%.0s" {1..22}
+  print
+  vared -cp "Remove tag: " tmsu_tag
+  tmsu untag --tags="$tmsu_tag" $fx
+}}
+
+# -- Tag: tmsu remove
+cmd tmsu-list !{{
+  clear
+  tmsu tags "$fx" | bat -l bash --paging=always
+}}
+
+# -- Tag: wutag set
+cmd wutag-set ${{
+  zmodload -Fa zsh/zle b:vared
+  clear
+  print -nPr "%F{2}"
+  print -f "%s" "$(figlet wutag)"
+  print -Pr "%f"
+  printf "=%.0s" {1..22}
+  print
+  vared -cp "Set tag: " tag
+  for x in $fx; do
+    fname="${x:t}"; fdir="${x:h}"
+    wutag -d "${fdir}/" set -c $fname $tag
+  done
+}}
+
+# -- Tag: wutag add
+cmd wutag-add ${{
+  zmodload -Fa zsh/zle b:vared
+  clear
+  print -nPr "%F{2}"
+  print -f "%s" "$(figlet wutag)"
+  print -Pr "%f"
+  printf "=%.0s" {1..22}
+  print
+  vared -cp "Add tag: " tag
+  for x in $fx; do
+    fname="${x:t}"; fdir="${x:h}"
+    wutag -d "${fdir}/" set $fname $tag
+  done
+}}
+
+# -- Tag: wutag remove
+cmd wutag-remove ${{
+  zmodload -Fa zsh/zle b:vared
+  clear
+  print -nPr "%F{2}"
+  print -f "%s" "$(figlet wutag)"
+  print -Pr "%f"
+  printf "=%.0s" {1..22}
+  print
+  vared -cp "Remove tag: " tag
+  for x in $fx; do
+    fname="${x:t}"; fdir="${x:h}"
+    wutag -d "${fdir}/" rm $fname
+  done
+}}
+
+cmd wutag-list !{{
+  clear
+  noglob wutag --color=always list files -tf | bat -f
+}}
+# ]]] === TAGS ===
+
+# lfrc https://github.com/gokcehan/lf/issues/579#issuecomment-1015633229
+cmd fzf-restore ${{
+  ids="$(echo -ne '\n'              | \
+    trash-restore                   | \
+    awk '$1 ~ /^[0-9]+/ {print $0}' | \
+    fzf --multi                     | \
+    awk '{print $1}'                | \
+    sed -z 's/\n/,/g;s/,$/\n/')"
+  echo $ids | trash-restore
+  clear
+}}
+
+map U fzf-restore
+
 # TODO: read https://github.com/gokcehan/lf/wiki/Tips and customize
 # Also http://0x0.st/ is mentioned in the tips which is opensource and can be self hosted
+
+cmd tag-clear :tag; tag-toggle
 
 cmd recol ${{
     w=$(tput cols)
@@ -20,6 +141,33 @@ cmd recol ${{
         lf -remote "send $id set ratios 1:2:3:5"
     fi
 }}
+
+cmd follow_link %{{
+  lf -remote "send ${id} select '$(readlink $f)'"
+}}
+map gL follow_link
+
+
+# y (select for copy) and P to paste soft-link
+# d (select for cut) and P to paste hard-link
+cmd link %{{
+    set -- $(cat ~/.local/share/lf/files)
+    mode="$1"
+    shift
+    if [ "$#" -lt 1 ]; then
+        lf -remote "send $id echo no files to link"
+        exit 0
+    fi
+    case "$mode" in
+        # symbolically copy mode is indicating a soft link
+        copy) ln -sr -t . -- "$@";;
+        # while a move mode is indicating a hard link
+        move) ln -t . -- "$@";;
+    esac
+    rm ~/.local/share/lf/files
+    lf -remote "send clear"
+}}
+map P :link
 
 # TODO: auto resize https://stackoverflow.com/a/15527022
 # cmd recol-init &{{
@@ -138,3 +286,5 @@ cmd telesplit ${{
     done
 }}
 
+
+map <c-z> $ kill -STOP $PPID
