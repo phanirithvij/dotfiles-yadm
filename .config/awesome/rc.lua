@@ -299,14 +299,14 @@ wallpaperTimer = timer {timeout = changeTime}
 wallpaperTimer:connect_signal(
     "timeout",
     function()
-	currentWpIdx = currentWpIdx + 1 -- advance wallpaper
+	      currentWpIdx = currentWpIdx + 1 -- advance wallpaper
         gears.wallpaper.fit(wallpaperList[currentWpIdx], s)
         --gears.wallpaper.maximized(wallpaperList[currentWpIdx], s, false)
         -- stop the timer (we don't need multiple instances running at the same time)
         wallpaperTimer:stop()
 
         --restart the timer
-	changeTime = 600 -- change every 10 min
+        changeTime = 600 -- change every 10 min
         wallpaperTimer.timeout = changeTime
         wallpaperTimer:start()
     end
@@ -395,39 +395,55 @@ globalkeys =
     ),
     -- wallpapers
     awful.key(
-	{altkey}, "n",
-	function()
-	    if (currentWpIdx == #wallpaperList) then 
-                naughty.notify({preset=naughty.config.presets.normal, text="no next wallpaper", title="Oops, at the end"})
-	        return
-	    end
-            currentWpIdx = currentWpIdx + 1
-            -- TODO wallpapers of different aspect ratios might need different offsets, centering, positioning etc
-	    gears.wallpaper.fit(wallpaperList[currentWpIdx], s)
-	    --gears.wallpaper.maximized(wallpaperList[currentWpIdx], s, false)
-	end
+      {altkey}, "n",
+      function()
+  	    if (currentWpIdx == #wallpaperList) then 
+                  naughty.notify({preset=naughty.config.presets.normal, text="no next wallpaper", title="Oops, at the end"})
+  	        return
+  	    end
+        currentWpIdx = currentWpIdx + 1
+        -- TODO wallpapers of different aspect ratios might need different offsets, centering, positioning etc
+  	    gears.wallpaper.fit(wallpaperList[currentWpIdx], s)
+        --gears.wallpaper.maximized(wallpaperList[currentWpIdx], s, false)
+    	end
     ),
     awful.key(
-	{altkey}, "p",
-	function()
-	    if (currentWpIdx == 1) then 
-                naughty.notify({preset=naughty.config.presets.normal, text="no prev wallpaper", title="Oops, at the start"})
-	        return
-	    end
-    	    -- TODO wallpapers of different aspect ratios might need different offsets, centering, positioning etc
-            currentWpIdx = currentWpIdx - 1
-	    gears.wallpaper.fit(wallpaperList[currentWpIdx], s)
-	    --gears.wallpaper.maximized(wallpaperList[currentWpIdx], s, false)
-	end
+    	{altkey}, "p",
+    	function()
+        if (currentWpIdx == 1) then 
+          naughty.notify({preset=naughty.config.presets.normal, text="no prev wallpaper", title="Oops, at the start"})
+          return
+        end
+        -- TODO wallpapers of different aspect ratios might need different offsets, centering, positioning etc
+        currentWpIdx = currentWpIdx - 1
+        gears.wallpaper.fit(wallpaperList[currentWpIdx], s)
+        --gears.wallpaper.maximized(wallpaperList[currentWpIdx], s, false)
+    	end
     ),
     -- TODO wallpaper blocklist
     awful.key(
     	{altkey}, "d",
-	function() naughty.notify({preset=naughty.config.presets.normal, title="Oops you found an unimplemented shortcut", text="TODO plan to implement wallpaper blocklist (invalid walls)"}) end
+	    function() naughty.notify({preset=naughty.config.presets.normal, title="Oops you found an unimplemented shortcut", text="TODO plan to implement wallpaper blocklist (invalid walls)"}) end
     ),
     awful.key(
     	{altkey}, "u",
-	function() naughty.notify({preset=naughty.config.presets.normal, title="Oops you found an unimplemented shortcut", text="TODO plan to implement wallpaper blocklist undo"}) end
+    	function() naughty.notify({preset=naughty.config.presets.normal, title="Oops you found an unimplemented shortcut", text="TODO plan to implement wallpaper blocklist undo"}) end
+    ),
+    awful.key(
+      {altkey}, "b",
+      function()
+          awful.util.spawn("fish -c ~/.local/bin/bukuadd")
+      end,
+      {description = "buku add bookmark from clipboard", group = "hotkeys"}
+    ),
+    awful.key(
+      -- {}, "#96",
+      {}, "F12",
+      function()
+          -- https://askubuntu.com/a/1435978/971923
+          awful.util.spawn("dbus-send --type=method_call --print-reply --dest=org.onboard.Onboard /org/onboard/Onboard/Keyboard org.onboard.Onboard.Keyboard.ToggleVisible")
+      end,
+      {description = "toggle onboard", group = "hotkeys"}
     ),
     -- rofi
     awful.key(

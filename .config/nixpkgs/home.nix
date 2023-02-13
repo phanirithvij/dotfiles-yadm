@@ -56,6 +56,7 @@
     pkgs.remote-touchpad #control screen via webui from different device
     pkgs.ripgrep #modern grep cli
     pkgs.rnote #note taking
+    pkgs.rustup #cargo, rust
     pkgs.screenfetch #neofetch alternative
     pkgs.starship #prompt custom
     pkgs.sysz #systemctl tui

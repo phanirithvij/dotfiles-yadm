@@ -142,6 +142,8 @@ cmd recol ${{
     fi
 }}
 
+map <backspace2> :updir
+
 cmd follow_link %{{
   lf -remote "send ${id} select '$(readlink $f)'"
 }}

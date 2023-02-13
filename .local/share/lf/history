@@ -770,3 +770,10 @@ $ touch fb.fish
 $ touch sample.py
 $ rg pacdef
 $ file $f
+$ touch bukuadd
+$ chmod +x $d
+$ chmod +x $f
+$ touch capture_all.fish
+$ touch gotty.sh
+$ chmod +x $f
+$ chmod +x $f

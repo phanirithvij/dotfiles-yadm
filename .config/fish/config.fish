@@ -15,6 +15,7 @@ if status is-interactive
 
   alias lfc lfcd
   alias gb gitbatch
+  alias wtf wtfutil
   abbr -a -p command cd z
 
   abbr -a -p command b btop
