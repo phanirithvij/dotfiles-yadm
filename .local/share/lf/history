@@ -777,3 +777,4 @@ $ touch capture_all.fish
 $ touch gotty.sh
 $ chmod +x $f
 $ chmod +x $f
+$ wget https://i.redd.it/nb7yfzgsqng31.png
