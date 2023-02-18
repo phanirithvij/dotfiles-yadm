@@ -39,10 +39,10 @@ theme.menu_fg_normal                            = "#aaaaaa"
 theme.menu_fg_focus                             = "#ff8c00"
 theme.menu_bg_normal                            = "#050505dd"
 theme.menu_bg_focus                             = "#050505dd"
-theme.widget_temp                               = theme.confdir .. "/icons/temp.png"
+-- theme.widget_temp                               = theme.confdir .. "/icons/temp.png"
 theme.widget_uptime                             = theme.confdir .. "/icons/ac.png"
 theme.widget_cpu                                = theme.confdir .. "/icons/cpu.png"
-theme.widget_weather                            = theme.confdir .. "/icons/dish.png"
+-- theme.widget_weather                            = theme.confdir .. "/icons/dish.png"
 theme.widget_fs                                 = theme.confdir .. "/icons/fs.png"
 theme.widget_mem                                = theme.confdir .. "/icons/mem.png"
 theme.widget_netdown                            = theme.confdir .. "/icons/net_down.png"
@@ -112,18 +112,18 @@ theme.cal = lain.widget.cal({
     }
 })
 
--- Weather
-local weathericon = wibox.widget.imagebox(theme.widget_weather)
-theme.weather = lain.widget.weather({
-    city_id = 2803138, -- placeholder (Belgium)
-    notification_preset = { font = "Noto Sans Mono Medium 10", fg = theme.fg_normal },
-    weather_na_markup = markup.fontfg(theme.font, "#eca4c4", "N/A "),
-    settings = function()
-        descr = weather_now["weather"][1]["description"]:lower()
-        units = math.floor(weather_now["main"]["temp"])
-        widget:set_markup(markup.fontfg(theme.font, "#eca4c4", descr .. " @ " .. units .. "°C "))
-    end
-})
+-- -- Weather
+-- local weathericon = wibox.widget.imagebox(theme.widget_weather)
+-- theme.weather = lain.widget.weather({
+    -- city_id = 2803138, -- placeholder (Belgium)
+    -- notification_preset = { font = "Noto Sans Mono Medium 10", fg = theme.fg_normal },
+    -- weather_na_markup = markup.fontfg(theme.font, "#eca4c4", "N/A "),
+    -- settings = function()
+        -- descr = weather_now["weather"][1]["description"]:lower()
+        -- units = math.floor(weather_now["main"]["temp"])
+        -- widget:set_markup(markup.fontfg(theme.font, "#eca4c4", descr .. " @ " .. units .. "°C "))
+    -- end
+-- })
 
 -- / fs
 --local fsicon = wibox.widget.imagebox(theme.widget_fs)
@@ -166,12 +166,12 @@ local cpu = lain.widget.cpu({
 })
 
 -- Coretemp
-local tempicon = wibox.widget.imagebox(theme.widget_temp)
-local temp = lain.widget.temp({
-    settings = function()
-        widget:set_markup(markup.fontfg(theme.font, "#f1af5f", coretemp_now .. "°C "))
-    end
-})
+-- local tempicon = wibox.widget.imagebox(theme.widget_temp)
+-- local temp = lain.widget.temp({
+    -- settings = function()
+        -- widget:set_markup(markup.fontfg(theme.font, "#f1af5f", coretemp_now .. "°C "))
+    -- end
+-- })
 
 -- Battery
 local baticon = wibox.widget.imagebox(theme.widget_batt)
@@ -206,11 +206,11 @@ local netdowninfo = wibox.widget.textbox()
 local netupicon = wibox.widget.imagebox(theme.widget_netup)
 local netupinfo = lain.widget.net({
     settings = function()
-        if iface ~= "network off" and
-           string.match(theme.weather.widget.text, "N/A")
-        then
-            theme.weather.update()
-        end
+        -- if iface ~= "network off" and
+           -- string.match(theme.weather.widget.text, "N/A")
+        -- then
+            -- theme.weather.update()
+        -- end
 
         widget:set_markup(markup.fontfg(theme.font, "#e54c62", net_now.sent .. " "))
         netdowninfo:set_markup(markup.fontfg(theme.font, "#87af5f", net_now.received .. " "))
@@ -324,8 +324,8 @@ function theme.at_screen_connect(s)
             cpu.widget,
             --weathericon,
             --theme.weather.widget,
-            tempicon,
-            temp.widget,
+            -- tempicon,
+            -- temp.widget,
             baticon,
             bat.widget,
             caffeine.widget,

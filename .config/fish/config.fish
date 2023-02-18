@@ -75,6 +75,9 @@ if status is-interactive
   abbr -a -p command discord 'discord & disown;tmux splitw;exit'
   abbr -a -p command authpass 'authpass & disown;tmux splitw;exit'
 
+  abbr -a -p command pacdiff 'DIFFPROG=kompare pacdiff'
+  #abbr -a -p command pacdiff 'DIFFPROG=meld pacdiff'
+
   abbr -a -p command ex exercism
 
   abbr -a -p anywhere L --set-cursor '%| less'

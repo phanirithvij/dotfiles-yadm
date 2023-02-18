@@ -1031,16 +1031,6 @@ globalkeys =
         end,
         {description = "show filesystem", group = "widgets"}
     ),
-    awful.key(
-        {altkey},
-        "w",
-        function()
-            if beautiful.weather then
-                beautiful.weather.show(7)
-            end
-        end,
-        {description = "show weather", group = "widgets"}
-    ),
     -- Brightness
     awful.key(
         {},
