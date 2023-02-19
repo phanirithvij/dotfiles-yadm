@@ -786,3 +786,6 @@ $ mkdir docs
 $ touch dev.md
 $ nvim +Mason
 $ nvim $f
+$ touch resize-hook.sh
+$ chmod +x $f
+$ touch .zoomed_flag
