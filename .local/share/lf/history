@@ -784,3 +784,5 @@ $ touch navi.fish
 $ touch asdf.fish
 $ mkdir docs
 $ touch dev.md
+$ nvim +Mason
+$ nvim $f
