@@ -778,3 +778,9 @@ $ touch gotty.sh
 $ chmod +x $f
 $ chmod +x $f
 $ wget https://i.redd.it/nb7yfzgsqng31.png
+$ chmod +w $f
+$ touch direnv.fish
+$ touch navi.fish
+$ touch asdf.fish
+$ mkdir docs
+$ touch dev.md

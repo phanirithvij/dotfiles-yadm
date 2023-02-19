@@ -1,0 +1,9 @@
+https://superuser.com/a/1610597
+https://www.reddit.com/r/fishshell/comments/iuipu5/lucidfish_a_minimalist_highperformance_prompt/
+https://github.com/mattgreen/lucid.fish
+https://github.com/acomagu/fish-async-prompt
+https://superuser.com/questions/235072/run-parts-of-bashrc-asynchronously
+https://github.com/jenv/jenv/issues/148
+https://github.com/fish-shell/fish-shell/issues/238
+https://fishshell.com/docs/current/cmds/fish.html#debugging-fish
+https://unix.stackexchange.com/questions/813/how-to-determine-where-an-environment-variable-came-from

@@ -13,7 +13,7 @@
 # $git_metrics\
 # $git_status\
 # """
-format = "$character$directory$all"
+format = "$character${custom.tmux}$directory$all"
 
 # move the rest of the prompt to the right
 right_format = "$time $battery"
@@ -41,3 +41,12 @@ symbol = '❄️'
 impure_msg = ''
 pure_msg = '[pure](bold green)'
 format = '[$symbol $state(\($name\))](bold blue) '
+
+# https://sourcegraph.com/github.com/ono7/dotfiles2/-/blob/starship.toml?L51:3&subtree=true
+[custom.tmux]
+# command = "[[ $(tmux display-message -p '#{window_zoomed_flag}') -eq 1 ]] && echo 'tmux' || echo"
+# format = '[${output}]($style) '
+# when = true
+when = "[[ $(tmux display-message -p '#{window_zoomed_flag}') -eq 1 ]]"
+format = '[tmux]($style) '
+shell = "sh"

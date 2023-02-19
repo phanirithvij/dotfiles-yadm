@@ -16,6 +16,7 @@
     pkgs.babelfish #bash to fish
     pkgs.bat #fancy cat
     pkgs.btop #fancy process manager like htop
+    pkgs.cmatrix #screensaver
     pkgs.delta #fancy diff
     pkgs.difftastic #fancy diff
     pkgs.duf #fancy du
@@ -60,6 +61,7 @@
     pkgs.screenfetch #neofetch alternative
     pkgs.starship #prompt custom
     pkgs.sysz #systemctl tui
+    pkgs.timeshift #system restore points
     pkgs.tmate #share ssh with tmux
     pkgs.tmux #no nohup
     pkgs.unar #rar format

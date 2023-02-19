@@ -1,0 +1,11 @@
+#!/usr/bin/env fish
+set burl (xclip -out -selection clipboard)
+set -g out
+set -g err
+set -g sta
+capture_all "echo \""$burl"\" | buku -a | rg -v ERROR" sta out err
+if test -n "$err"
+  notify-send "duplicate $err"
+else
+  notify-send "added"
+end

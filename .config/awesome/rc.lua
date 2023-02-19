@@ -792,6 +792,15 @@ globalkeys =
         end,
         {description = "show main menu", group = "awesome"}
     ),
+    -- awful.key(
+      -- { modkey, "Shift" },
+      -- "t",
+      -- function()
+        -- awful.titlebar.show(client, "bottom")
+        -- awful.titlebar.hide(client, "bottom")
+      -- end,
+      -- {description = "toggle titlebar", group="client"}
+    -- ),
     -- Layout manipulation
     awful.key(
         {modkey, "Shift"},
