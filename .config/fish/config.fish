@@ -121,4 +121,6 @@ if status is-interactive
   starship init fish | source
   # zoxide
   zoxide init fish | source
+  # atuin
+  atuin init fish | source
 end
