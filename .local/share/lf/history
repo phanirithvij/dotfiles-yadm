@@ -790,3 +790,4 @@ $ touch resize-hook.sh
 $ chmod +x $f
 $ touch .zoomed_flag
 $ touch atuin.fish
+$ touch blacklist.conf

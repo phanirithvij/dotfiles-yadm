@@ -16,6 +16,8 @@ if status is-interactive
   alias lfc lfcd
   alias gb gitbatch
   alias wtf wtfutil
+  # TODO remove this once sound is fixed (pipewire or pulseaudio)
+  alias mpv 'mpv --mute'
   abbr -a -p command cd z
 
   abbr -a -p command b btop
@@ -122,5 +124,5 @@ if status is-interactive
   # zoxide
   zoxide init fish | source
   # atuin
-  atuin init fish | source
+  # atuin init fish | source
 end
