@@ -18,6 +18,7 @@ if status is-interactive
   alias wtf wtfutil
   # TODO remove this once sound is fixed (pipewire or pulseaudio)
   alias mpv 'mpv --mute'
+  # abbr -a -p command kitty 'nixGL (which kitty)'
   abbr -a -p command cd z
 
   abbr -a -p command b btop
@@ -68,6 +69,7 @@ if status is-interactive
   abbr -a -p command wpactl 'viddy \'pactl list | rg -U ".*bluez_card(.*\n)*"\''
 
   abbr -a -p command alacritty 'alacritty & disown;tmux splitw;exit'
+  abbr -a -p command kitty 'kitty & disown;tmux splitw;exit'
   abbr -a -p command chrome 'google-chrome-stable & disown;tmux splitw;exit'
   abbr -a -p command f 'firefox & disown;tmux splitw;exit'
   abbr -a -p command firefox 'firefox & disown;tmux splitw;exit'

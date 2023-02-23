@@ -7,6 +7,11 @@
 
 # set drawbox
 
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
+
 # https://sourcegraph.com/github.com/lmburns/dotfiles/-/blob/.config/lf/lfrc?subtree=true
 # == Tagging == [[[
 map <c-_> mark-save
@@ -215,7 +220,7 @@ cmd yadm_lazyconf ${{
 
 # bat has a config file at ~/.config/bat/config which allows default cli options
 map i $bash -c ~/.config/lf/bat_inspec.sh
-set previewer ~/.config/lf/bat.sh
+# set previewer ~/.config/lf/bat.sh
 
 set hiddenfiles oohyeahbaby
 

@@ -91,9 +91,9 @@ local modkey1 = "Control"
 local editorgui = "geany"
 --local filemanager = "pcmanfm"
 --local mailclient = "geary"
-local mediaplayer = "vlc"
+local mediaplayer = "mpv"
 --local scrlocker = "slimlock"
-local terminal = "alacritty"
+local terminal = "kitty"
 --local virtualmachine = "virtualbox"
 
 -- awesome variables
