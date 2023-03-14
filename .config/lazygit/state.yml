@@ -1,5 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
+- /home/rithviz/Projects/rusty/navi-cheats
+- /home/rithviz/Projects/rusty/navi
+- /home/rithviz/ctpv
 - /home/rithviz/alpine-setup
 - /home/rithviz/Projects/91ff81bd945eb8f1e6af08492a13ff75
 - /home/rithviz/Projects/rusty/flux
@@ -20,7 +24,6 @@ recentrepos:
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
 - /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
-- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/Projects/recovery_tools/medicat_installer
 - /media/rithviz/Storage/Projects/Knowledge
 - /home/rithviz/Projects/pythone/ansible-trial

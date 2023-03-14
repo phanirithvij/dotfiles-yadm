@@ -12,7 +12,7 @@
 
   home.packages = [
     pkgs.air #reload go run
-    pkgs.asdf-vm #package version manager
+    #pkgs.asdf-vm #package version manager
     pkgs.babelfish #bash to fish
     pkgs.bat #fancy cat
     pkgs.btop #fancy process manager like htop

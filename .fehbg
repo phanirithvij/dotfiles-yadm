@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/tmp/feh_stdin_srHsq3'
+/home/rithviz/.nix-profile/bin/feh --no-fehbg --bg-max '/media/rithviz/Storage/Images/WallX/WallX_127642_1080x1920.jpeg' 

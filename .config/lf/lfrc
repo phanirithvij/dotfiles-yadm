@@ -287,11 +287,14 @@ map <delete> :trash
 cmd telesplit ${{
     for f in $fx; do
         echo 7z a -v2000m "$f.7z" "$f"
-        #echo 7z a -v2000m -mx=0 "$f.7z" "$f"
         7z a -v2000m "$f.7z" "$f"
-        #7z a -v2000m -mx=0 "$f.7z" "$f"
     done
 }}
-
+cmd telesplitstore ${{
+    for f in $fx; do
+        echo 7z a -v2000m -mx=0 "$f.7z" "$f"
+        7z a -v2000m -mx=0 "$f.7z" "$f"
+    done
+}}
 
 map <c-z> $ kill -STOP $PPID

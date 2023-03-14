@@ -41,6 +41,7 @@ if status is-interactive
   abbr -a -p command unset 'set --erase'
   abbr -a -p command unl 'faillock -user $USER --reset'
   abbr -a -p command brimin 'sudo bash -c "echo 1000 | tee /sys/class/backlight/intel_backlight/brightness"'
+  abbr -a -p command brimed 'sudo bash -c "echo 4000 | tee /sys/class/backlight/intel_backlight/brightness"'
   abbr -a -p command brimax 'cat /sys/class/backlight/intel_backlight/max_brightness | sudo tee /sys/class/backlight/intel_backlight/brightness'
   abbr -a -p command dohealth 'docker inspect --format "{{json .State.Health }}" xxxxxxxx | jq'
   abbr -a -p command dmuxpy 'dmux -P pythonupdates ~/Projects/pythone'
@@ -78,7 +79,8 @@ if status is-interactive
   abbr -a -p command telegram 'telegram-desktop & disown;tmux splitw;exit'
   abbr -a -p command discord 'discord & disown;tmux splitw;exit'
   abbr -a -p command authpass 'authpass & disown;tmux splitw;exit'
-
+  abbr -a -p command gupupd 'GOFLAGS="-buildmode=pie -trimpath -modcacherw -ldflags=-s" gup update'
+  # abbr -a -p command gupupd 'GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw -ldflags=-s" gup update'
   abbr -a -p command pacdiff 'DIFFPROG=kompare pacdiff'
   #abbr -a -p command pacdiff 'DIFFPROG=meld pacdiff'
 
@@ -120,11 +122,12 @@ if status is-interactive
   # direnv
   # direnv hook fish | source
   # navi
-  # navi widget fish | source
+  navi widget fish | source
   # https://starship.rs/#fish
   starship init fish | source
   # zoxide
   zoxide init fish | source
   # atuin
   # atuin init fish | source
+  rtx activate fish | source
 end

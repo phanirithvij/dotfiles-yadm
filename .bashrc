@@ -146,3 +146,11 @@ export PATH="$PATH:/home/rithviz/bin"
 export PNPM_HOME="/home/rithviz/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+wal-tile() {
+  wal -n -i "$@"
+  # TODO functions for fish
+  # TODO nitrogen, variety, feh
+  # TODO prev, next keybinds
+  feh --bg-center "$(< "${HOME}/.cache/wal/wal")"
+}

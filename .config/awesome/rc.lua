@@ -331,7 +331,7 @@ screen.connect_signal(
             if type(wallpaper) == "function" then
                 wallpaper = wallpaper(s)
             end
-	    gears.wallpaper.fit(wallpaper, s)
+            gears.wallpaper.fit(wallpaper, s)
             --gears.wallpaper.maximized(wallpaper, s, false)
         end
     end
