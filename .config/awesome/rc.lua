@@ -93,7 +93,8 @@ local editorgui = "geany"
 --local mailclient = "geary"
 local mediaplayer = "mpv"
 --local scrlocker = "slimlock"
-local terminal = "kitty"
+local terminal = "alacritty"
+-- local terminal = "kitty"
 --local virtualmachine = "virtualbox"
 
 -- awesome variables
