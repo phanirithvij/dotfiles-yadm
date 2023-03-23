@@ -67,7 +67,10 @@ if status is-interactive
   abbr -a -p command prog 'viddy -p -n 0.5 -c progress -w'
   abbr -a -p command wls 'viddy -p -d -n 0.1 -c exa --long --header --icons -B --color=always'
   abbr -a -p command wlsa 'viddy -p -t -d -n 0.1 -c exa --long --header --icons -B --all --color=always'
+  abbr -a -p command wll 'viddy -p -d -n 0.1 -c exa --long --header --icons --git -B --color=always'
+  abbr -a -p command wlla 'viddy -p -t -d -n 0.1 -c exa --long --header --icons --git -B --all --color=always'
   abbr -a -p command wpactl 'viddy \'pactl list | rg -U ".*bluez_card(.*\n)*"\''
+  abbr -a -p command mem 'viddy -p -n 0.1 -c free -h'
 
   abbr -a -p command alacritty 'alacritty & disown;tmux splitw;exit'
   abbr -a -p command kitty 'kitty & disown;tmux splitw;exit'
