@@ -1041,6 +1041,14 @@ globalkeys =
         end,
         {description = "show filesystem", group = "widgets"}
     ),
+    awful.key(
+        {altkey},
+        "x",
+        function()
+            os.execute("free -h > ~/.memusage_awesome.log")
+        end,
+        {description = "log memory usage to file", group = "widgets"}
+    ),
     -- Brightness
     awful.key(
         {},

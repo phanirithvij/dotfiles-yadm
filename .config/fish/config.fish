@@ -24,6 +24,7 @@ if status is-interactive
   abbr -a -p command b btop
   abbr -a -p command c clear
   abbr -a -p command e exit
+  abbr -a -p command h htop
   abbr -a -p command l exa
   abbr -a -p command j jrnl
   abbr -a -p command m micro
@@ -64,6 +65,9 @@ if status is-interactive
   abbr -a -p command wports 'sudo viddy -p -d -n 0.2 -c netstat -tuplen'
   abbr -a -p command dufw 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 0.5 -c duf'
   abbr -a -p command wduf 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 0.5 -c duf'
+  abbr -a -p command dufi 'CLICOLOR_FORCE=1 COLORTERM="truecolor" viddy -p -d -n 0.5 -c "duf -only local,fuse -hide-mp /boot/efi -output \"mountpoint, avail, usage, inodes_avail, inodes_usage, filesystem\" -sort usage"'
+  abbr -a -p command dfa 'viddy -p -n 0.1 -c "df --output=source,iavail,ipcent,avail,pcent,target -h | (sed -u 1q; sort -h -r -k 4) # Sort by Avail"'
+  abbr -a -p command dff 'viddy -p -n 0.1 -c "df --output=source,iavail,ipcent,avail,pcent,target -h | (sed -u 1q; sort -r -k 5) # Sort by Use%"'
   abbr -a -p command prog 'viddy -p -n 0.5 -c progress -w'
   abbr -a -p command wls 'viddy -p -d -n 0.1 -c exa --long --header --icons -B --color=always'
   abbr -a -p command wlsa 'viddy -p -t -d -n 0.1 -c exa --long --header --icons -B --all --color=always'
@@ -134,3 +138,7 @@ if status is-interactive
   # atuin init fish | source
   rtx activate fish | source
 end
+
+# Wasmer
+export WASMER_DIR="/home/rithviz/.wasmer"
+[ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
