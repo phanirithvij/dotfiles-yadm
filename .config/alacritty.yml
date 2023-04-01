@@ -8,7 +8,7 @@ window:
   dynamic_title: true
   #startup_mode: Maximized
   startup_mode: Fullscreen
-  decorations_theme_variant: dark
+  decorations_theme_variant: Dark
 
 font:
   size: 10 
