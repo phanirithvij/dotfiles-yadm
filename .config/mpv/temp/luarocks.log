@@ -1,0 +1,8 @@
+Warning: Failed downloading. Attempting mirror at https://raw.githubusercontent.com/rocks-moonscript-org/moonrocks-mirror/master/luasocket-3.1.0-1.src.rock
+Warning: Failed downloading. Attempting mirror at https://luafr.org/luarocks/luasocket-3.1.0-1.src.rock
+
+Error: Could not fetch rock file: Error fetching file: Failed downloading https://luarocks.org/luasocket-3.1.0-1.src.rock - 
+wantread
+wantread
+wantread
+

@@ -89,6 +89,7 @@ if status is-interactive
   abbr -a -p command gupupd 'GOFLAGS="-buildmode=pie -trimpath -modcacherw -ldflags=-s" gup update'
   # abbr -a -p command gupupd 'GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw -ldflags=-s" gup update'
   abbr -a -p command pacdiff 'DIFFPROG=kompare pacdiff'
+  abbr -a -p command pacui 'DIFFPROG=kompare pacui'
   #abbr -a -p command pacdiff 'DIFFPROG=meld pacdiff'
 
   abbr -a -p command ex exercism
