@@ -667,6 +667,17 @@ $ ansible-doc -t strategy -l && sleep 40
 $ ansible-doc -t strategy -l && sleep 40
 $ ansible-doc -t strategy -l && sleep 40
 $ 7z x mitogen-0.2.9.tar.gz 
+$ touch wal_bg.fish
+: telesplit 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
+: telesplitstore 
 $ 7z x $f
 $ tar xf mitogen-src-v0.3.3.tar.gz 
 $ python setup.py sdist
@@ -791,3 +802,19 @@ $ chmod +x $f
 $ touch .zoomed_flag
 $ touch atuin.fish
 $ touch blacklist.conf
+$ mkdir cleandir-slides
+: telesplitstore 
+$ 7z -tzip clean.zip $f -mx=0
+: telesplitstore 
+: telesplit
+$ ln -s /home/rithviz/.local/share/rtx/installs/python/3.11.1/bin/python
+$ rm $f
+$ rm $f
+$ rm $f
+$ rm $f
+$ sudo chmod +w $f
+$ mkdir AirMouse2
+$ 7z x $f
+$ ln -s /media/rithviz/Storage/Videos/ x
+$ 7z x $f
+$ ln -s /home/rithviz/Videos x
