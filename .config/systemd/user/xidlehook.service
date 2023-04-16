@@ -1,0 +1,11 @@
+[Unit]
+Description=Automatic Screen Locker
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+Environment=XIDLEHOOK_SOCK=%t/xidlehook.socket
+ExecStart=/usr/bin/xidlehook --not-when-fullscreen --not-when-audio --timer 60 'xrandr --output "eDP-1" --brightness .1' 'xrandr --output "eDP-1" --brightness 1' --timer 300 'xrandr --output "eDP-1" --brightness 1; lock' '' --timer 3600 'systemctl suspend' ''
+
+[Install]
+WantedBy=multi-user.target

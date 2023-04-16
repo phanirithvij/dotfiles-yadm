@@ -818,3 +818,10 @@ $ 7z x $f
 $ ln -s /media/rithviz/Storage/Videos/ x
 $ 7z x $f
 $ ln -s /home/rithviz/Videos x
+$ tar xf $f
+$ file filebeat 
+$ mkdir build
+$ touch .gitignore
+$ touch lock
+$ chmod +x $f
+$ touch xidlehook.service

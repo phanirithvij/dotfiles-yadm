@@ -1,4 +1,4 @@
-#!/home/rithviz/.asdf/installs/python/3.11.1/bin/python3
+#!/home/rithviz/.local/share/rtx/installs/python/3.11.1/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
