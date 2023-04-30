@@ -8,10 +8,10 @@ session_name = "pyupdates"
 commands = ["python -m pip install -U wheel pip pipx", "pipx list && pipx upgrade-all"]
 
 [systemupdate]
-number_of_panes = 4
-layout="376f,147x39,0,0{73x39,0,0[73x24,0,0,0,73x14,0,25,4],73x39,74,0[73x34,74,0,1,73x4,74,35,5]}"
+number_of_panes = 3
 session_name = "updates"
-commands = ["nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-env -u", "rustup upgrade; cargo +nightly install-update --all && cargo +nightly install --git https://github.com/neovide/neovide neovide && cargo install --git https://github.com/tazjin/nixfd nixfd && cargo install russ --git https://github.com/ckampfe/russ", "home-manager switch", "nixfd"]
+layout = "71b7,160x40,0,0[160x21,0,0{80x21,0,0,16,79x21,81,0,18},160x18,0,22,12]"
+commands = ["pacui", "nixfd", "topgrade --skip-notify --disable chezmoi --disable-predefined-git-repos --no-retry"]
 
 [systemupdate-cleanup]
 number_of_panes = 2
@@ -29,7 +29,7 @@ commands = ["gotty btop"]
 session_name = "audio"
 number_of_panes = 3
 layout = "166d,160x39,0,0[160x19,0,0,0,160x19,0,20{80x19,0,20,6,79x19,81,20,7}]"
-commands = ["navi --query 'dmuxaudio tmux'", "pulsemixer", "bluetuith"]
+commands = ["navi --query 'tmux dmuxaudio'", "pulsemixer", "bluetuith"]
 
 [monitor]
 session_name = "monitor"

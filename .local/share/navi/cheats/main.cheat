@@ -1,0 +1,4 @@
+% navi, edit, cheats
+
+# Edit navi cheats
+lf $(navi info cheats-path)/main.cheat
