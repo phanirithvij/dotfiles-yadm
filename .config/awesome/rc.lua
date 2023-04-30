@@ -68,7 +68,7 @@ local function run_once(cmd_arr)
     end
 end
 
-run_once({"unclutter -root"}) -- entries must be comma-separated
+run_once({"unclutter -root"}, {"pactl load-module module-switch-on-connect"}) -- entries must be comma-separated
 
 local themes = {
     "powerarrow-blue", -- 1

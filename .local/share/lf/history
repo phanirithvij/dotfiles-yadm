@@ -780,7 +780,7 @@ $ touch fb.fish
 : q
 $ touch sample.py
 $ rg pacdef
-$ file $f
+$ f
 $ touch bukuadd
 $ chmod +x $d
 $ chmod +x $f
@@ -825,3 +825,35 @@ $ touch .gitignore
 $ touch lock
 $ chmod +x $f
 $ touch xidlehook.service
+: map
+: doc
+: doc
+$ gdu
+$ rm $f
+: 7z a apk.apks $fz
+$ 7z a apka.zip $fx
+$ mkdir bundle
+$ rm $f
+$ 7z a apka.apks -tzip $fx
+$ rmdir $f
+$ rm -rf $f
+$ rm -rf $f
+$ 7z a apka.apks -tzip $fx
+$ rm -rf $f
+$ rm $f
+$ rm -rf $fx
+$ rm -rf $f
+$ rm $f
+$ rm $f
+$ mkdir Immutables
+$ rm $f
+$ rm $f
+$ rm -rf $f
+$ mkdir bin
+$ tar xf $f
+$ black $f
+$ black $f
+$ black $f
+$ mkdir phanirithvij__navi
+$ touch dmux.cheat
+$ touch main.chear

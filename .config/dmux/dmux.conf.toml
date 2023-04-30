@@ -24,3 +24,15 @@ session_name = "gotty"
 # commands = ["gotty ~/.config/dmux/gotty.sh", "btop"]
 number_of_panes = 1
 commands = ["gotty btop"]
+
+[audio]
+session_name = "audio"
+number_of_panes = 3
+layout = "166d,160x39,0,0[160x19,0,0,0,160x19,0,20{80x19,0,20,6,79x19,81,20,7}]"
+commands = ["navi --query 'dmuxaudio tmux'", "pulsemixer", "bluetuith"]
+
+[monitor]
+session_name = "monitor"
+number_of_panes = 2
+layout = "e64a,160x39,0,0{97x39,0,0,24,62x39,98,0,25}"
+commands = ["btop", "htop"]
