@@ -1,0 +1,18 @@
+% ssh, edit, config
+
+# Edit ssh config
+$EDITOR ~/.ssh/config
+
+% ssh, goto
+
+# ssh to hosts defined in config
+ssh <host>
+
+$ host: cat ~/.ssh/config | rg 'Host ' | awk '{print $2}'
+
+% mosh, ssh, goto
+
+# mosh to hosts defined in config
+mosh <host>
+
+$ host: cat ~/.ssh/config | rg 'Host ' | awk '{print $2}'

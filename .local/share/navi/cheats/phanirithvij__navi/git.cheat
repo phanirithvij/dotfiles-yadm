@@ -1,0 +1,6 @@
+% git, netrc, switch
+
+# Switch git account
+git-switch <username>
+
+$ username: 

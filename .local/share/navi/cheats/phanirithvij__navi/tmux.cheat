@@ -1,0 +1,12 @@
+% dmux, sessions, tmux
+
+# Launch dmux session
+dmux -P <sess> ~
+
+; https://stackoverflow.com/a/42856026/8608146
+$ sess: cat ~/.config/dmux/dmux.conf.toml | rg '\[\w+\]' | awk -F'[][]' '{print $2}'
+
+% dmux, edit, config
+
+# Edit dmux config in editor
+$EDITOR ~/.config/dmux/dmux.conf.toml
