@@ -1,6 +1,6 @@
 session_name: network
 windows:
-- focus: 'true'
+- focus: true
   suppress_history: true
   layout: c003,160x40,0,0{97x40,0,0,44,62x40,98,0,43}
   options: {}

@@ -872,3 +872,5 @@ $ touch upd.sh
 $ chmod +x $f
 $ mkdir concourse
 $ touch monitor.yml
+$ touch nix.cheat
+$ touch system_cleanup.yml

@@ -1,0 +1,10 @@
+session_name: cleanup
+windows:
+- focus: true
+  suppress_history: false
+  options: {}
+  panes:
+    - nix-collect-garbage
+    - nix-env --delete-generations old
+    - shell_command: "home-manager expire-generations \"-30 days\""
+      focus: true

@@ -1,9 +1,10 @@
 session_name: monitor
 windows:
-- focus: 'true'
+- focus: true
+  suppress_history: true
   layout: 5dff,160x39,0,0{97x39,0,0,3,62x39,98,0,4}
   options: {}
   panes:
-  - focus: 'true'
+  - focus: true
     shell_command: btop
   - mem
