@@ -857,3 +857,7 @@ $ black $f
 $ mkdir phanirithvij__navi
 $ touch dmux.cheat
 $ touch main.chear
+$ touch rmx1971.cheat
+$ touch fish.cheat
+$ rm $f
+$ rm $f

@@ -1,0 +1,4 @@
+% fish, edit, config
+
+# Edit fish config
+$EDITOR ~/.config/fish/config.fish

@@ -1,29 +1,29 @@
-% helvum, audio, dmuxaudio
+% dmuxaudio, helvum, audio
 
 # Run helvum
 helvum
 
-% helvum, audio, disown, tmux, dmuxaudio
+% dmuxaudio, helvum, audio, disown, tmux
 
 # Run helvum disown tmux
 helvum & disown; exit
 
-% carla, audio, dmuxaudio
+% dmuxaudio, carla, audio
 
 # Run carla
 carla
 
-% carla, audio, disown, tmux, dmuxaudio
+% dmuxaudio, carla, audio, disown, tmux
 
 # Run carla disown tmux
 carla & disown; exit
 
-% qpwgraph, audio, dmuxaudio
+% dmuxaudio, qpwgraph, audio
 
 # Run qpwgraph
 qpwgraph
 
-% qpwgraph, audio, disown, tmux, dmuxaudio
+% dmuxaudio, qpwgraph, audio, disown, tmux
 
 # Run qpwgraph disown tmux
 qpwgraph & disown; exit

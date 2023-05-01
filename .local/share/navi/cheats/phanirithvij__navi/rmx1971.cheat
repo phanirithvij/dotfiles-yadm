@@ -1,0 +1,4 @@
+% rmx1971, android, termux
+
+# Mosh into termux
+mosh --ssh="ssh -p 8022" u0_a1097@192.168.1.4
