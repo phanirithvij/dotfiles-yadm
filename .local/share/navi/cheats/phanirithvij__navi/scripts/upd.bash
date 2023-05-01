@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-# https://github.com/denisidoro/navi/issues/733
+# Modified from https://github.com/denisidoro/navi/issues/733
 CHEATS_PATH=$(navi info cheats-path)
 
 cd $CHEATS_PATH
 
-for REPO_PATH in $(ls -d *); do
+for REPO_PATH in $(fd -td -d1); do
     echo "Get changes from $REPO_PATH"
     cd $REPO_PATH
     if [ -d ".git" ]; then
