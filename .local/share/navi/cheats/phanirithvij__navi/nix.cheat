@@ -1,0 +1,9 @@
+% nix, update, system, packages
+
+# Update all nix packages
+nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-env -u
+
+% nix, cleanup, systemupdate-cleanup
+
+# Full force cleanup nix system
+nix-collect-garbage -d

@@ -1,0 +1,9 @@
+% jrnl, view
+
+# View jrnl in lf
+lf ~/.local/share/jrnl
+
+% jrnl, new, add
+
+# Add new jrnl
+jrnl

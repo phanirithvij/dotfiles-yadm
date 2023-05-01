@@ -874,3 +874,8 @@ $ mkdir concourse
 $ touch monitor.yml
 $ touch nix.cheat
 $ touch system_cleanup.yml
+$ touch tmuxp.gen.cheat
+$ touch jrnl.cheat
+$ strip $f
+$ file $f
+$ strip $f

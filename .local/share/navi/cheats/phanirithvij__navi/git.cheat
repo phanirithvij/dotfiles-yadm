@@ -1,6 +1,30 @@
+;
+; ---------------- GIT ----------------
+;
+
 % git, netrc, switch
 
 # Switch git account
 git-switch <username>
 
-$ username: 
+$ username: cat ~/.netrc | rg login | awk '{print $2}' | sort | uniq
+
+% lazy, tools, lazytools
+
+# lazygit
+lazygit
+
+# lazyconf
+lazyconf
+
+# lazydocker
+lazydocker
+
+;
+; ---------------- OTHER ----------------
+;
+
+% less, color, json
+
+# Colored paged json output
+<cmd> | jq -C | less -ReX

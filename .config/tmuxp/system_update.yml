@@ -2,10 +2,11 @@ session_name: updates
 windows:
 - focus: true
   suppress_history: false
-  layout: "71b7,160x40,0,0[160x21,0,0{80x21,0,0,16,79x21,81,0,18},160x18,0,22,12]"
+  layout: "8f20,160x39,0,0{79x39,0,0,23,80x39,80,0[80x19,80,0,26,80x9,80,20,27,80x9,80,30,28]}"
   options: {}
   panes:
-    - pacui
-    - nixfd
     - shell_command: "topgrade --skip-notify --disable chezmoi --disable-predefined-git-repos --no-retry"
       focus: true
+    - pacui
+    - python -m pip install -U wheel pip pipx
+    - nixfd
