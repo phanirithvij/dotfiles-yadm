@@ -861,3 +861,14 @@ $ touch rmx1971.cheat
 $ touch fish.cheat
 $ rm $f
 $ rm $f
+$ git init
+$ rm -rf $f
+$ git status
+$ rm -rf $f
+$ touch hello-world.yml
+$ chmod +w $f
+$ mkdir scripts
+$ touch upd.sh
+$ chmod +x $f
+$ mkdir concourse
+$ touch monitor.yml

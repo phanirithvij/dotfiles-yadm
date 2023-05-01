@@ -1,0 +1,13 @@
+% navi, edit, cheats
+
+# Edit navi cheats
+lf <own_dir>/main.cheat
+
+; https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#auto-updating-repositories
+# Update cheats
+cd "<own_dir>" && git pull -q origin main && cd -
+
+# Update cheats github script
+bash <own_dir>/scripts/upd.bash
+
+$own_dir: echo $(navi info cheats-path)/phanirithvij__navi
