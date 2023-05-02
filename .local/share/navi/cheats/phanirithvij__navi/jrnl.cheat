@@ -1,15 +1,15 @@
-% jrnl, view
+% note, jrnl, view
+
+# Edit jrnls
+jrnl --edit
 
 # View jrnl in lf
 lf ~/.local/share/jrnl
 
-% jrnl, new, add
+% note, jrnl, new, add
 
 # Add new jrnl
 jrnl
-
-# Edit jrnls
-jrnl --edit
 
 # Show tags
 jrnl --tags
