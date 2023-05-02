@@ -10,7 +10,7 @@ $EDITOR ~/.config/fish/config.fish
 # Remove entry from path
 set choice $(
     echo $fish_user_paths \
-    | tr " " "\n" \
+    | sed 's/ \//\n\//g' \
     | nl \
     | awk '{$1=$1};1' \
     | gum filter --placeholder "Pick path to remove" --reverse \
@@ -21,7 +21,7 @@ set choice $(
 # Remove entry from path fzf
 set choice $(
     echo $fish_user_paths \
-    | tr " " "\n" \
+    | sed 's/ \//\n\//g' \
     | nl \
     | awk '{$1=$1};1' \
     | fzfalias "Pick path to remove" \

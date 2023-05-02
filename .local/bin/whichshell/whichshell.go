@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/shirou/gopsutil/v3/process"
 	"os"
 )
@@ -17,5 +18,5 @@ func main() {
 	die(err)
 	name, err := procIn.Name()
 	die(err)
-	println(name)
+	fmt.Printf("%s", name)
 }

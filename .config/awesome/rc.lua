@@ -1047,6 +1047,7 @@ globalkeys =
         function()
             awful.spawn("tdrop -n tdrop_alacritty --post-create-hook \"autohide-tdrop &\" -ma -h 62% -w 80% -x 10% -y 0 alacritty --class=tdrop_alacritty -e sh -c \"navi\"")
             -- os.execute("free -h > ~/.memusage_awesome.log")
+            -- os.execute("/home/rithviz/.local/bin/whichsh > ~/.whichsh_awesomewm.log")
         end,
         {description = "tdrop navi scratchpad", group = "widgets"}
     ),
