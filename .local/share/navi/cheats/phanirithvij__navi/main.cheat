@@ -1,7 +1,12 @@
 % navi, edit, cheats
 
+# Edit navi main cheat
+lf -command "\$ $EDITOR <own_dir>/main.cheat" <own_dir>/main.cheat
+
 # Edit navi cheats
-lf <own_dir>/main.cheat
+lf -command "\$ $EDITOR <own_dir>/<cheat_name>.cheat" <own_dir>/<cheat_name>.cheat
+
+$ cheat_name: cd <own_dir>; fd -tf | awk '{gsub(/.*[/]|[.]{1}[^.]+$/, "", $0)} 1'
 
 ; https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#auto-updating-repositories
 # Update cheats

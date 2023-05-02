@@ -2,6 +2,26 @@
 ; ---------------- GIT ----------------
 ;
 
+% git, commit, gum
+
+# Git commit gum
+git commit -m "$(gum input --width 50 --placeholder "Summary of changes")" \
+           -m "$(gum write --width 80 --placeholder "Details of changes (CTRL+D to finish)")"
+
+% git, netrc, open
+
+# Open netrc
+lf -command "\$ $EDITOR ~/.netrc" ~/.netrc
+
+# Open hub config
+lf -command "\$ $EDITOR ~/.config/hub" ~/.config/hub
+
+# Edit git config global
+git config --global --edit
+
+# Edit git config local
+git config --edit
+
 % git, netrc, switch
 
 # Switch git account
