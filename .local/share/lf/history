@@ -881,3 +881,6 @@ $ file $f
 $ strip $f
 $ file $f | less
 $ touch portal.cheat
+$ kabmat
+$ kabmat
+$ kabmat
