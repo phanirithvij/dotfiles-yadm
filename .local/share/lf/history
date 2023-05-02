@@ -884,3 +884,13 @@ $ touch portal.cheat
 $ kabmat
 $ kabmat
 $ kabmat
+$ file $f | less
+$ strip $f
+$ file $f | less
+$ file $f | less
+$ file $f | less
+$ gdu
+$ strip *
+$ gdu
+$ touch awesome.cheat
+$ gofmt $f

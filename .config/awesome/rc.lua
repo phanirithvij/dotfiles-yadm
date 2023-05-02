@@ -1045,9 +1045,10 @@ globalkeys =
         {altkey},
         "x",
         function()
-            os.execute("free -h > ~/.memusage_awesome.log")
+            awful.spawn("tdrop -n tdrop_alacritty --post-create-hook \"autohide-tdrop &\" -ma -h 62% -w 80% -x 10% -y 0 alacritty --class=tdrop_alacritty -e sh -c \"navi\"")
+            -- os.execute("free -h > ~/.memusage_awesome.log")
         end,
-        {description = "log memory usage to file", group = "widgets"}
+        {description = "tdrop navi scratchpad", group = "widgets"}
     ),
     -- Brightness
     awful.key(

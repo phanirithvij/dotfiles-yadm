@@ -1,0 +1,8 @@
+% awesome, awesomewm
+
+# Edit awesome config
+lf -command "\$ $EDITOR ~/.config/awesome/rc.lua" ~/.config/awesome/rc.lua
+
+# Restart awesomewm
+echo 'awesome.restart()' | awesome-client
+

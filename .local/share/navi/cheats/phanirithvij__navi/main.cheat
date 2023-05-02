@@ -16,3 +16,6 @@ cd "<own_dir>" && git pull -q origin main && cd -
 bash <own_dir>/scripts/upd.bash
 
 $own_dir: echo $(navi info cheats-path)/phanirithvij__navi
+
+% shell, lf, fish
+lf -command "$ fish"
