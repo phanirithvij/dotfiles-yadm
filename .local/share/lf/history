@@ -879,3 +879,5 @@ $ touch jrnl.cheat
 $ strip $f
 $ file $f
 $ strip $f
+$ file $f | less
+$ touch portal.cheat

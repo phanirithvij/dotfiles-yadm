@@ -1,0 +1,7 @@
+% portal, send, files
+
+# Portal send files
+fd -HI -d2 | gum filter --no-limit | xargs portal send
+
+# Portal file server
+portal serve
