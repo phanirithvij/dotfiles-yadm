@@ -5,8 +5,8 @@ windows:
   layout: "8f20,160x39,0,0{79x39,0,0,23,80x39,80,0[80x19,80,0,26,80x9,80,20,27,80x9,80,30,28]}"
   options: {}
   panes:
-    - shell_command: "topgrade --skip-notify --disable chezmoi --disable-predefined-git-repos --no-retry"
+    - shell_command: "clear; topgrade --skip-notify --disable chezmoi --disable-predefined-git-repos --no-retry"
       focus: true
-    - pacui
-    - python -m pip install -U wheel pip pipx
-    - nixfd
+    - shell_command: "clear; pacui"
+    - shell_command: "python -m pip install -U wheel pip pipx && exit"
+    - shell_command: "nixfd && exit"
