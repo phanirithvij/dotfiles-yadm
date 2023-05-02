@@ -7,3 +7,24 @@ lf ~/.local/share/jrnl
 
 # Add new jrnl
 jrnl
+
+# Edit jrnls
+jrnl --edit
+
+# Show tags
+jrnl --tags
+
+# Search and edit by tags
+jrnl <tags_and>--edit
+
+# Search or edit by tags
+jrnl <tags_or>--edit
+
+$ tags: jrnl --tags \
+    | fzf --height 40% --layout=reverse \
+    --cycle --keep-right --padding=1,0,0,0 \
+    --color=label:bold --tabstop=1 --border=sharp \
+    --border-label=" select tags " --multi \
+    | awk '{print $1}' | sd '\n' ';'
+$ tags_and : echo "<tags>" | sd ";" ' \-and ' | sd '\\' '' | sed "s/.\{5\}\$//" | sd '#' '\\#'
+$ tags_or : echo "<tags>" | sd ";" ' \-or ' | sd '\\' '' | sed "s/.\{4\}\$//" | sd '#' '\\#'
