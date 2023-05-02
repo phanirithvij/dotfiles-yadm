@@ -1,8 +1,8 @@
-# https://superuser.com/a/1747701/1049709
+# https://superuser.com/a/1747701
 function fish_remove_path --description 'Shows user added PATH entries and removes the selected one'
     echo "User added PATH entries"
     set -l PATH_ENTRIES
-    echo $fish_user_paths | tr " " "\n" | nl
+    echo $fish_user_paths | sed 's/ \//\n\//g' | nl
     echo "Select the number of entry to be removed, if more than one separate the values by spaces"
     read -d " " -a PATH_ENTRIES
     for entry in $PATH_ENTRIES
