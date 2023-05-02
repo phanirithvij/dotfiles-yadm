@@ -13,8 +13,7 @@ tmuxp load -d <tmuxp_session>
 # Tmuxp edit global project
 tmuxp edit <tmuxp_session>
 
-; https://stackoverflow.com/a/30863119/8608146
-$tmuxp_session: cd ~/.config/tmuxp; fd -tf | awk '{gsub(/.*[/]|[.]{1}[^.]+$/, "", $0)} 1'
+$ tmuxp_session: tmuxp ls
 
 % tmuxp, local, project
 
