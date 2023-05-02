@@ -2,3 +2,29 @@
 
 # Edit fish config
 $EDITOR ~/.config/fish/config.fish
+
+
+% fish, path, remove
+
+; https://superuser.com/a/1747701/1049709
+# Remove entry from path
+set choice $(
+    echo $fish_user_paths \
+    | tr " " "\n" \
+    | nl \
+    | awk '{$1=$1};1' \
+    | gum filter --placeholder "Pick path to remove" --reverse \
+  ) &&
+  gum confirm "Remove $(echo $choice | awk '{print $2}')?" --default=0 &&
+  set --erase --universal fish_user_paths[$(echo $choice | awk '{print $1}')]
+
+# Remove entry from path fzf
+set choice $(
+    echo $fish_user_paths \
+    | tr " " "\n" \
+    | nl \
+    | awk '{$1=$1};1' \
+    | fzfalias "Pick path to remove" \
+  ) &&
+  [ $(echo no\nyes | fzfalias "Remove $(echo $choice | awk '{print $2}')?") = "yes" ] &&
+  set --erase --universal fish_user_paths[$(echo $choice | awk '{print $1}')]
