@@ -2,6 +2,7 @@
 
 # remove fish shell greeting
 set fish_greeting
+set -Ux EDITOR nvim
 
 # omf default theme settings
 # https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#default
@@ -38,7 +39,7 @@ if status is-interactive
   abbr -a -p command lac lazyconf
   abbr -a -p command laz lazygit
   abbr -a -p command lad lazydocker
-  abbr -a -p command lar 'cd (yq ".recentrepos | @tsv" ~/.config/lazygit/state.yml | sed -e "s/\"//g" -e "s/\\\\\\\\t/\n/g" | fzfalias lazygit-repos); lazygit'
+  abbr -a -p command lar 'pushd (yq ".recentrepos | @tsv" ~/.config/lazygit/state.yml | sed -e "s/\"//g" -e "s/\\\\\\\\t/\n/g" | fzfalias lazygit-repos); lazygit; popd'
   abbr -a -p command unset 'set --erase'
   abbr -a -p command unl 'faillock -user $USER --reset'
   abbr -a -p command brimin 'sudo bash -c "echo 1000 | tee /sys/class/backlight/intel_backlight/brightness"'

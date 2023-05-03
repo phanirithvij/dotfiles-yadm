@@ -506,6 +506,14 @@ globalkeys =
         {description = "ncpamixer", group = "terminal apps"}
     ),
     awful.key(
+        {modkey},
+        "l",
+        function()
+            awful.util.spawn("/home/rithviz/.local/bin/lock")
+        end,
+        {description = "lock the screen", group = "gui apps"}
+    ),
+    awful.key(
         {modkey, altkey},
         "b",
         function()
@@ -729,17 +737,17 @@ globalkeys =
         end,
         {description = "focus left", group = "client"}
     ),
-    awful.key(
-        {modkey},
-        "l",
-        function()
-            awful.client.focus.global_bydirection("right")
-            if client.focus then
-                client.focus:raise()
-            end
-        end,
-        {description = "focus right", group = "client"}
-    ),
+    -- awful.key(
+        -- {modkey},
+        -- "l",
+        -- function()
+            -- awful.client.focus.global_bydirection("right")
+            -- if client.focus then
+                -- client.focus:raise()
+            -- end
+        -- end,
+        -- {description = "focus right", group = "client"}
+    -- ),
     -- By direction client focus with arrows
     awful.key(
         {modkey1, modkey},
