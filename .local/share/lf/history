@@ -894,3 +894,7 @@ $ strip *
 $ gdu
 $ touch awesome.cheat
 $ gofmt $f
+$ mkdir spaces
+$ micro $f
+$ micro $f
+$ micro $f
