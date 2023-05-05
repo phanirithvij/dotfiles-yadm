@@ -1,3 +1,16 @@
+% shell, lf, fish
+
+# open shell
+lf -command "$ fish"
+
+% frequent, software
+
+# Firefox detatched
+firefox & disown; tmux splitw; exit
+
+# Telegram detatched
+telegram-desktop & disown; tmux splitw; exit
+
 % navi, edit, cheats
 
 # Edit navi any cheat choose one
@@ -17,5 +30,3 @@ bash <own_dir>/scripts/upd.bash
 
 $own_dir: echo $(navi info cheats-path)/phanirithvij__navi
 
-% shell, lf, fish
-lf -command "$ fish"

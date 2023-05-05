@@ -1,6 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/rithviz/Projects/shell-or-linuxspecific/h-m-m
+- /home/rithviz/.config/nvim
 - /media/rithviz/Storage/Projects/Fun/c++/MakePyinstallerSample
 - /media/rithviz/Storage/Projects/Fun/c++/kabmat
 - /home/rithviz/.local/share/navi/cheats/phanirithvij__navi
@@ -81,7 +82,6 @@ recentrepos:
 - /media/rithviz/Storage/Software/apktool/novelfullapp
 - /home/rithviz/.dotfiles/personal
 - /home/rithviz/Projects/rusty/bevy
-- /home/rithviz/.config/nvim
 - /media/rithviz/Storage/Projects/Tracker/music/zotify
 - /home/rithviz/.local/share/chezmoi
 - /media/rithviz/Storage/Comics/komga

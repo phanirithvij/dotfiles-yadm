@@ -218,3 +218,5 @@ if [ -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rithviz/
 # setting for gup command (auto generate)
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
+
+eval $(starship init zsh)

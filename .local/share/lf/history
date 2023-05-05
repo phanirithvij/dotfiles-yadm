@@ -904,3 +904,6 @@ $ micro $f
 $ micro $f
 $ micro $f
 $ micro $f
+$ strip $f
+$ micro $f
+$ rm $f

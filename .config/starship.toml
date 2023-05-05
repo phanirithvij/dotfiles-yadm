@@ -13,17 +13,36 @@
 # $git_metrics\
 # $git_status\
 # """
-format = "$character${custom.tmux}$directory$all"
+#format = "$character${custom.tmux}$directory$all"
+format = "${custom.tmux}$directory$all$character"
+#format = "${custom.tmux}$character"
 
 # move the rest of the prompt to the right
 right_format = "$time $battery"
 
 add_newline = false
 
-# omf fish character
+[line_break]
+disabled = true
+
+# symbols
+# https://www.w3.org/TR/xml-entity-names/025.html
+# ▸ › » ► ▶   ❯  ⋊
+# ◂ ❮ ⋉
+# ╀
+# https://www.w3.org/TR/xml-entity-names/026.html
+# ⚬ ⚫ ⚯  ⛮ ⛻ ⚉ ⚇ ⚹ ☍ ⚷ ⛏ ⚛ 
+# λ 🌀 ⌘ 
+
 [character]
-success_symbol = "[⋊>](bold cyan)"
-error_symbol = "[<⋉](bold red)"
+#disabled = true
+#success_symbol = "[⋊>](bold cyan)"
+#success_symbol = "[λ](cyan)"
+success_symbol = "[⚉](cyan)"
+#success_symbol = "[](cyan)"
+error_symbol = "[⚇](red)"
+#error_symbol = "[](red)"
+#error_symbol = "[<⋉](bold red)"
 
 [directory]
 style="green"
@@ -37,7 +56,8 @@ time_format = "%T"
 
 [nix_shell]
 disabled = false
-symbol = '❄️'
+#symbol = '❄️'
+symbol = '⚹'
 impure_msg = ''
 pure_msg = '[pure](bold green)'
 format = '[$symbol $state(\($name\))](bold blue) '
