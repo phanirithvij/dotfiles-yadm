@@ -11,7 +11,7 @@ window:
   decorations_theme_variant: Dark
 
 font:
-  size: 10 
+  size: 9.7
   normal:
     family: Source Code Pro
     # family: JetBrains Mono
