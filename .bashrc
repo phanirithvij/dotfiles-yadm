@@ -187,3 +187,8 @@ wal-tile() {
   # TODO prev, next keybinds
   feh --bg-center "$(< "${HOME}/.cache/wal/wal")"
 }
+
+
+# fzf
+
+source "$(dirname $(realpath $(which fzf)))/../share/fzf/key-bindings.bash"
