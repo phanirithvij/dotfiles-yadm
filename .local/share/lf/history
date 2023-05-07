@@ -65,3 +65,18 @@ $ mkdir -p bin/.local/bin
 : trash 
 : trash 
 : trash 
+$ nvim nvim-lastplace.lua
+: dragon
+: dragon
+: dragon
+: dragon
+: m
+: doc
+: dragon
+: dragon
+: dragon
+: dragon
+$ touch cpdragon
+$ touch mvdragon
+$ chmod +x $f
+$ chmod +x $f

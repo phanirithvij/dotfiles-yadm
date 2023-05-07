@@ -1,0 +1,9 @@
+#!/bin/sh
+files=$(dragon-drop -p -t -x)
+
+for file in $files
+do
+  name=$(basename "$file")
+  echo mv "$path" "$(pwd)/$name"
+done
+

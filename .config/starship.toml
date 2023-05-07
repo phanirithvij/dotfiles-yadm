@@ -32,15 +32,16 @@ disabled = true
 # ╀
 # https://www.w3.org/TR/xml-entity-names/026.html
 # ⚬ ⚫ ⚯  ⛮ ⛻ ⚉ ⚇ ⚹ ☍ ⚷ ⛏ ⚛ 
-# λ 🌀 ⌘ 
+# λ 🌀 ⌘  👽
 
 [character]
 #disabled = true
 #success_symbol = "[⋊>](bold cyan)"
 #success_symbol = "[λ](cyan)"
-success_symbol = "[⚉](cyan)"
+success_symbol = "[👽](cyan)"
+error_symbol = "[👽](red)"
 #success_symbol = "[](cyan)"
-error_symbol = "[⚇](red)"
+#error_symbol = "[⚇](red)"
 #error_symbol = "[](red)"
 #error_symbol = "[<⋉](bold red)"
 

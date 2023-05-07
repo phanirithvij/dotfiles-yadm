@@ -298,3 +298,19 @@ cmd telesplitstore ${{
 }}
 
 map <c-z> $ kill -STOP $PPID
+
+# https://sourcegraph.com/search?q=context:global+file:lfrc+dragon&patternType=standard&sm=1
+cmd dragon %dragon-drop -a -x $fx
+cmd dragon-stay %dragon-drop -a $fx
+cmd dragon-individual %dragon-drop $fx
+cmd cpdragon %cpdragon
+cmd mvdragon %mvdragon
+cmd dlfile %dlfile
+
+# Dragon Mapping
+map Dd dragon
+map Ds dragon-stay
+map Di dragon-individual
+map Dm $ ~/.config/lf/dragonmv
+map Dc $ ~/.config/lf/dragoncp
+
