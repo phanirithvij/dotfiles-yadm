@@ -2,16 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-#colorscript -r
-#colorscript -e panes
-#colorscript -e zwaves
-if [[ $TERM_PROGRAM != "tmux" ]]
-then
-#	colorscript -e thebat
-	NC='\033[0m'
-	echo -e "${NC}Welcome Rithvij!"
-fi
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
