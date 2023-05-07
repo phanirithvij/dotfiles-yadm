@@ -1,0 +1,19 @@
+session_name: 'redis'
+windows:
+- focus: 'true'
+  layout: 033f,160x40,0,0{80x40,0,0,0,79x40,81,0,1}
+  options: {}
+  panes:
+  - redis-tui
+  - redis-viewer 
+  start_directory: /home/rithviz
+  window_name: fish
+- layout: 6f52,160x40,0,0[160x30,0,0,2,160x9,0,31,3]
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: redis-cui
+  - iredis 
+  start_directory: /home/rithviz
+  window_name: redis-cui
+
