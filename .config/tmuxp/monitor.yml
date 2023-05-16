@@ -2,9 +2,11 @@ session_name: monitor
 windows:
 - focus: true
   suppress_history: true
-  layout: 5dff,160x39,0,0{97x39,0,0,3,62x39,98,0,4}
+  layout: 49ba,174x42,0,0{104x42,0,0,1,69x42,105,0[69x11,105,0,2,69x30,105,12,3]}
   options: {}
   panes:
+  - btop
+  - viddy -p -n 0.1 -c free -h
   - focus: true
-    shell_command: btop
-  - mem
+    shell_command: powertop
+

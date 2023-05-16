@@ -4,7 +4,7 @@ SETUVAR --export ANDROID_SDK_ROOT:/home/rithviz/Android/Sdk/
 SETUVAR --export BUKU_COLORS:gCdxe
 SETUVAR --export DIFFPROG:kompare
 SETUVAR --export DVM_DIR:/home/rithviz/\x2edvm
-SETUVAR --export EDITOR:micro
+SETUVAR --export EDITOR:nvim
 SETUVAR FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25
 SETUVAR FZF_DISABLE_KEYBINDINGS:0
 SETUVAR FZF_LEGACY_KEYBINDINGS:1

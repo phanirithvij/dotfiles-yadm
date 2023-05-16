@@ -5,7 +5,7 @@
 % tmuxp, load, session, sessions, tmux
 
 # Tmuxp open global project
-tmuxp load <tmuxp_session>
+tmuxp load -y <tmuxp_session>
 
 # Tmuxp open global project detatched
 tmuxp load -d <tmuxp_session>
@@ -21,7 +21,7 @@ $ tmuxp_session: tmuxp ls
 tmuxp load -d .
 
 # Tmuxp open local project
-tmuxp load .
+tmuxp load -y .
 
 # Tmuxp edit local project config
 tmuxp edit .
@@ -31,6 +31,11 @@ tmuxp freeze -o .tmuxp.yaml
 
 # Tmuxp freeze to global config dir
 tmuxp freeze -o ~/.config/tmuxp/<name>.yaml
+
+% tmuxp, monitor, sudo
+
+# monitor system resources sudo
+sudo tmuxp load -y $HOME/.config/tmuxp/monitor.yml
 
 ;
 ; ----------------- DMUX -----------------
