@@ -1,3 +1,5 @@
+pcall(require, "luarocks.loader")
+
 local awesome, client, screen = awesome, client, screen
 local ipairs, string, os, tostring, tonumber, type = ipairs, string, os, tostring, tonumber, type
 
