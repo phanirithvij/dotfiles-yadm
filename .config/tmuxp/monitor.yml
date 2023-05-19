@@ -9,4 +9,6 @@ windows:
   - viddy -p -n 0.1 -c free -h
   - focus: true
     shell_command: powertop
+- panes:
+  - s-tui
 

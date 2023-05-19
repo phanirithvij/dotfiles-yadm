@@ -195,7 +195,9 @@ theme.volume = lain.widget.alsa({
             volume_now.level = volume_now.level
             --volume_now.level = volume_now.level .. "M"
         end
-
+        if volume_now.level == nil then
+          volume_now.level = "N/A"
+        end
         widget:set_markup(markup.fontfg(theme.font, "#7493d2", volume_now.level .. "% "))
     end
 })
