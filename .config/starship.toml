@@ -14,7 +14,8 @@
 # $git_status\
 # """
 #format = "$character${custom.tmux}$directory$all"
-format = "${custom.tmux}$directory$all$character"
+format = "$directory$all${custom.char}"
+#format = "${custom.tmux}$directory$all$character"
 #format = "${custom.tmux}$character"
 
 # move the rest of the prompt to the right
@@ -32,10 +33,10 @@ disabled = true
 # ╀
 # https://www.w3.org/TR/xml-entity-names/026.html
 # ⚬ ⚫ ⚯  ⛮ ⛻ ⚉ ⚇ ⚹ ☍ ⚷ ⛏ ⚛ 
-# λ 🌀 ⌘  👽
+# λ 🌀 ⌘  👽 🫠
 
 [character]
-#disabled = true
+disabled = true
 #success_symbol = "[⋊>](bold cyan)"
 #success_symbol = "[λ](cyan)"
 success_symbol = "[👽](cyan)"
@@ -63,12 +64,18 @@ impure_msg = ''
 pure_msg = '[pure](bold green)'
 format = '[$symbol $state(\($name\))](bold blue) '
 
+[cmd_duration]
+format = '[$duration](bold yellow) '
+show_notifications = true
+min_time_to_notify = 30_000
+
 # https://sourcegraph.com/github.com/ono7/dotfiles2/-/blob/starship.toml?L51:3&subtree=true
-[custom.tmux]
-# command = "[[ $(tmux display-message -p '#{window_zoomed_flag}') -eq 1 ]] && echo 'tmux' || echo"
-# format = '[${output}]($style) '
-# when = true
+[custom.char]
+command = "[[ $(tmux display-message -p '#{window_zoomed_flag}') -eq 1 ]] && echo ' ⚫' || echo ⚬"
+format = '[$output](cyan) '
+when = true
 #when = "[[ $(tmux display-message -p '#{window_zoomed_flag}') -eq 1 ]]"
-when = "[[ -n $TMUX ]] && [[ $(redis-cli get tmux_zoomed) -eq 1 ]]"
-format = '[tx]($style) '
+#when = "[[ -n $TMUX ]] && [[ $(redis-cli get tmux_zoomed) -eq 1 ]]"
+#format = '[tx]($style) '
 shell = "sh"
+
