@@ -66,8 +66,8 @@ format = '[$symbol $state(\($name\))](bold blue) '
 
 [cmd_duration]
 format = '[$duration](bold yellow) '
-show_notifications = true
-min_time_to_notify = 30_000
+#show_notifications = true
+#min_time_to_notify = 60_000
 
 # https://sourcegraph.com/github.com/ono7/dotfiles2/-/blob/starship.toml?L51:3&subtree=true
 [custom.char]

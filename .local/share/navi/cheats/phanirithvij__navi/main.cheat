@@ -30,3 +30,8 @@ bash <own_dir>/scripts/upd.bash
 
 $own_dir: echo $(navi info cheats-path)/phanirithvij__navi
 
+% wifi, homewifi
+
+# Wifi sparkles
+echo $SPARKLES_WIFI_PASSWD | nmcli c up Sparkles --ask
+

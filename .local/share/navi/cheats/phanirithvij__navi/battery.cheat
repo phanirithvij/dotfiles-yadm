@@ -4,7 +4,7 @@
 sudo smbios-battery-ctl --set-charging-mode=(echo -e "standard\nadaptive\nprimarily_ac" | fzf) # not supported for my pc inspiron 7570
 
 # Set custom charge_mode
-sudo smbios-battery-ctl --set-charging-mode=custom --set-custom-charge-interval=<le> <gt>
+sudo smbios-battery-ctl --set-charging-mode=custom --set-custom-charge-interval=50 <gt>
 
 # Get charging config
 sudo smbios-battery-ctl --get-charging-cfg
