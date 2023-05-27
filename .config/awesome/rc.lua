@@ -1033,14 +1033,6 @@ globalkeys =
     -- Widgets popups
     awful.key(
         {altkey},
-        "c",
-        function()
-            lain.widget.cal.show(7)
-        end,
-        {description = "show calendar", group = "widgets"}
-    ),
-    awful.key(
-        {altkey},
         "h",
         function()
             if beautiful.fs then

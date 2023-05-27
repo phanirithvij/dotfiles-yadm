@@ -1,11 +1,11 @@
 session_name: diskmon 
 windows:
 - focus: 'true'
-  layout: 78d5,174x43,0,0[174x16,0,0{86x16,0,0,50,87x16,87,0,51},174x26,0,17,52]
+  layout: 02ca,174x43,0,0[174x30,0,0{77x30,0,0,1,96x30,78,0,5},174x12,0,31,3]
   options: {}
   panes:
-  - dfa
-  - dfh
+  - dfw
+  - pane
   - focus: 'true'
   window_name: diskmon
 
