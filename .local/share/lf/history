@@ -17,3 +17,5 @@ $ realpath $f
 $ realpath $f | wl-copy
 $ touch eww.yuck
 $ mkdir s
+$ micro $f
+$ micro $f

@@ -1,13 +1,11 @@
-session_name: updates
+session_name: diskmon 
 windows:
 - focus: 'true'
-  layout: 03fa,174x42,0,0{86x42,0,0[86x21,0,0,27,86x20,0,22,35],87x42,87,0[87x21,87,0,33,87x20,87,22,34]}
+  layout: 78d5,174x43,0,0[174x16,0,0{86x16,0,0,50,87x16,87,0,51},174x26,0,17,52]
   options: {}
   panes:
-  - shell_command: dff
+  - dfa
+  - dfh
   - focus: 'true'
-    shell_command: dfa
-  - shell_command: dffh
-  - shell_command: dfah
   window_name: diskmon
 
