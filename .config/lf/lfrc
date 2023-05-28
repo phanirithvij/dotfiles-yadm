@@ -12,6 +12,8 @@ set cleaner ctpvclear
 &ctpv -s $id
 &ctpvquit $id
 
+map <c-g> $navi
+
 # https://sourcegraph.com/github.com/lmburns/dotfiles/-/blob/.config/lf/lfrc?subtree=true
 # == Tagging == [[[
 map <c-_> mark-save
@@ -284,6 +286,18 @@ cmd trash %{{
 }}
 map <delete> :trash
 
+cmd telesplitpremium ${{
+    for f in $fx; do
+        echo 7z a -v4000m "$f.7z" "$f"
+        7z a -v4000m "$f.7z" "$f"
+    done
+}}
+cmd telesplitstorepremium ${{
+    for f in $fx; do
+        echo 7z a -v4000m -mx=0 "$f.7z" "$f"
+        7z a -v4000m -mx=0 "$f.7z" "$f"
+    done
+}}
 cmd telesplit ${{
     for f in $fx; do
         echo 7z a -v2000m "$f.7z" "$f"

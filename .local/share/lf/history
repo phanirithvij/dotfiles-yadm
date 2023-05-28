@@ -19,3 +19,15 @@ $ touch eww.yuck
 $ mkdir s
 $ micro $f
 $ micro $f
+: telesplitstore 
+: telesplitstorepremium 
+$ trash-empty -f
+$ gdu
+: telesplit
+: 7z x $f
+$ 7z x $f
+$ mkdir s1
+$ mkdir s3
+$ gdu
+: telesplitstorepremium 
+$ du -sh; sleep 3
