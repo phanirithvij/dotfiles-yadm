@@ -17,6 +17,7 @@ SETUVAR --export LOCALE_ARCHIVE_2_27:/nix/store/s3bf05my50y37v88mm6krs1x4s7399rn
 SETUVAR --export --path NIX_PATH:/home/rithviz/\x2enix\x2ddefexpr/channels
 SETUVAR --export --path PNPM_HOME:/home/rithviz/\x2elocal/share/pnpm
 SETUVAR --export SPARKLES_WIFI_PASSWD:air52206
+SETUVAR --export TPLINK_WIFI_PASSWD:65205907
 SETUVAR --export __HM_SESS_VARS_SOURCED:1
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_daleeidd_2F_natural_2D_selection_files:\x7e/\x2econfig/fish/functions/_natural_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_begin_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_end_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_get_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_is_selecting\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_kill_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_replace_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_wrap_selection\x2efish
