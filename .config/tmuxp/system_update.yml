@@ -2,11 +2,12 @@ session_name: updates
 windows:
 - focus: true
   suppress_history: false
-  layout: "8f20,160x39,0,0{79x39,0,0,23,80x39,80,0[80x19,80,0,26,80x9,80,20,27,80x9,80,30,28]}"
+  layout: ada9,174x43,0,0{106x43,0,0[106x18,0,0,2,106x24,0,19,6],67x43,107,0[67x17,107,0,3,67x14,107,18,7,67x10,107,33,5]}
   options: {}
   panes:
     - shell_command: "clear; topgrade --skip-notify --disable chezmoi --disable-predefined-git-repos --no-retry"
       focus: true
+    - btop
     - shell_command: "clear; pacui"
     - shell_command: "python -m pip install -U wheel pip pipx && exit"
     - shell_command: "nixfd && exit"

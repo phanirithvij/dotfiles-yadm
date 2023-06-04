@@ -1,5 +1,5 @@
-nodejs     16.16.0
-python     3.11.1
+nodejs     16.20.0
+python     3.11.3
 lazydocker 0.20.0
-direnv     2.32.2
+direnv     2.32.3
 zig        0.10.1

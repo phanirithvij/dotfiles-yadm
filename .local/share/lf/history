@@ -50,3 +50,58 @@ $ rm -rf $f
 $ mkdir CollegeShit
 : telesplitstorepremium 
 $ rm $f
+$ mkdir linuxisfull
+$ file $f
+$ ln -s x y
+$ ln -s /home/rithviz/.local/share/rtx/installs/python/3.11.1/bin/python
+$ ln -s /home/rithviz/.local/share/rtx/installs/python/3.11.1/bin/python
+$ ln -s /home/rithviz/.local/share/rtx/installs/python/3.11.1/bin/python
+$ ln -s /home/rithviz/.local/share/rtx/installs/python/3.11.1/bin/python
+$ mkdir linuxisfullD
+$ ffprobe $f & sleep 33
+$ touch espanso.cheat
+$ python -m venv venv
+$ 7z x $f
+$ echo "$f"
+$ echo "$(basename $f)"
+$ echo "$(basename $f)" | xclip -sel clipboard
+$ echo "`$(basename $f)`" | xclip -sel clipboard
+$ echo "\`$(basename $f)\`" | xclip -sel clipboard
+$ echo "\`$(basename $f)\`" | xclip -sel clipboard
+$ mpv $f
+$ echo $id
+$ echo $id
+$ echo $id
+$ echo $id
+$ echo $id
+$ lf -remote "send $id echo 444"
+$ touch lf.cheat
+$ echo "\`$(basename $f)\`" | xclip -sel clipboard
+$ echo $f | xclip -sel clipboard
+$ echo $f | xclip -sel clipboard
+$ ./python -m pip install -U pip
+$ ln -s /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
