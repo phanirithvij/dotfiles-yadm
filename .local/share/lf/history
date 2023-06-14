@@ -126,3 +126,5 @@ $ touch .gitignore
 $ touch gdu.cheat
 $ touch tmuxp_gen.bash
 $ chmod +x $f
+: q
+: q
