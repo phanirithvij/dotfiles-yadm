@@ -12,7 +12,7 @@
 
   home.packages = [
     pkgs.air #reload go run
-    #pkgs.asdf-vm #package version manager
+    #pkgs.asdf-vm #package version manager, using rtx now
     pkgs.babelfish #bash to fish
     pkgs.bat #fancy cat
     pkgs.btop #fancy process manager like htop
@@ -48,6 +48,7 @@
     pkgs.macchina #neofetch alternative
     pkgs.onefetch #neofetch like tool for git repos
     pkgs.p7zip #7z cli
+    pkgs.pulumi # TODO testdrive
     pkgs.pv #progress vizualized
     pkgs.qbittorrent
     pkgs.qcomicbook
@@ -58,6 +59,7 @@
     pkgs.ripgrep #modern grep cli
     pkgs.rnote #note taking
     pkgs.rustup #cargo, rust
+    pkgs.rtx # package version manager for linux asdf rust clone
     pkgs.screenfetch #neofetch alternative
     pkgs.starship #prompt custom
     pkgs.sysz #systemctl tui
@@ -68,6 +70,7 @@
     pkgs.ulauncher
     pkgs.viddy #watch alternative
     pkgs.wtf #fancy dashboard tui
+    pkgs.xplr # TODO something temp, remove later
     pkgs.yq #yaml cli
     pkgs.yadm #dotfile manager
     pkgs.zoxide #directory bookmarks and sort by most frequently used

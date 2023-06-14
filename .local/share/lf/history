@@ -122,3 +122,7 @@ $ ln -s busybox x
 $ touch main.py
 $ touch README.md
 $ touch .gitignore
+: q
+$ touch gdu.cheat
+$ touch tmuxp_gen.bash
+$ chmod +x $f
