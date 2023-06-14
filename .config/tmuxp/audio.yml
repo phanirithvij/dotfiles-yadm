@@ -2,10 +2,8 @@ session_name: audio
 windows:
 - focus: true
   suppress_history: false
-  layout: "166d,160x39,0,0[160x19,0,0,0,160x19,0,20{80x19,0,20,6,79x19,81,20,7}]"
   options: {}
   panes:
-    - navi --query dmuxaudio
     - shell_command: "pulsemixer"
       focus: true
     - bluetuith

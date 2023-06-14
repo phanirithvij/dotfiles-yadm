@@ -105,3 +105,20 @@ $ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
 $ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
 $ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
 $ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ ln -s -f /home/rithviz/.local/share/rtx/installs/python/3.11.3/bin/python
+$ mkdir temp
+$ tar xf $f
+$ rm $f
+$ ln -s busybox x
+$ touch main.py
+$ touch README.md
+$ touch .gitignore
