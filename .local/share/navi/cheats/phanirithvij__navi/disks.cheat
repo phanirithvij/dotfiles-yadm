@@ -1,0 +1,25 @@
+% gdu, disks, analyze
+
+# gdu frequently used
+eval $(history | rg gdu | fzf)
+
+# gdu root
+sudo gdu -x /
+
+# gdu nix
+gdu -x /nix/store/
+
+# gdu SSD inspiron
+gdu -x /media/rithviz/OS
+
+# gdu HDD inspiron
+gdu -x /media/rithviz/Storage/
+
+# gdu full
+sudo gdu /
+
+# gdu current directory
+gdu -x .
+
+# tmuxp
+

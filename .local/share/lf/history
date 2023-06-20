@@ -128,3 +128,22 @@ $ touch tmuxp_gen.bash
 $ chmod +x $f
 : q
 : q
+$ touch gen.sh
+$ chmod +x $f
+$ ./gen.sh
+$ git pull
+$ mkdir GitHUB
+$ gitbatch
+$ git pull
+$ lazygit
+$ git pull
+$ git pull
+$ git pull
+$ git pull
+$ git pull
+: telesplitstorepremium 
+: telesplitstorepremium 
+: Dd
+: D
+: Dd
+$ 7z x $f

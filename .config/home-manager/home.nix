@@ -21,8 +21,9 @@
     pkgs.difftastic #fancy diff
     pkgs.duf #fancy du
     pkgs.eget #download binaries from github releases
+    pkgs.espanso # TODO on wayland it is espanso-wayland
     pkgs.exa #fancy ls
-    pkgs.exercism
+    pkgs.exercism # TODO remove, some progamming exercises or shit
     pkgs.fzf #fuzzy file finder
     pkgs.gdu #disk usage analyzer tui
     pkgs.gh #github api cli, dl releases, checkout prs etc
@@ -67,7 +68,7 @@
     pkgs.tmate #share ssh with tmux
     pkgs.tmux #no nohup
     pkgs.unar #rar format
-    pkgs.ulauncher
+    pkgs.ulauncher # TODO remove after checking if useful alts rofi, dmenu, voidlinux-youtuber-dotfiles, espanso
     pkgs.viddy #watch alternative
     pkgs.wtf #fancy dashboard tui
     pkgs.xplr # TODO something temp, remove later

@@ -1,0 +1,12 @@
+% lfremote, lf
+
+; run these inside lf with ctrl + g binding bind to navi
+; then they get access to $id variable which corresponds
+; to the current open lf instance
+
+# lf remote send
+lf -remote "send $id <command>"
+
+# lf remote send shell
+lf -remote "send $id $ <command>"
+

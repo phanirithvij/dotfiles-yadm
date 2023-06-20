@@ -1,0 +1,5 @@
+% simkl, expand, date, copy
+
+# Copy date to clipboard
+date +%H%M-%d-%m-%Y | tr '\n' ' ' | xclip -sel clipboard
+
