@@ -147,3 +147,10 @@ $ git pull
 : D
 : Dd
 $ 7z x $f
+$ mkdir saul
+$ mkdir dexter
+$ mkdir black-mirror
+$ mv $f corrupted_$f
+$ mv "$f" "corrupted_$f"
+$ mv "$f" "corrupted_$(basename $f)"
+$ mv "$f" "corrupted_$(basename $f)"
