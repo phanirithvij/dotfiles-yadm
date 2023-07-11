@@ -1,6 +1,10 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/rithviz/Projects/git-bug
+- /home/rithviz/Projects/shell-or-linuxspecific/jped-dotfiles-fish-unicode
+- /home/rithviz/Projects/shell-or-linuxspecific/devour
+- /media/rithviz/Storage/ansible-wininit
+- /home/rithviz/Desktop/ansible_pde
+- /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
 - /media/rithviz/Storage/Images/GitHUB/arcolinux-wallpapers
 - /home/rithviz/temp/jioplansworthit
 - /home/rithviz/Projects/golang/awesome-go/awesome-go
@@ -25,7 +29,6 @@ recentrepos:
 - /home/rithviz/Projects/rusty/gamepad_test/MoltenGamepad
 - /home/rithviz/Projects/rusty/gamepad_test/sdl-jstest
 - /home/rithviz/Projects/rusty/topgrade
-- /home/rithviz/Desktop/ansible_pde
 - /home/rithviz/Projects/rusty/blog_os
 - /home/rithviz/.config/awesome/lain
 - /home/rithviz/.config/awesome/lain/wiki
@@ -35,7 +38,6 @@ recentrepos:
 - /home/rithvij/dotfilesmy/main
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
 - /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
-- /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
 - /home/rithviz/Projects/recovery_tools/medicat_installer
 - /media/rithviz/Storage/Projects/Knowledge
 - /home/rithviz/Projects/pythone/ansible-trial

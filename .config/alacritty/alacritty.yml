@@ -1,0 +1,68 @@
+import:
+  - ~/.config/alacritty/font.yml
+  - ~/.config/alacritty/colors.yml
+
+env:
+    TERM: xterm-256color
+    # TERM: alacritty
+
+window:
+  opacity: 0.7
+  decorations: none
+  dynamic_title: true
+  #startup_mode: Maximized
+  startup_mode: Fullscreen
+  decorations_theme_variant: Dark
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+scrolling:
+  history: 9000
+
+cursor:
+  style: 
+    shape: Underline
+    blinking: On
+
+  blink_interval: 750
+
+  unfocused_hollow: true
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: true
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
+
+# https://github.com/alacritty/alacritty/issues/4451#issuecomment-854867389
+key_bindings:
+  - { key: Tab, mods: Control, chars: "\x1b[27;5;9~" }
+  - { key: Tab, mods: Control|Shift, chars: "\x1b[27;6;9~"}
+
+# jdpedersen1 dotfiles
+# key_bindings:
+  # (Windows, Linux, and BSD only)
+  # - { key: V,        mods: Control|Shift, action: Paste            }
+  # - { key: C,        mods: Control|Shift, action: Copy             }
+  # - { key: Insert,   mods: Shift,         action: PasteSelection   }
+  # - { key: Key0,     mods: Control,       action: ResetFontSize    }
+  # - { key: Equals,   mods: Control,       action: IncreaseFontSize }
+  # - { key: Minus,    mods: Control,       action: DecreaseFontSize }
+
+  # - { key: L,         mods: Control, action: ClearLogNotice                   }
+  # - { key: L,         mods: Control, chars: "\x0c"                            }
+  # - { key: PageUp,    mods: Shift,   action: ScrollPageUp,   mode: ~Alt       }
+  # - { key: PageDown,  mods: Shift,   action: ScrollPageDown, mode: ~Alt       }
+  # - { key: Home,      mods: Shift,   action: ScrollToTop,    mode: ~Alt       }
+  # - { key: End,       mods: Shift,   action: ScrollToBottom, mode: ~Alt       }
+
+#shell:
+#  program: fish
+#  args:
+#    - -c
+#    - tmux attach || tmux
+

@@ -154,3 +154,14 @@ $ mv $f corrupted_$f
 $ mv "$f" "corrupted_$f"
 $ mv "$f" "corrupted_$(basename $f)"
 $ mv "$f" "corrupted_$(basename $f)"
+$ mkdir sense8-os
+$ mv "$f" "corrupted_$(basename $f)"
+: telesplitpremium 
+$ mkdir MIAccountBackups
+$ mkdir 9010
+$ rm $f
+$ mkdir contacts
+$ mkdir recordings
+$ mkdir ansible-uis
+$ touch requirements.txt
+$ mkdir alacritty
