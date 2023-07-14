@@ -11,6 +11,12 @@ firefox & disown; tmux splitw; exit
 # Telegram detatched
 telegram-desktop & disown; tmux splitw; exit
 
+# Gnome disks detatched
+gnome-disks & disown; tmux splitw; exit
+
+# Wezterm
+wezterm-gui &
+
 % navi, edit, cheats
 
 # Edit navi any cheat choose one

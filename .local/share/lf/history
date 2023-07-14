@@ -165,3 +165,23 @@ $ mkdir recordings
 $ mkdir ansible-uis
 $ touch requirements.txt
 $ mkdir alacritty
+$ touch ara.yml
+$ touch ara.yml
+$ micro $g
+$ micro $f
+$ mkdir tmp
+$ touch termux.yml
+$ micro $f
+$ cd wez
+$ mkdir wezterm
+$ ln -s pip pipx
+$ ln -s pipc pip
+$ ln -s pip pipx
+$ ln -s pip pipc
+$ ln -s pip pipc
+$ ln -s pip pip3
+$ ln -s pip3.11 pip3
+$ ln -s pip3.11 pip
+$ chmod +x $f
+$ chmod +x $f
+$ chmod +x $f

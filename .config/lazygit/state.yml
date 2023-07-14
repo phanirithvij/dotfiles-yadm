@@ -1,5 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/alpine-setup
 - /home/rithviz/Projects/shell-or-linuxspecific/jped-dotfiles-fish-unicode
 - /home/rithviz/Projects/shell-or-linuxspecific/devour
 - /media/rithviz/Storage/ansible-wininit
@@ -21,7 +22,6 @@ recentrepos:
 - /home/rithviz/Projects/rusty/navi-cheats
 - /home/rithviz/Projects/rusty/navi
 - /home/rithviz/ctpv
-- /home/rithviz/alpine-setup
 - /home/rithviz/Projects/91ff81bd945eb8f1e6af08492a13ff75
 - /home/rithviz/Projects/rusty/flux
 - /home/rithviz/Projects/recovery_tools/ipxe_wifi/ipxe-simple
