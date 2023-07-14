@@ -93,7 +93,8 @@ local editorgui = "geany"
 --local mailclient = "geary"
 local mediaplayer = "mpv"
 --local scrlocker = "slimlock"
-local terminal = "alacritty"
+-- local terminal = "alacritty"
+local terminal = "wezterm"
 -- local terminal = "kitty"
 --local virtualmachine = "virtualbox"
 
@@ -433,7 +434,9 @@ globalkeys =
     awful.key(
       {altkey}, "b",
       function()
-          awful.util.spawn("fish -c ~/.local/bin/bukuadd")
+          -- awful.util.spawn("fish -c ~/.local/bin/bukuadd")
+          -- awful.util.spawn("sh /home/rithviz/Projects/shell-or-linuxspecific/devour/edit_configs_jdpedersen1.sh")
+          awful.util.spawn("sh /home/rithviz/Projects/shell-or-linuxspecific/devour/launch_jdpedersen1.sh")
       end,
       {description = "buku add bookmark from clipboard", group = "hotkeys"}
     ),

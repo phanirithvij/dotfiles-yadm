@@ -60,7 +60,7 @@
     pkgs.ripgrep #modern grep cli
     pkgs.rnote #note taking
     pkgs.rustup #cargo, rust
-    pkgs.rtx # package version manager for linux asdf rust clone
+    #pkgs.rtx # package version manager for linux asdf rust clone (now installing via cargo as nix version is behind)
     pkgs.screenfetch #neofetch alternative
     pkgs.starship #prompt custom
     pkgs.sysz #systemctl tui
