@@ -7,7 +7,7 @@ env:
     # TERM: alacritty
 
 window:
-  opacity: 0.7
+  opacity: 0.6
   decorations: none
   dynamic_title: true
   #startup_mode: Maximized
