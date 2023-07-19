@@ -185,3 +185,8 @@ $ ln -s pip3.11 pip
 $ chmod +x $f
 $ chmod +x $f
 $ chmod +x $f
+$ lazygit
+$ lazygit
+$ lazygit
+$ chmod +x
+$ chmod +x $f
