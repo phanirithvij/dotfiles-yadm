@@ -1,0 +1,27 @@
+session_name: ansible
+windows:
+- layout: 8597,172x39,0,0{85x39,0,0,1,86x39,86,0,2}
+  options: {}
+  suppress_history: false
+  panes:
+  - focus: 'true'
+    shell_command:
+    - cd /home/rithviz/Projects/virtualboxes/vagrant_sample
+    - lf
+  - shell_command:
+    - cd /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
+    - lf
+  window_name: lf
+- layout: 85a0,172x39,0,0{85x39,0,0,3,86x39,86,0,4}
+  options: {}
+  suppress_history: false
+  panes:
+  - focus: 'true'
+    shell_command:
+    - cd /home/rithviz/alpine-setup
+    - lf
+  - shell_command:
+    - cd /home/rithviz/Projects/pythone/ansible-trial
+    - lf
+  window_name: lf
+

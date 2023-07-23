@@ -1,7 +1,3 @@
-: q
-$ touch printatbott.sh
-$ lazygit
-$ lazygit
 $ touch battery.chear
 $ rm -r 5.1
 $ micro PKGBUILD
@@ -190,3 +186,5 @@ $ lazygit
 $ lazygit
 $ chmod +x
 $ chmod +x $f
+$ go build -x -ldflags='-s -w' handler.go
+$ mkdir Movies
