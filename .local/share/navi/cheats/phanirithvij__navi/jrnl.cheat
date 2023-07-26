@@ -21,7 +21,7 @@ jrnl <tags_or>--edit
 jrnl <tags_and>--edit
 
 # Search day by day edit
-jrnl -on $(jrnl --short | awk '{print $1}' | sort -r | uniq | fzf --preview "jrnl -on {} --format boxed 2> /dev/null" --preview-window "right:52%") --edit
+jrnl -on $(jrnl --short 2>/dev/null | awk '{print $1}' | sort -r | uniq | fzf --preview "jrnl -on {} --format boxed 2> /dev/null" --preview-window "right:52%") --edit
 
 ;jrnl $(jrnl --tags | awk '{print $1}' | fzf --multi --preview "jrnl {} --format boxed 2> /dev/null" --preview-window "right:52%") --edit
 
