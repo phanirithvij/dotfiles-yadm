@@ -1,125 +1,125 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/rithviz/Projects/golang/serftest/serf
-- /home/rithviz/Projects/virtualboxes/vagrant_sample
-- /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
-- /media/rithviz/Storage/Projects/Fun/virtualboxes/skydive
-- /media/rithviz/Storage/Projects/Fun/virtualboxes/debops
-- /home/rithviz/alpine-setup
-- /home/rithviz/Projects/shell-or-linuxspecific/jped-dotfiles-fish-unicode
-- /home/rithviz/Projects/shell-or-linuxspecific/devour
-- /media/rithviz/Storage/ansible-wininit
-- /home/rithviz/Desktop/ansible_pde
-- /media/rithviz/Storage/Images/GitHUB/arcolinux-wallpapers
-- /home/rithviz/temp/jioplansworthit
-- /home/rithviz/Projects/golang/awesome-go/awesome-go
-- /home/rithviz/.config/nvim
-- /home/rithviz/Projects/shell-or-linuxspecific/h-m-m
-- /media/rithviz/Storage/Projects/Fun/c++/MakePyinstallerSample
-- /media/rithviz/Storage/Projects/Fun/c++/kabmat
-- /home/rithviz/.local/share/navi/cheats/phanirithvij__navi
-- /home/rithviz/Projects/golang/madlad/qrcodeff
-- /home/rithviz/Projects/shell-or-linuxspecific/GtkExperiments
-- /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseServer
-- /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseClient
-- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
-- /home/rithviz/Projects/rusty/navi-cheats
-- /home/rithviz/Projects/rusty/navi
-- /home/rithviz/ctpv
-- /home/rithviz/Projects/91ff81bd945eb8f1e6af08492a13ff75
-- /home/rithviz/Projects/rusty/flux
-- /home/rithviz/Projects/recovery_tools/ipxe_wifi/ipxe-simple
-- /home/rithviz/Projects/nodejs/joystick-keyboards/Jeight
-- /home/rithviz/Projects/rusty/gamepad_test/MoltenGamepad
-- /home/rithviz/Projects/rusty/gamepad_test/sdl-jstest
-- /home/rithviz/Projects/rusty/topgrade
-- /home/rithviz/Projects/rusty/blog_os
-- /home/rithviz/.config/awesome/lain
-- /home/rithviz/.config/awesome/lain/wiki
-- /home/rithviz/Projects/rusty/Rocket
-- /home/rithviz/go/src/github.com/esimov/caire
-- /home/rithviz/Projects/golang/go-clean-template
-- /home/rithvij/dotfilesmy/main
-- /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
-- /home/rithviz/Projects/recovery_tools/medicat_installer
-- /media/rithviz/Storage/Projects/Knowledge
-- /home/rithviz/Projects/pythone/ansible-trial
-- /home/rithviz/Projects/pythone/pipxgitfive/Levenshtein
-- /home/rithviz/Projects/WikiDumps/mediawiki
-- /home/rithviz/Projects/temp/sqlcipher
-- /home/rithviz/Projects/temp/pysqlcipher3
-- /home/rithviz/Projects/temp/peewee
-- /home/rithviz/Projects/shell-or-linuxspecific/rofi
-- /home/rithviz/Projects/shell-or-linuxspecific/pipes.sh
-- /home/rithviz/Projects/pythone/tgcftemp/tgcf
-- /home/rithviz/Projects/pythone/telemirror
-- /home/rithviz/Projects/pythone/simplerecon
-- /home/rithviz/Projects/pythone/RustPython
-- /home/rithviz/Projects/pythone/mitmproxy
-- /home/rithviz/Projects/pythone/minedojocolab/MineDojo
-- /home/rithviz/Projects/pythone/librephotos-docker
-- /home/rithviz/Projects/pythone/label-studio
-- /home/rithviz/Projects/Personal/learning/typing_reading/readshitfaster
-- /home/rithviz/Projects/Personal/learning/typing_reading/jiffyreader.com
-- /home/rithviz/Projects/Personal/gh-tg-archive
-- /home/rithviz/Projects/nodejs/dom-to-image-more
-- /home/rithviz/Projects/nodejs/Diskernet
-- /home/rithviz/Projects/golang/xelaj-mtproto
-- /home/rithviz/Projects/golang/web-workers-demo
-- /home/rithviz/Projects/golang/teamgram-server
-- /home/rithviz/Projects/golang/heap-issue
-- /home/rithviz/Projects/golang/go-sixel
-- /home/rithviz/Projects/golang/go-clean-arch
-- /home/rithviz/Projects/golang/go-bluetooth
-- /home/rithviz/Projects/golang/go-binsize-viz
-- /home/rithviz/Projects/golang/gingorm
-- /home/rithviz/Projects/golang/gdu
-- /home/rithviz/Projects/golang/cirrusclitests/cirrus-ci-docs
-- /home/rithviz/Projects/golang/awesome-go/usestdlibvars
-- /home/rithviz/Projects/golang/awesome-go/sake
-- /home/rithviz/Projects/golang/awesome-go/gdcache
-- /home/rithviz/Projects/cpporc/window_move/mpv-config
-- /home/rithviz/Projects/cpporc/libsixel
-- /home/rithviz/Projects/cpporc/glfw
-- /home/rithviz/Projects/androidp/slides-remote
-- /home/rithviz/Projects/rusty/autojump-rs/autojump-rs
-- /media/rithviz/Storage/Projects/Fun/pythone/GitFive
-- /home/rithviz/Projects/golang/madlad/qrcodeff/Piped-Docker
-- /home/rithviz/Projects/golang/madlad/qrcodeff/homer/homer-src
-- /home/rithviz/Projects/golang/madlad/qrcodeff/tmate/tmate-docker-compose
-- /home/rithviz/Projects/golang/madlad/qrcodeff/weboas-is
-- /media/rithviz/Storage/Software/apktool/novelfullapp
-- /home/rithviz/.dotfiles/personal
-- /home/rithviz/Projects/rusty/bevy
-- /media/rithviz/Storage/Projects/Tracker/music/zotify
-- /home/rithviz/.local/share/chezmoi
-- /media/rithviz/Storage/Comics/komga
-- /home/rithviz/Projects/golang/madlad/iredmaildocker
-- /media/rithviz/Storage/Images/pallete/pallete-theme
-- /media/rithviz/Storage/Podcasts/timesuck-archive
-- /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
-- /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
-- /home/rithviz/.dotfiles
-- /home/rithviz/Music/Podcasts/timesuck-archive
-- /media/rithviz/Storage/Projects/Fun/pythone/tgcf
-- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
-- /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
-- /home/rithviz/Downloads/perkeep/gphotos-cdp
-- /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
-- /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
-- /home/rithviz/.dotfiles/others/dt-dotfiles
-- /media/rithviz/Storage/Projects/Fun/bots/telemirror
-- /home/rithviz/go/src/git.sr.ht/~kisom/goutils
+    - /home/rithviz/Projects/golang/serftest/serf
+    - /home/rithviz/Projects/virtualboxes/vagrant_sample
+    - /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
+    - /media/rithviz/Storage/Projects/Fun/virtualboxes/skydive
+    - /media/rithviz/Storage/Projects/Fun/virtualboxes/debops
+    - /home/rithviz/alpine-setup
+    - /home/rithviz/Projects/shell-or-linuxspecific/jped-dotfiles-fish-unicode
+    - /home/rithviz/Projects/shell-or-linuxspecific/devour
+    - /media/rithviz/Storage/ansible-wininit
+    - /home/rithviz/Desktop/ansible_pde
+    - /media/rithviz/Storage/Images/GitHUB/arcolinux-wallpapers
+    - /home/rithviz/temp/jioplansworthit
+    - /home/rithviz/Projects/golang/awesome-go/awesome-go
+    - /home/rithviz/.config/nvim
+    - /home/rithviz/Projects/shell-or-linuxspecific/h-m-m
+    - /media/rithviz/Storage/Projects/Fun/c++/MakePyinstallerSample
+    - /media/rithviz/Storage/Projects/Fun/c++/kabmat
+    - /home/rithviz/.local/share/navi/cheats/phanirithvij__navi
+    - /home/rithviz/Projects/golang/madlad/qrcodeff
+    - /home/rithviz/Projects/shell-or-linuxspecific/GtkExperiments
+    - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseServer
+    - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseClient
+    - /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
+    - /home/rithviz/Projects/rusty/navi-cheats
+    - /home/rithviz/Projects/rusty/navi
+    - /home/rithviz/ctpv
+    - /home/rithviz/Projects/91ff81bd945eb8f1e6af08492a13ff75
+    - /home/rithviz/Projects/rusty/flux
+    - /home/rithviz/Projects/recovery_tools/ipxe_wifi/ipxe-simple
+    - /home/rithviz/Projects/nodejs/joystick-keyboards/Jeight
+    - /home/rithviz/Projects/rusty/gamepad_test/MoltenGamepad
+    - /home/rithviz/Projects/rusty/gamepad_test/sdl-jstest
+    - /home/rithviz/Projects/rusty/topgrade
+    - /home/rithviz/Projects/rusty/blog_os
+    - /home/rithviz/.config/awesome/lain
+    - /home/rithviz/.config/awesome/lain/wiki
+    - /home/rithviz/Projects/rusty/Rocket
+    - /home/rithviz/go/src/github.com/esimov/caire
+    - /home/rithviz/Projects/golang/go-clean-template
+    - /home/rithvij/dotfilesmy/main
+    - /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
+    - /home/rithviz/Projects/recovery_tools/medicat_installer
+    - /media/rithviz/Storage/Projects/Knowledge
+    - /home/rithviz/Projects/pythone/ansible-trial
+    - /home/rithviz/Projects/pythone/pipxgitfive/Levenshtein
+    - /home/rithviz/Projects/WikiDumps/mediawiki
+    - /home/rithviz/Projects/temp/sqlcipher
+    - /home/rithviz/Projects/temp/pysqlcipher3
+    - /home/rithviz/Projects/temp/peewee
+    - /home/rithviz/Projects/shell-or-linuxspecific/rofi
+    - /home/rithviz/Projects/shell-or-linuxspecific/pipes.sh
+    - /home/rithviz/Projects/pythone/tgcftemp/tgcf
+    - /home/rithviz/Projects/pythone/telemirror
+    - /home/rithviz/Projects/pythone/simplerecon
+    - /home/rithviz/Projects/pythone/RustPython
+    - /home/rithviz/Projects/pythone/mitmproxy
+    - /home/rithviz/Projects/pythone/minedojocolab/MineDojo
+    - /home/rithviz/Projects/pythone/librephotos-docker
+    - /home/rithviz/Projects/pythone/label-studio
+    - /home/rithviz/Projects/Personal/learning/typing_reading/readshitfaster
+    - /home/rithviz/Projects/Personal/learning/typing_reading/jiffyreader.com
+    - /home/rithviz/Projects/Personal/gh-tg-archive
+    - /home/rithviz/Projects/nodejs/dom-to-image-more
+    - /home/rithviz/Projects/nodejs/Diskernet
+    - /home/rithviz/Projects/golang/xelaj-mtproto
+    - /home/rithviz/Projects/golang/web-workers-demo
+    - /home/rithviz/Projects/golang/teamgram-server
+    - /home/rithviz/Projects/golang/heap-issue
+    - /home/rithviz/Projects/golang/go-sixel
+    - /home/rithviz/Projects/golang/go-clean-arch
+    - /home/rithviz/Projects/golang/go-bluetooth
+    - /home/rithviz/Projects/golang/go-binsize-viz
+    - /home/rithviz/Projects/golang/gingorm
+    - /home/rithviz/Projects/golang/gdu
+    - /home/rithviz/Projects/golang/cirrusclitests/cirrus-ci-docs
+    - /home/rithviz/Projects/golang/awesome-go/usestdlibvars
+    - /home/rithviz/Projects/golang/awesome-go/sake
+    - /home/rithviz/Projects/golang/awesome-go/gdcache
+    - /home/rithviz/Projects/cpporc/window_move/mpv-config
+    - /home/rithviz/Projects/cpporc/libsixel
+    - /home/rithviz/Projects/cpporc/glfw
+    - /home/rithviz/Projects/androidp/slides-remote
+    - /home/rithviz/Projects/rusty/autojump-rs/autojump-rs
+    - /media/rithviz/Storage/Projects/Fun/pythone/GitFive
+    - /home/rithviz/Projects/golang/madlad/qrcodeff/Piped-Docker
+    - /home/rithviz/Projects/golang/madlad/qrcodeff/homer/homer-src
+    - /home/rithviz/Projects/golang/madlad/qrcodeff/tmate/tmate-docker-compose
+    - /home/rithviz/Projects/golang/madlad/qrcodeff/weboas-is
+    - /media/rithviz/Storage/Software/apktool/novelfullapp
+    - /home/rithviz/.dotfiles/personal
+    - /home/rithviz/Projects/rusty/bevy
+    - /media/rithviz/Storage/Projects/Tracker/music/zotify
+    - /home/rithviz/.local/share/chezmoi
+    - /media/rithviz/Storage/Comics/komga
+    - /home/rithviz/Projects/golang/madlad/iredmaildocker
+    - /media/rithviz/Storage/Images/pallete/pallete-theme
+    - /media/rithviz/Storage/Podcasts/timesuck-archive
+    - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/public
+    - /media/rithviz/Storage/Projects/Knowledge/blog/myblogs/themes/m10c
+    - /home/rithviz/.dotfiles
+    - /home/rithviz/Music/Podcasts/timesuck-archive
+    - /media/rithviz/Storage/Projects/Fun/pythone/tgcf
+    - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action
+    - /media/rithviz/Storage/Projects/Fun/pythone/tgcf-on-gh-action/.github/actions/tgcf-remote
+    - /home/rithviz/Downloads/perkeep/gphotos-cdp
+    - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles/tree-sitter/.config/tree-sitter/tree-sitter-lua
+    - /home/rithviz/.dotfiles/others/theprimeagen-dotfiles
+    - /home/rithviz/.dotfiles/others/dt-dotfiles
+    - /media/rithviz/Storage/Projects/Fun/bots/telemirror
+    - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 startuppopupversion: 5
 customcommandshistory:
-- git rebase --continue
-- touch .gitignore
-- git commit --amend
-- git reset --soft HEAD~1
-- git stash
-- git undo
-- lf
-- onefetch
-- kabmat
-- rm .git/index.lock
+    - git rebase --continue
+    - touch .gitignore
+    - git commit --amend
+    - git reset --soft HEAD~1
+    - git stash
+    - git undo
+    - lf
+    - onefetch
+    - kabmat
+    - rm .git/index.lock
 hidecommandlog: false
