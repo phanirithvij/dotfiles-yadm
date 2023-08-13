@@ -57,7 +57,7 @@ config.launch_menu = {}
 config.show_new_tab_button_in_tab_bar = false
 
 -- #tab_bar_maker
-config.enable_tab_bar = false
+config.enable_tab_bar = true
 
 -- https://wezfurlong.org/wezterm/config/appearance.html#retro-tab-bar-appearance
 config.colors = {
