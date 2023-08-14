@@ -5,9 +5,9 @@ windows:
   panes:
   - focus: 'true'
     shell_command:
-    - cd /media/rithviz/Storage/Projects/Android/Serfer
+    - cd /media/rithviz/Storage/Projects/Android/Serfer; clear; lf
   - shell_command:
-    - cd /home/rithviz/Projects/golang/serftest
+    - cd /home/rithviz/Projects/golang/serftest; clear; lf
   window_name: fish
 - layout: d1bf,192x49,0,0,2
   options: {}
@@ -15,3 +15,4 @@ windows:
   - focus: 'true'
   start_directory: /home/rithviz/Projects/golang/serftest/serf
   window_name: fish
+

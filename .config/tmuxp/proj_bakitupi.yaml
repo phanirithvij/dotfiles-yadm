@@ -1,0 +1,18 @@
+session_name: 'bakitupi'
+windows:
+- layout: ba3d,174x43,0,0,0
+  focus: 'true'
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: lf
+  start_directory: /media/rithviz/Storage/Projects/Fun/gogo/bakitupi/cmd/bkup
+  window_name: lf
+- layout: ba3e,174x43,0,0,1
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: lf
+  start_directory: /media/rithviz/Storage/Projects/Fun/gogo/duf
+  window_name: lf
+
