@@ -116,15 +116,15 @@ recentrepos:
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 startuppopupversion: 5
 customcommandshistory:
-- rm .git/index.lock
-- kabmat
-- onefetch
-- lf
-- git undo
-- git stash
-- git reset --soft HEAD~1
-- git commit --amend
-- touch .gitignore
 - git rebase --continue
+- touch .gitignore
+- git commit --amend
+- git reset --soft HEAD~1
+- git stash
+- git undo
+- lf
+- onefetch
+- kabmat
+- rm .git/index.lock
 hidecommandlog: false
 ignorewhitespaceindiffview: false

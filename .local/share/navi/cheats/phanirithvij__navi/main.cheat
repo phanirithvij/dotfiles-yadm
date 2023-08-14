@@ -58,3 +58,8 @@ upx --ultra-brute --strip-relocs=0 upx --ultra-brute --strip-relocs=0 "<executab
 
 $ executable: find . -maxdepth 2 -type f -executable
 
+% nm-applet, nmapplet, appimagelaun
+
+# Kill nm-applet and appimagelaunerd
+killall nm-applet; killall appimagelauncherd
+
