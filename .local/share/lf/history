@@ -49,3 +49,5 @@ $ lazygit
 $ mkdir src
 $ mkdir img
 $ lazygit
+$ lazygit
+$ 7z x $f
