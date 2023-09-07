@@ -182,3 +182,4 @@ wal-tile() {
 # fzf
 
 source "$(dirname $(realpath $(which fzf)))/../share/fzf/key-bindings.bash"
+. "$HOME/.cargo/env"

@@ -2,3 +2,11 @@ $ rm $f
 $ touch main.go
 $ mkdir multibuild
 : telesplitstorepremium 
+$ mpv $f
+$ mkdir PhoneIsFull
+$ gdu
+$ micro $f
+: telesplitpremium 
+: telesplit
+$ 7z x $f
+$ mkdir videos

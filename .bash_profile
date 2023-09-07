@@ -13,3 +13,4 @@
 # export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 if [ -e /home/rithviz/.nix-profile/etc/profile.d/nix.sh ]; then . /home/rithviz/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+. "$HOME/.cargo/env"

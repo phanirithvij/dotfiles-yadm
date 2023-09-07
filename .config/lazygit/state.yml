@@ -1,5 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/zigg/goreleaser-example-zig-cgo
+- /home/rithviz/Projects/zigg/zap
+- /home/rithviz/Projects/rusty/espanso
+- /home/rithviz/Projects/rusty/flux
+- /home/rithviz/Projects/rusty/Rocket
+- /home/rithviz/Projects/rusty/veilid
 - /home/rithviz/Projects/golang/dagger-examples
 - /home/rithviz/Projects/golang/dagger-sample
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
@@ -35,7 +41,6 @@ recentrepos:
 - /home/rithviz/Projects/rusty/navi
 - /home/rithviz/ctpv
 - /home/rithviz/Projects/91ff81bd945eb8f1e6af08492a13ff75
-- /home/rithviz/Projects/rusty/flux
 - /home/rithviz/Projects/recovery_tools/ipxe_wifi/ipxe-simple
 - /home/rithviz/Projects/nodejs/joystick-keyboards/Jeight
 - /home/rithviz/Projects/rusty/gamepad_test/MoltenGamepad
@@ -44,7 +49,6 @@ recentrepos:
 - /home/rithviz/Projects/rusty/blog_os
 - /home/rithviz/.config/awesome/lain
 - /home/rithviz/.config/awesome/lain/wiki
-- /home/rithviz/Projects/rusty/Rocket
 - /home/rithviz/go/src/github.com/esimov/caire
 - /home/rithviz/Projects/golang/go-clean-template
 - /home/rithvij/dotfilesmy/main
@@ -119,15 +123,15 @@ recentrepos:
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 startuppopupversion: 5
 customcommandshistory:
-- rm .git/index.lock
-- kabmat
-- onefetch
-- lf
-- git undo
-- git stash
-- git reset --soft HEAD~1
-- git commit --amend
-- touch .gitignore
 - git rebase --continue
+- touch .gitignore
+- git commit --amend
+- git reset --soft HEAD~1
+- git stash
+- git undo
+- lf
+- onefetch
+- kabmat
+- rm .git/index.lock
 hidecommandlog: false
 ignorewhitespaceindiffview: false
