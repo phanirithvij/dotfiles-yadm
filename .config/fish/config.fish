@@ -17,6 +17,7 @@ if status is-interactive
   alias lfc lfcd
   alias gb gitbatch
   alias wtf wtfutil
+  alias exa eza
   # TODO remove this once sound is fixed (pipewire or pulseaudio)
   alias mpv 'mpv --mute'
   # abbr -a -p command kitty 'nixGL (which kitty)'

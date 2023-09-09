@@ -22,7 +22,7 @@
     pkgs.duf #fancy du
     pkgs.eget #download binaries from github releases
     pkgs.espanso # TODO on wayland it is espanso-wayland
-    pkgs.exa #fancy ls
+    pkgs.eza #fancy ls
     pkgs.exercism # TODO remove, some progamming exercises or shit
     pkgs.fzf #fuzzy file finder
     pkgs.gdu #disk usage analyzer tui
