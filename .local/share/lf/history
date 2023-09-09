@@ -10,3 +10,6 @@ $ micro $f
 : telesplit
 $ 7z x $f
 $ mkdir videos
+$ 7z x $f
+$ 7z x $f
+$ micro $f
