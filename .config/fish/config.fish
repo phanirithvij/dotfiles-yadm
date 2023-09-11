@@ -24,6 +24,7 @@ if status is-interactive
   abbr -a -p command cd z
 
   abbr -a -p command b btop
+  abbr -a -p command bl bluetuith
   abbr -a -p command c clear
   abbr -a -p command e exit
   abbr -a -p command h htop

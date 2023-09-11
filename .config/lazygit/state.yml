@@ -1,5 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/golang/madlad/rawgithack
+- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
+- /home/rithviz/Projects/zigg/notcurses-zig-example
+- /home/rithviz/Projects/zigg/notcurses-zig-example/deps/notcurses
+- /home/rithviz/Projects/zigg/hello
+- /home/rithviz/Projects/golang/live-examples
+- /home/rithviz/Downloads/excalidraw
 - /home/rithviz/Projects/zigg/goreleaser-example-zig-cgo
 - /home/rithviz/Projects/zigg/zap
 - /home/rithviz/Projects/rusty/espanso
@@ -11,7 +18,6 @@ recentrepos:
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
 - /home/rithviz/Projects/pythone/label-studio
-- /home/rithviz/Downloads/excalidraw
 - /home/rithviz/Projects/golang/serftest/serf
 - /media/rithviz/Storage/Projects/Fun/gogo/bakitupi
 - /home/rithviz/.config/nvim
@@ -36,7 +42,6 @@ recentrepos:
 - /home/rithviz/Projects/shell-or-linuxspecific/GtkExperiments
 - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseServer
 - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseClient
-- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/Projects/rusty/navi-cheats
 - /home/rithviz/Projects/rusty/navi
 - /home/rithviz/ctpv
@@ -51,7 +56,6 @@ recentrepos:
 - /home/rithviz/.config/awesome/lain/wiki
 - /home/rithviz/go/src/github.com/esimov/caire
 - /home/rithviz/Projects/golang/go-clean-template
-- /home/rithvij/dotfilesmy/main
 - /media/rithviz/Storage/github-android-action/TorToolkit-Telegram
 - /home/rithviz/Projects/recovery_tools/medicat_installer
 - /media/rithviz/Storage/Projects/Knowledge
@@ -123,15 +127,15 @@ recentrepos:
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 startuppopupversion: 5
 customcommandshistory:
-- git rebase --continue
-- touch .gitignore
-- git commit --amend
-- git reset --soft HEAD~1
-- git stash
-- git undo
-- lf
-- onefetch
-- kabmat
 - rm .git/index.lock
+- kabmat
+- onefetch
+- lf
+- git undo
+- git stash
+- git reset --soft HEAD~1
+- git commit --amend
+- touch .gitignore
+- git rebase --continue
 hidecommandlog: false
 ignorewhitespaceindiffview: false
