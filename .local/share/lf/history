@@ -1,2 +1,14 @@
 $ sudo micro $f
 : q
+$ vim .
+$ vim $f
+$ micro config.json
+$ touch .gitkeep
+$ touch README.md
+$ touch .gitkeep
+$ touch .gitignore
+$ mkdir sources
+$ mkdir upi
+$ mkdir gpay
+$ mkdir phonepe
+$ touch main.py
