@@ -2,5 +2,5 @@ node       16.20.0
 python     3.11.5
 lazydocker 0.21.1
 direnv     2.32.3
-zig        0.11.0
-flutter    3.13.3-stable
+zig        system
+flutter    3.13.4-stable

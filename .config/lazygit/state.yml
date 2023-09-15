@@ -1,9 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/zigg/zig-network
+- /home/rithviz/Projects/golang/go-apptest
+- /home/rithviz/Projects/golang/madlad/qrcodeff
+- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/temp/accountspendanalyse
 - /home/rithviz/Projects/golang/gomarvintest/gomarvin-editor
 - /home/rithviz/Projects/golang/madlad/rawgithack
-- /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/Projects/zigg/notcurses-zig-example
 - /home/rithviz/Projects/zigg/notcurses-zig-example/deps/notcurses
 - /home/rithviz/Projects/zigg/hello
@@ -40,7 +43,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Fun/c++/MakePyinstallerSample
 - /media/rithviz/Storage/Projects/Fun/c++/kabmat
 - /home/rithviz/.local/share/navi/cheats/phanirithvij__navi
-- /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/Projects/shell-or-linuxspecific/GtkExperiments
 - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseServer
 - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseClient

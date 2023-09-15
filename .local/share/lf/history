@@ -12,3 +12,11 @@ $ mkdir upi
 $ mkdir gpay
 $ mkdir phonepe
 $ touch main.py
+$ touch hello.go
+$ touch Makefile
+$ touch wasm.go
+$ touch server.go
+$ touch Caddyfile
+: q
+$ touch $f
+$ mkdir watched
