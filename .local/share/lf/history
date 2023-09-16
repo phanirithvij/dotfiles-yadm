@@ -20,3 +20,14 @@ $ touch Caddyfile
 : q
 $ touch $f
 $ mkdir watched
+$ touch Makefile
+$ touch TODO.md
+$ mkdir jniLibs
+$ mkdir arm64-v8a
+$ touch Caddyfile
+$ lazygit
+$ touch log.go
+$ touch .gitignore
+$ touch main.go
+$ mkdir buildgunner
+$ touch log.go

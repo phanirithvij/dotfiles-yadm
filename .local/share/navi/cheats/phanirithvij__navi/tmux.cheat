@@ -17,11 +17,11 @@ $ tmuxp_session: tmuxp ls
 
 % tmuxp, local, project
 
-# Tmuxp open local project detatched
-tmuxp load -d .
-
 # Tmuxp open local project
 tmuxp load -y .
+
+# Tmuxp open local project detatched
+tmuxp load -d .
 
 # Tmuxp edit local project config
 tmuxp edit .

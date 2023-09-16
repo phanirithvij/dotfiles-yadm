@@ -1,7 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/rithviz/Projects/zigg/zig-network
+- /home/rithviz/.config/nvim
+- /home/rithviz/Projects/golang/buildgunner
+- /home/rithviz/Projects/golang/multui
 - /home/rithviz/Projects/golang/go-apptest
+- /home/rithviz/Projects/flutter/flutter_zig
+- /home/rithviz/Projects/zigg/zig-network
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/temp/accountspendanalyse
@@ -25,7 +29,6 @@ recentrepos:
 - /home/rithviz/Projects/pythone/label-studio
 - /home/rithviz/Projects/golang/serftest/serf
 - /media/rithviz/Storage/Projects/Fun/gogo/bakitupi
-- /home/rithviz/.config/nvim
 - /media/rithviz/Storage/Projects/Fun/gogo/duf
 - /home/rithviz/winescripts
 - /media/rithviz/Storage/Projects/Android/Serfer
@@ -131,15 +134,15 @@ recentrepos:
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 startuppopupversion: 5
 customcommandshistory:
-- rm .git/index.lock
-- kabmat
-- onefetch
-- lf
-- git undo
-- git stash
-- git reset --soft HEAD~1
-- git commit --amend
-- touch .gitignore
 - git rebase --continue
+- touch .gitignore
+- git commit --amend
+- git reset --soft HEAD~1
+- git stash
+- git undo
+- lf
+- onefetch
+- kabmat
+- rm .git/index.lock
 hidecommandlog: false
 ignorewhitespaceindiffview: false
