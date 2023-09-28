@@ -100,7 +100,7 @@ local terminal = "alacritty"
 
 -- awesome variables
 awful.util.terminal = terminal
-awful.util.tagnames = {"", "", "", "", "", "", "", "", ""}
+awful.util.tagnames = {"", "", "", "", "", "", "", "", ""}
 --awful.util.tagnames = { " DEV ", " WWW ", " SYS ", " DOC ", " VBOX ", " CHAT ", " MUS ", " VID ", " GFX " }
 awful.layout.suit.tile.left.mirror = true
 awful.layout.layouts = {

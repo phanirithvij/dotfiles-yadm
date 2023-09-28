@@ -1,11 +1,17 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/rithviz/.config/nvim
+- /home/rithviz/Projects/golang/todui
 - /home/rithviz/Projects/golang/buildgunner
+- /home/rithviz/Projects/golang/sample
 - /home/rithviz/Projects/golang/multui
+- /home/rithviz/Projects/zigg/zig-network
+- /home/rithviz/Downloads/excalidraw
+- /home/rithviz/go/src/github.com/elk-language/go-prompt
+- /home/rithviz/Projects/golang/go-binsize-viz
+- /home/rithviz/Projects/golang/earthly
+- /home/rithviz/.config/nvim
 - /home/rithviz/Projects/golang/go-apptest
 - /home/rithviz/Projects/flutter/flutter_zig
-- /home/rithviz/Projects/zigg/zig-network
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/temp/accountspendanalyse
@@ -15,7 +21,6 @@ recentrepos:
 - /home/rithviz/Projects/zigg/notcurses-zig-example/deps/notcurses
 - /home/rithviz/Projects/zigg/hello
 - /home/rithviz/Projects/golang/live-examples
-- /home/rithviz/Downloads/excalidraw
 - /home/rithviz/Projects/zigg/goreleaser-example-zig-cgo
 - /home/rithviz/Projects/zigg/zap
 - /home/rithviz/Projects/rusty/espanso
@@ -51,7 +56,6 @@ recentrepos:
 - /media/rithviz/Storage/Projects/Fun/androidProj/remote-magic-pointer/AirMouse2/AirMouseClient
 - /home/rithviz/Projects/rusty/navi-cheats
 - /home/rithviz/Projects/rusty/navi
-- /home/rithviz/ctpv
 - /home/rithviz/Projects/91ff81bd945eb8f1e6af08492a13ff75
 - /home/rithviz/Projects/recovery_tools/ipxe_wifi/ipxe-simple
 - /home/rithviz/Projects/nodejs/joystick-keyboards/Jeight
@@ -93,7 +97,6 @@ recentrepos:
 - /home/rithviz/Projects/golang/go-sixel
 - /home/rithviz/Projects/golang/go-clean-arch
 - /home/rithviz/Projects/golang/go-bluetooth
-- /home/rithviz/Projects/golang/go-binsize-viz
 - /home/rithviz/Projects/golang/gingorm
 - /home/rithviz/Projects/golang/gdu
 - /home/rithviz/Projects/golang/cirrusclitests/cirrus-ci-docs
@@ -144,5 +147,7 @@ customcommandshistory:
 - onefetch
 - kabmat
 - rm .git/index.lock
-hidecommandlog: false
+- q
+- git gc
+hidecommandlog: true
 ignorewhitespaceindiffview: false

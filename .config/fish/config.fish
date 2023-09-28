@@ -136,8 +136,6 @@ if status is-interactive
   # found from https://discourse.nixos.org/t/how-is-the-state-of-nix-support-for-fish-shell/9260/6
   # Setup functions instead of init to speed up shell init
   # https://superuser.com/a/1611283/1049709
-  # direnv
-  # direnv hook fish | source
   # navi
   navi widget fish | source
   # https://starship.rs/#fish
@@ -147,6 +145,9 @@ if status is-interactive
   # atuin
   # atuin init fish | source
   rtx activate fish | source
+  # direnv
+  # direnv hook fish } source
+  rtx exec --command "direnv hook fish" | source
 end
 
 # Wasmer

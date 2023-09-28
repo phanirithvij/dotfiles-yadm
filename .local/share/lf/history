@@ -1,33 +1,42 @@
-$ sudo micro $f
+$ mkdir configs
+$ touch lspconfig.lua
+$ touch plugins.lua
 : q
-$ vim .
-$ vim $f
-$ micro config.json
-$ touch .gitkeep
-$ touch README.md
-$ touch .gitkeep
-$ touch .gitignore
-$ mkdir sources
-$ mkdir upi
-$ mkdir gpay
-$ mkdir phonepe
-$ touch main.py
-$ touch hello.go
+$ touch models.go
+$ cache.go
+$ touch msftCache.go
+$ mkdir msft
+$ touch common.go
+$ models.go
+$ touch models.go
+$ vi DEVLOG.md 
+$ vi DEVLOG.md 
+$ micro $f
+$ mkdir tags
+$ touch msft.go
+$ touch redis.go
+$ touch offline.go
+$ todo common.go
+$ touch common.go
+$ touch tags.go
+$ mkdir infinityTrain
+$ file $f
+: telesplitstorepremium 
+$ rm $f
+$ mkdir whentheyseeus
+$ mkdir theofficeuk
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+$ mkdir subs
 $ touch Makefile
-$ touch wasm.go
-$ touch server.go
-$ touch Caddyfile
-: q
-$ touch $f
-$ mkdir watched
-$ touch Makefile
-$ touch TODO.md
-$ mkdir jniLibs
-$ mkdir arm64-v8a
-$ touch Caddyfile
-$ lazygit
-$ touch log.go
-$ touch .gitignore
 $ touch main.go
-$ mkdir buildgunner
-$ touch log.go
+$ 7z x $f
+$ touch 720p
+$ mkdir systemd
+$ mkdir user
+$ touch swhkd-hotkeys.service
