@@ -40,3 +40,4 @@ $ touch 720p
 $ mkdir systemd
 $ mkdir user
 $ touch swhkd-hotkeys.service
+$ chmod +x $f
