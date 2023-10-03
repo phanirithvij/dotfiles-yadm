@@ -9,6 +9,7 @@
 {
   home.username = "rithviz";
   home.homeDirectory = "/home/rithviz";
+  news.display = "silent";
 
   home.packages = [
     pkgs.air #reload go run

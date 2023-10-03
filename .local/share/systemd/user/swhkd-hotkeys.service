@@ -3,7 +3,8 @@ Description=swhkd hotkey daemon
 BindsTo=default.target
 
 [Service]
-Type=simple
+Restart=on-failure
+RestartSec=3
 ExecStart=/home/rithviz/.local/share/systemd/user/swhkd-hotkeys.service.sh
 
 [Install]

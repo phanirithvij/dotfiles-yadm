@@ -79,3 +79,7 @@ when = true
 #format = '[tx]($style) '
 shell = "sh"
 
+[custom.direnv]
+command = '[[ $(direnv status) =~ "Found RC allowed false" ]] && echo "=========> missing: direnv allow <============"' # shows output of command
+detect_files = ['.envrc'] # can specify filters but wildcards are not supported
+

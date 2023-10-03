@@ -41,3 +41,20 @@ $ mkdir systemd
 $ mkdir user
 $ touch swhkd-hotkeys.service
 $ chmod +x $f
+$ touch swhkdrc
+$ 7z x $f
+$ 7z x $f
+$ mkdir ari-aster-short-films
+$ ffprobe $f
+$ mkdir 0done
+$ echo "" > README.md
+$ 7z x $f
+$ mkdir subs
+: telesplitstore
+: telesplitstorepremium 
+: telesplitstorepremium 
+$ mkdir s1
+: telesplitstore
+$ mkdir subs
+$ 7z x $f
+$ mkdir 720p
