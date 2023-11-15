@@ -58,3 +58,22 @@ $ mkdir s1
 $ mkdir subs
 $ 7z x $f
 $ mkdir 720p
+$ touch {2022,2021}.md
+$ mkdir did
+$ touch {2018,2019,2020}.md
+$ 7z x $f
+$ touch s3
+: telesplitstore
+$ 7z -v4000m a -mx=0 Justice\ League\ (2001)\ -\ S01E01-02-03\ -\ Secret\ Origins\ (1080p\ BluRay\ x265\ YOGI).7z  "$fx"
+: telesplitstorepremium 
+: telesplitstorepremium 
+$ mkdir justice-league-720p
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+: telesplitstorepremium 
+$ mkdir adventure
+$ rm -rf CUBESKILLS/
+: trash 
