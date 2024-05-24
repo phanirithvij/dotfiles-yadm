@@ -16,6 +16,7 @@
     #pkgs.asdf-vm #package version manager, using rtx now
     pkgs.babelfish #bash to fish
     pkgs.bat #fancy cat
+    pkgs.bashmount # very useful
     pkgs.btop #fancy process manager like htop
     pkgs.cmatrix #screensaver
     pkgs.delta #fancy diff
