@@ -1,0 +1,307 @@
+[colors.bright]
+black = "0x5f5a60"
+blue = "0x7587a6"
+cyan = "0xafc4db"
+green = "0x8f9d6a"
+magenta = "0x9b859d"
+red = "0xcf6a4c"
+white = "0xffffff"
+yellow = "0xf9ee98"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x7587a6"
+cyan = "0xafc4db"
+green = "0x8f9d6a"
+magenta = "0x9b859d"
+red = "0xcf6a4c"
+white = "0xa7a7a7"
+yellow = "0xf9ee98"
+
+[colors.primary]
+background = "0x000000"
+foreground = "0xa7a7a7"
+
+[schemes.BaskervilleCountVonCount.bright]
+black = "0x5e5e5e"
+blue = "0xfeb2aa"
+cyan = "0xffaaa0"
+green = "0xffa095"
+magenta = "0xebbbb5"
+red = "0xff8781"
+white = "0xffffff"
+yellow = "0xff948b"
+
+[schemes.BaskervilleCountVonCount.normal]
+black = "0x303030"
+blue = "0x8c4b46"
+cyan = "0x9a413d"
+green = "0xa83334"
+magenta = "0x7d534f"
+red = "0xc10023"
+white = "0xc6c6c6"
+yellow = "0xb51d2c"
+
+[schemes.BaskervilleCountVonCount.primary]
+background = "0x000000"
+foreground = "0x919191"
+
+[schemes.ChrisDuerr.bright]
+black = "0x282828"
+blue = "0x2a4e74"
+cyan = "0x297366"
+green = "0x5d742a"
+magenta = "0x703664"
+red = "0x752a2a"
+white = "0xaaaaaa"
+yellow = "0x754e2a"
+
+[schemes.ChrisDuerr.hints.end]
+background = "0xac4242"
+foreground = "0x181818"
+
+[schemes.ChrisDuerr.hints.start]
+background = "0xac4242"
+foreground = "0x181818"
+
+[schemes.ChrisDuerr.normal]
+black = "0x181818"
+blue = "0x6a9fb5"
+cyan = "0x75b5aa"
+green = "0x90a959"
+magenta = "0xaa759f"
+red = "0xac4242"
+white = "0x666666"
+yellow = "0xf4bf75"
+
+[schemes.ChrisDuerr.primary]
+background = "0x181818"
+foreground = "0xaaaaaa"
+
+[schemes.ChrisDuerr.search.bar]
+background = "0x282828"
+foreground = "0xaaaaaa"
+
+[schemes.ChrisDuerr.search.focused_match]
+background = "0x181818"
+foreground = "0xac4242"
+
+[schemes.ChrisDuerr.search.matches]
+background = "0xac4242"
+foreground = "0x181818"
+
+[schemes.OxideColorsJdpedersen1.bright]
+black = "#505354"
+blue = "#005f87"
+cyan = "#008080"
+green = "#5f875f"
+magenta = "#9a999d"
+red = "#d84949"
+white = "#dadad5"
+yellow = "#909495"
+
+[schemes.OxideColorsJdpedersen1.normal]
+black = "#1b1d1e"
+blue = "#005f87"
+cyan = "#008080"
+green = "#5f875f"
+magenta = "#737271"
+red = "#d84949"
+white = "#c5c5be"
+yellow = "#737074"
+
+[schemes.OxideColorsJdpedersen1.primary]
+background = "#000000"
+foreground = "#eeeeee"
+
+[schemes.TomorrowNight]
+background = "#000000"
+foreground = "#c5c8c6"
+
+[schemes.TomorrowNight.bright]
+black = "#000000"
+blue = "#7aa6da"
+cyan = "#70c0b1"
+green = "#b9ca4a"
+magenta = "#c397d8"
+red = "#d54e53"
+white = "#eaeaea"
+yellow = "#e7c547"
+
+[schemes.TomorrowNight.normal]
+black = "#000000"
+blue = "#81a2be"
+cyan = "#8abeb7"
+green = "#b5bd68"
+magenta = "#b294bb"
+red = "#cc6666"
+white = "#c5c8c6"
+yellow = "#f0c674"
+
+[schemes.TwilightDark.bright]
+black = "0x5f5a60"
+blue = "0x7587a6"
+cyan = "0xafc4db"
+green = "0x8f9d6a"
+magenta = "0x9b859d"
+red = "0xcf6a4c"
+white = "0xffffff"
+yellow = "0xf9ee98"
+
+[schemes.TwilightDark.normal]
+black = "0x000000"
+blue = "0x7587a6"
+cyan = "0xafc4db"
+green = "0x8f9d6a"
+magenta = "0x9b859d"
+red = "0xcf6a4c"
+white = "0xa7a7a7"
+yellow = "0xf9ee98"
+
+[schemes.TwilightDark.primary]
+background = "0x000000"
+foreground = "0xa7a7a7"
+
+[schemes.gruvbox_material_hard_dark.bright]
+black = "0x32302f"
+blue = "0x7daea3"
+cyan = "0x89b482"
+green = "0xa9b665"
+magenta = "0xd3869b"
+red = "0xea6962"
+white = "0xd4be98"
+yellow = "0xd8a657"
+
+[schemes.gruvbox_material_hard_dark.normal]
+black = "0x32302f"
+blue = "0x7daea3"
+cyan = "0x89b482"
+green = "0xa9b665"
+magenta = "0xd3869b"
+red = "0xea6962"
+white = "0xd4be98"
+yellow = "0xd8a657"
+
+[schemes.gruvbox_material_hard_dark.primary]
+background = "0x1d2021"
+foreground = "0xd4be98"
+
+[schemes.gruvbox_material_hard_light.bright]
+black = "0x654735"
+blue = "0x45707a"
+cyan = "0x4c7a5d"
+green = "0x6c782e"
+magenta = "0x945e80"
+red = "0xc14a4a"
+white = "0xf2e5bc"
+yellow = "0xb47109"
+
+[schemes.gruvbox_material_hard_light.normal]
+black = "0x654735"
+blue = "0x45707a"
+cyan = "0x4c7a5d"
+green = "0x6c782e"
+magenta = "0x945e80"
+red = "0xc14a4a"
+white = "0xf2e5bc"
+yellow = "0xb47109"
+
+[schemes.gruvbox_material_hard_light.primary]
+background = "0xf9f5d7"
+foreground = "0x654735"
+
+[schemes.gruvbox_material_medium_dark.bright]
+black = "0x3c3836"
+blue = "0x7daea3"
+cyan = "0x89b482"
+green = "0xa9b665"
+magenta = "0xd3869b"
+red = "0xea6962"
+white = "0xd4be98"
+yellow = "0xd8a657"
+
+[schemes.gruvbox_material_medium_dark.normal]
+black = "0x3c3836"
+blue = "0x7daea3"
+cyan = "0x89b482"
+green = "0xa9b665"
+magenta = "0xd3869b"
+red = "0xea6962"
+white = "0xd4be98"
+yellow = "0xd8a657"
+
+[schemes.gruvbox_material_medium_dark.primary]
+background = "0x282828"
+foreground = "0xd4be98"
+
+[schemes.gruvbox_material_medium_light.bright]
+black = "0x654735"
+blue = "0x45707a"
+cyan = "0x4c7a5d"
+green = "0x6c782e"
+magenta = "0x945e80"
+red = "0xc14a4a"
+white = "0xeee0b7"
+yellow = "0xb47109"
+
+[schemes.gruvbox_material_medium_light.normal]
+black = "0x654735"
+blue = "0x45707a"
+cyan = "0x4c7a5d"
+green = "0x6c782e"
+magenta = "0x945e80"
+red = "0xc14a4a"
+white = "0xeee0b7"
+yellow = "0xb47109"
+
+[schemes.gruvbox_material_medium_light.primary]
+background = "0xfbf1c7"
+foreground = "0x654735"
+
+[schemes.gruvbox_material_soft_dark.bright]
+black = "0x45403d"
+blue = "0x7daea3"
+cyan = "0x89b482"
+green = "0xa9b665"
+magenta = "0xd3869b"
+red = "0xea6962"
+white = "0xd4be98"
+yellow = "0xd8a657"
+
+[schemes.gruvbox_material_soft_dark.normal]
+black = "0x45403d"
+blue = "0x7daea3"
+cyan = "0x89b482"
+green = "0xa9b665"
+magenta = "0xd3869b"
+red = "0xea6962"
+white = "0xd4be98"
+yellow = "0xd8a657"
+
+[schemes.gruvbox_material_soft_dark.primary]
+background = "0x32302f"
+foreground = "0xd4be98"
+
+[schemes.gruvbox_material_soft_light.bright]
+black = "0x654735"
+blue = "0x45707a"
+cyan = "0x4c7a5d"
+green = "0x6c782e"
+magenta = "0x945e80"
+red = "0xc14a4a"
+white = "0xe6d5ae"
+yellow = "0xb47109"
+
+[schemes.gruvbox_material_soft_light.normal]
+black = "0x654735"
+blue = "0x45707a"
+cyan = "0x4c7a5d"
+green = "0x6c782e"
+magenta = "0x945e80"
+red = "0xc14a4a"
+white = "0xe6d5ae"
+yellow = "0xb47109"
+
+[schemes.gruvbox_material_soft_light.primary]
+background = "0xf2e5bc"
+foreground = "0x654735"

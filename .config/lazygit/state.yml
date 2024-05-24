@@ -1,5 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
+- /home/rithviz/Projects/flutter/flutter_zig
+- /media/rithviz/Storage/Projects/Android/Serfer
+- /home/rithviz/Projects/golang/madlad/qrcodeff/weboas-is
+- /home/rithviz/Projects/pythone/simplerecon
+- /home/rithviz/Projects/pythone/label-studio
+- /home/rithviz/.config/nvim
 - /home/rithviz/Projects/golang/todui
 - /home/rithviz/Projects/shell-or-linuxspecific/xv6-riscv
 - /home/rithviz/Projects/golang/buildgunner
@@ -10,9 +16,7 @@ recentrepos:
 - /home/rithviz/go/src/github.com/elk-language/go-prompt
 - /home/rithviz/Projects/golang/go-binsize-viz
 - /home/rithviz/Projects/golang/earthly
-- /home/rithviz/.config/nvim
 - /home/rithviz/Projects/golang/go-apptest
-- /home/rithviz/Projects/flutter/flutter_zig
 - /home/rithviz/Projects/golang/madlad/qrcodeff
 - /home/rithviz/Projects/golang/madlad/qrcodeff/syncplay
 - /home/rithviz/temp/accountspendanalyse
@@ -32,12 +36,10 @@ recentrepos:
 - /home/rithviz/Projects/golang/dagger-sample
 - /home/rithviz/Projects/virtualboxes/vagrant_sample
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/vagrant_sample
-- /home/rithviz/Projects/pythone/label-studio
 - /home/rithviz/Projects/golang/serftest/serf
 - /media/rithviz/Storage/Projects/Fun/gogo/bakitupi
 - /media/rithviz/Storage/Projects/Fun/gogo/duf
 - /home/rithviz/winescripts
-- /media/rithviz/Storage/Projects/Android/Serfer
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/skydive
 - /media/rithviz/Storage/Projects/Fun/virtualboxes/debops
 - /home/rithviz/alpine-setup
@@ -81,7 +83,6 @@ recentrepos:
 - /home/rithviz/Projects/shell-or-linuxspecific/pipes.sh
 - /home/rithviz/Projects/pythone/tgcftemp/tgcf
 - /home/rithviz/Projects/pythone/telemirror
-- /home/rithviz/Projects/pythone/simplerecon
 - /home/rithviz/Projects/pythone/RustPython
 - /home/rithviz/Projects/pythone/mitmproxy
 - /home/rithviz/Projects/pythone/minedojocolab/MineDojo
@@ -113,7 +114,6 @@ recentrepos:
 - /home/rithviz/Projects/golang/madlad/qrcodeff/Piped-Docker
 - /home/rithviz/Projects/golang/madlad/qrcodeff/homer/homer-src
 - /home/rithviz/Projects/golang/madlad/qrcodeff/tmate/tmate-docker-compose
-- /home/rithviz/Projects/golang/madlad/qrcodeff/weboas-is
 - /media/rithviz/Storage/Software/apktool/novelfullapp
 - /home/rithviz/.dotfiles/personal
 - /home/rithviz/Projects/rusty/bevy
@@ -137,6 +137,7 @@ recentrepos:
 - /home/rithviz/go/src/git.sr.ht/~kisom/goutils
 startuppopupversion: 5
 customcommandshistory:
+- ld
 - git rebase --continue
 - touch .gitignore
 - git commit --amend
@@ -149,5 +150,6 @@ customcommandshistory:
 - rm .git/index.lock
 - q
 - git gc
+- fish
 hidecommandlog: true
 ignorewhitespaceindiffview: false

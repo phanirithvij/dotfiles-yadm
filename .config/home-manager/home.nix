@@ -44,7 +44,7 @@
     pkgs.lf #file manager tui
     pkgs.navi #bookmark commands and pkm (personal knowlegde management)
     pkgs.newsboat #rss
-    pkgs.neofetch #sysinfo summary
+    pkgs.fastfetch #sysinfo summary
     pkgs.neovim #editor but slow (for some weird reason)
     pkgs.nms #esoteric sneakers movie terminal effect
     pkgs.macchina #neofetch alternative
