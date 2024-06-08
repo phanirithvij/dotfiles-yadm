@@ -11,75 +11,75 @@
   home.homeDirectory = "/home/rithviz";
   news.display = "silent";
 
-  home.packages = [
-    pkgs.air #reload go run
-    #pkgs.asdf-vm #package version manager, using rtx now
-    pkgs.babelfish #bash to fish
-    pkgs.bat #fancy cat
-    pkgs.bashmount # very useful
-    pkgs.btop #fancy process manager like htop
-    pkgs.cmatrix #screensaver
-    pkgs.delta #fancy diff
-    pkgs.difftastic #fancy diff
-    pkgs.duf #fancy du
-    pkgs.eget #download binaries from github releases
-    pkgs.espanso # TODO on wayland it is espanso-wayland
-    pkgs.eza #fancy ls
-    pkgs.exercism # TODO remove, some progamming exercises or shit
-    pkgs.fzf #fuzzy file finder
-    pkgs.gdu #disk usage analyzer tui
-    pkgs.gh #github api cli, dl releases, checkout prs etc
-    pkgs.git #version control, backup
-    pkgs.git-filter-repo #git history rewrite
-    pkgs.gitbatch #batch pull/fetch subfolder git repos
-    pkgs.go-task # TODO ?
-    pkgs.gopass #passwords and secrets manager
-    pkgs.gopass-hibp #plugin for gopass
-    pkgs.htop #process monitor
-    pkgs.hub #github client, create repos etc
-    pkgs.hugo #static site generator
-    pkgs.jid #jq query repl
-    pkgs.jq #json cli
-    pkgs.lazygit #git tui
-    pkgs.lazydocker #docker tui
-    pkgs.lf #file manager tui
-    pkgs.navi #bookmark commands and pkm (personal knowlegde management)
-    pkgs.newsboat #rss
-    pkgs.fastfetch #sysinfo summary
-    pkgs.neovim #editor but slow (for some weird reason)
-    pkgs.nms #esoteric sneakers movie terminal effect
-    pkgs.macchina #neofetch alternative
-    pkgs.onefetch #neofetch like tool for git repos
-    pkgs.p7zip #7z cli
-    pkgs.pulumi # TODO testdrive
-    pkgs.pv #progress vizualized
-    pkgs.qbittorrent
-    pkgs.qcomicbook
-    pkgs.qimgv #img viewer
-    pkgs.qrcp #fileserver with added qr ease of use
-    pkgs.rclone
-    pkgs.remote-touchpad #control screen via webui from different device
-    pkgs.ripgrep #modern grep cli
-    pkgs.rnote #note taking
-    pkgs.rustup #cargo, rust
-    #pkgs.rtx # package version manager for linux asdf rust clone (now installing via cargo as nix version is behind)
-    pkgs.screenfetch #neofetch alternative
-    pkgs.starship #prompt custom
-    pkgs.sysz #systemctl tui
-    pkgs.timeshift #system restore points
-    pkgs.tmate #share ssh with tmux
-    pkgs.tmux #no nohup
-    pkgs.unar #rar format
-    pkgs.ulauncher # TODO remove after checking if useful alts rofi, dmenu, voidlinux-youtuber-dotfiles, espanso
-    pkgs.viddy #watch alternative
-    pkgs.wtf #fancy dashboard tui
-    pkgs.xplr # TODO something temp, remove later
-    pkgs.yq #yaml cli
-    pkgs.yadm #dotfile manager
-    pkgs.zoxide #directory bookmarks and sort by most frequently used
+  home.packages = with pkgs; [
+    air #reload go run
+    #asdf-vm #package version manager, using rtx now
+    babelfish #bash to fish
+    bat #fancy cat
+    bashmount # very useful
+    btop #fancy process manager like htop
+    cmatrix #screensaver
+    delta #fancy diff
+    difftastic #fancy diff
+    duf #fancy du
+    eget #download binaries from github releases
+    espanso # TODO on wayland it is espanso-wayland
+    eza #fancy ls
+    exercism # TODO remove, some progamming exercises or shit
+    fzf #fuzzy file finder
+    gdu #disk usage analyzer tui
+    gh #github api cli, dl releases, checkout prs etc
+    git #version control, backup
+    git-filter-repo #git history rewrite
+    gitbatch #batch pull/fetch subfolder git repos
+    go-task # TODO ?
+    gopass #passwords and secrets manager
+    gopass-hibp #plugin for gopass
+    htop #process monitor
+    hub #github client, create repos etc
+    hugo #static site generator
+    jid #jq query repl
+    jq #json cli
+    lazygit #git tui
+    lazydocker #docker tui
+    lf #file manager tui
+    navi #bookmark commands and pkm (personal knowlegde management)
+    newsboat #rss
+    fastfetch #sysinfo summary
+    neovim #editor but slow (for some weird reason)
+    nms #esoteric sneakers movie terminal effect
+    macchina #neofetch alternative
+    onefetch #neofetch like tool for git repos
+    p7zip #7z cli
+    pulumi # TODO testdrive
+    pv #progress vizualized
+    qbittorrent
+    qcomicbook
+    qimgv #img viewer
+    qrcp #fileserver with added qr ease of use
+    rclone
+    remote-touchpad #control screen via webui from different device
+    ripgrep #modern grep cli
+    rnote #note taking
+    rustup #cargo, rust
+    #rtx # package version manager for linux asdf rust clone (now installing via cargo as nix version is behind)
+    screenfetch #neofetch alternative
+    starship #prompt custom
+    sysz #systemctl tui
+    timeshift #system restore points
+    tmate #share ssh with tmux
+    tmux #no nohup
+    unar #rar format
+    ulauncher # TODO remove after checking if useful alts rofi, dmenu, voidlinux-youtuber-dotfiles, espanso
+    viddy #watch alternative
+    wtf #fancy dashboard tui
+    xplr # TODO something temp, remove later
+    yq #yaml cli
+    yadm #dotfile manager
+    zoxide #directory bookmarks and sort by most frequently used
  ];
 
-  home.stateVersion = "22.11";
+  home.stateVersion = "24.05";
 
   programs.home-manager.enable = true;
   # nano like text editor, best tool for non-coding, not an ide

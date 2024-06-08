@@ -1,3 +1,8 @@
+% shell, lf, fish
+
+# open shell
+lf -command "$ fish"
+
 % lfremote, lf
 
 ; run these inside lf with ctrl + g binding bind to navi

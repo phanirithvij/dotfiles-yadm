@@ -1,0 +1,27 @@
+% navi, cheats
+
+# filter by cheats path only
+navi -p <own_dir>/<cheats>
+
+$ cheats: fd -tf -L -e cheat --base-directory <own_dir> .
+
+# Edit navi any cheat choose one
+lf -command "\$ $EDITOR <own_dir>/<cheats>" <own_dir>/<cheats>
+
+# Edit navi main cheat
+lf -command "\$ $EDITOR <own_dir>/main.cheat" <own_dir>/main.cheat
+
+; https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#auto-updating-repositories
+# Update cheats
+cd "<own_dir>" && git pull -q origin main && cd -
+
+# Update cheats github script
+bash <own_dir>/scripts/upd.bash
+
+$own_dir: echo $OWN_DIR/phanirithvij__navi
+
+# edit navi config
+vim $(navi info config-path)
+
+# navi fn welcome
+navi fn welcome

@@ -1,7 +1,7 @@
-% shell, lf, fish
+% zi, zoxide
 
-# open shell
-lf -command "$ fish"
+# zoxide
+zi; lf
 
 % frequent, software
 
@@ -20,24 +20,26 @@ alacritty
 # Wezterm
 wezterm-gui &
 
-% navi, edit, cheats
+% xc, tasks
 
-# Edit navi any cheat choose one
-lf -command "\$ $EDITOR <own_dir>/<cheat_name>.cheat" <own_dir>/<cheat_name>.cheat
+; wish I could select fzf initial value but it seems not implemented
+; github.com/junegunn/fzf/issues/924
+# xc fzf multi
+xc -s | tac | fzf --multi | xargs -n1 xc
 
-# Edit navi main cheat
-lf -command "\$ $EDITOR <own_dir>/main.cheat" <own_dir>/main.cheat
+# xc fzf
+xc $(xc -s | tac | fzf)
 
-$ cheat_name: cd <own_dir>; fd -tf | awk '{gsub(/.*[/]|[.]{1}[^.]+$/, "", $0)} 1'
+# xc
+xc
 
-; https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#auto-updating-repositories
-# Update cheats
-cd "<own_dir>" && git pull -q origin main && cd -
+% http, http-server
 
-# Update cheats github script
-bash <own_dir>/scripts/upd.bash
+# miniserve
+miniserve -rgzqUDWlH -u . --readme -c monokai -d monokai --verbose . -p 8081
 
-$own_dir: echo $(navi info cheats-path)/phanirithvij__navi
+# python http.server
+python -m http.server
 
 % wifi, homewifi
 

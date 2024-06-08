@@ -1,3 +1,35 @@
+% nix, flake, update
+
+# nix flake update commit
+nix flake update --commit-lock-file
+
+# nix flake update
+nix flake update
+
+% nix, fmt, format, code
+
+# nix format code
+nix fmt
+
+# nixfmt
+nix run nixpkgs#nixfmt .
+
+# alejandra
+nix run nixpkgs#alejandra .
+
+% nixos, rebuild
+
+# nixos-rebuild switch flake
+nh os switch .
+
+% home-manager
+
+# home-manager rebuild
+nh home switch . -b bak
+
+# home-manager generations
+home-manager generations
+
 % nix, update, system, packages
 
 # Update all nix packages
@@ -5,5 +37,11 @@ nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert; nix-env -u
 
 % nix, cleanup, systemupdate-cleanup
 
-# Full force cleanup nix system
+# Full force cleanup nix store
 nix-collect-garbage -d
+
+% nix, iso, build
+
+# build nixos iso
+nom build .#nixosConfigurations.defaultIso.config.system.build.isoImage
+
